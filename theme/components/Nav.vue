@@ -86,10 +86,10 @@ export default {
           border-radius 0
 
       .logo
-        grid-column 3/ -3
+        grid-column 7/ -2
         justify-self start
         text-decoration none
-        font-weight bold
+        font-weight 700
         transition all 0.2s ease
     .main-menu
       z-index 1
@@ -106,7 +106,7 @@ export default {
       align-items center
       transform translateX(-100px)
       & > ul
-        grid-column 3/-3
+        // grid-column 3/-3
         list-style none
         padding 0
         margin 0

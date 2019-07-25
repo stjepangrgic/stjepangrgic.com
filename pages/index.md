@@ -2,15 +2,18 @@
 layout: page
 ---
 <header>
-  <h1>Hey you <span role="img" aria-label="Waving Hand">👋</span></h1>
-  <p>I realy like a lot of stuff. My interest in photography opened design door to me. Understanding of color, light, shapes, perspective… My interest in photography opened design door to me. My interest in photography opened design door to me <!-- For more read <a href="/my-story">my story</a> or check what i am doing <a href="/now">now</a> --></p>
-  <slink url="/my-story">My story</slink>
+  <h1>Hi <span role="img" aria-label="Waving Hand">👋</span></h1>
+  <p>
+    My name is Stjepan Grgic. I can describe myself as a designer because solving problems makes me happy. Above all, I am a curious human being exploring myself and the world through art and travel. This site houses my thoughts and ideas. It also showcases commercial and personal projects I worked on.
+    For more read <saber-link to="/my-story">my story</saber-link> or check what I'm doing <saber-link to="/my-story">now</saber-link>.
+  </p>
+  <!-- <slink url="/my-story">My story</slink> -->
   <!-- <slink url="/my-story" style="margin-left: 3rem">Now</slink> -->
 </header>
 
 <figure class="homepage-hero hero-width">
   <simg name="stjepangrgic-petra-friends-selfy.jpg" />
-  <simg name="stjepangrgic-portrait.jpg" />
+  <!-- <simg name="stjepangrgic-portrait.jpg" /> -->
 </figure>
 
 <!-- ## Now
@@ -24,7 +27,7 @@ Some of my work. Understanding of color, light, shapes, perspective helped me to
 <slink url="/work">All projects</slink>
 <!-- [All projects](./projects/index.md]) -->
 
-<figure class="projects project-width">
+<figure class="projects work-width">
   <projectCard
     url="/my-story"
     title="Agrivi"
@@ -52,7 +55,7 @@ Some of my work. Understanding of color, light, shapes, perspective helped me to
 ## Growth
 Some of my work. Understanding of color, light, shapes, perspective helped me to go on design road I never have planed.
 
-<div class="growth growth-width">
+<div class="growth personal-width">
   <smallCard
     url="/fail-list" 
     title="Fail list"
@@ -98,12 +101,20 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  header {
+    /*padding-top: 10rem;*/
+    h1 span {
+      font-size: 3rem;
+      position: relative;
+      top: -0.25rem;
+    }
+  }
   .homepage-hero {
-    display grid
+/*    display grid
     grid-template-columns 1.639880952fr 1fr
     grid-column-gap 16px
-    grid-column-gap 0.9345794%
-    margin-top: 2.5rem;
+    grid-column-gap 0.9345794%*/
+    margin-top: 4rem;
     margin-bottom: 1.5rem;
   }
 
@@ -112,7 +123,7 @@ export default {
     margin-bottom: 2rem;
     width: 100%;
     /*grid-column 6/ span 18*/
-    display: grid;
+/*    display: grid;
     grid-column-gap 1rem
     grid-column-gap 1.183432%
     grid-template-columns: 1fr 1fr;
@@ -123,16 +134,16 @@ export default {
       &:last-of-type {
         grid-row: 2/-1;
       }
-    }
+    }*/
   }
   .growth{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap 1.6161616% /*16px*/
-    grid-template-rows: 1rem 1rem 240px 1rem 1rem
+    /*grid-template-rows: 1rem 1rem 240px 1rem 1rem*/
     margin-top: 1.5rem;
-
-    a:nth-child(1) {
+    height: 272px;
+/*    a:nth-child(1) {
       grid-row 3/-1
     }
     a:nth-child(2) {
@@ -140,7 +151,7 @@ export default {
     }
     a:nth-child(3) {
       grid-row 1/-3
-    }
+    }*/
   }
 </style>
 

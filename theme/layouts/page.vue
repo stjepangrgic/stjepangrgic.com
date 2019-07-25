@@ -46,7 +46,7 @@ export default {
     // --siteWidth: 1920px
     // max-width: calc(var(--siteWidth) + 1rem);
     // max-width var(--siteWidth)
-    padding-top 10vh
+    padding-top 20vh
     width: 100%;
     margin: 0 auto;
     // padding-left: 0.5rem;

@@ -5,8 +5,8 @@
     :style="styling"
   >
     <div class="project-card--inside">
-      <h3>{{ title }}</h3>
-      <p class="tags">{{ tags }}</p>
+      <!-- <h3>{{ title }}</h3> -->
+      <!-- <p class="tags">{{ tags }}</p> -->
       <slink url="/my-story" :linkColor="linkColor" :isLink="false">See more</slink>
     </div>
   </saber-link>
@@ -34,11 +34,14 @@ export default {
 <style lang="stylus" scoped>
   .project-card {
     background-size cover
+    background-position 50% 50%
     display block
     position relative
     display flex
     border-radius 3px
     overflow hidden
+    height 632px
+    margin-bottom 2rem
     &::before {
       content: "";
       display: inline-block;
@@ -49,9 +52,9 @@ export default {
     &--inside {
       position absolute
       bottom 2.5rem
-      right 3rem
+      left 4.5rem
       display grid
-      text-align right
+      text-align left
     }
     h3 {
       font-size 3.5rem

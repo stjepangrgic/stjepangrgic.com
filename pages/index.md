@@ -2,18 +2,18 @@
 layout: page
 ---
 <header>
-  <h1>Hi <span role="img" aria-label="Waving Hand">👋</span></h1>
+  <h1>Hi, my name is Stjepan <!-- <span role="img" aria-label="Waving Hand">👋</span> --></h1>
   <p>
-    My name is Stjepan Grgic. I can describe myself as a designer because solving problems makes me happy. Above all, I am a curious human being exploring myself and the world through art and travel. This site houses my thoughts and ideas. It also showcases commercial and personal projects I worked on.
+    I can describe myself as a designer because solving problems makes me happy. Above all, I am a curious human being exploring the world and myself through art and travel. This site houses my thoughts and ideas. It also showcases commercial and personal projects I worked on.
     For more read <saber-link to="/my-story">my story</saber-link> or check what I'm doing <saber-link to="/my-story">now</saber-link>.
   </p>
   <!-- <slink url="/my-story">My story</slink> -->
   <!-- <slink url="/my-story" style="margin-left: 3rem">Now</slink> -->
 </header>
 
-<figure class="homepage-hero hero-width">
-  <simg name="stjepangrgic-petra-friends-selfy.jpg" />
-  <!-- <simg name="stjepangrgic-portrait.jpg" /> -->
+<figure class="page-hero hero-width">
+  <!-- <simg name="stjepangrgic-petra-friends-selfy.jpg" /> -->
+  <simg name="stjepangrgic-portrait.jpg" />
 </figure>
 
 <!-- ## Now
@@ -25,23 +25,22 @@ Some of my work. Understanding of color, light, shapes, perspective helped me to
 Some of my work. Understanding of color, light, shapes, perspective helped me to go on design road I never have planed understanding of color, light, shapes.
 
 <slink url="/work">All projects</slink>
-<!-- [All projects](./projects/index.md]) -->
 
 <figure class="projects work-width">
   <projectCard
-    url="/my-story"
+    url="/work/agrivi"
     title="Agrivi"
     tags="Branding,  Icons,  Web Application,  Corporate Site"
     linkColor="#A5EB3C"
     textColor="#fff"
-    image="stjepangrgic-agrivi-card@2x.png"/>
+    image="stjepangrgic-projects-agrivi.jpg"/>
   <projectCard
     url="/work/share-istria" 
     title="Share Istra"
     tags="Branding,  Icons,  Website"
     linkColor="#49EFE7"
     textColor="#fff"
-    image="stjepangrgic-share-istria-card@2x.jpg"/>
+    image="stjepangrgic-projects-share-istria.jpg"/>
 </figure>
 
 
@@ -72,7 +71,6 @@ Some of my work. Understanding of color, light, shapes, perspective helped me to
     bgColor="#B54538"
     icon="bucket.svg"/>
 </div>
-
 
 
 <script>
@@ -109,18 +107,10 @@ export default {
       top: -0.25rem;
     }
   }
-  .homepage-hero {
-/*    display grid
-    grid-template-columns 1.639880952fr 1fr
-    grid-column-gap 16px
-    grid-column-gap 0.9345794%*/
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-  }
 
   .projects {
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    /*margin-top: 1.5rem;*/
+    /*margin-bottom: 2rem;*/
     width: 100%;
     /*grid-column 6/ span 18*/
 /*    display: grid;

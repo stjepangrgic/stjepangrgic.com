@@ -10,10 +10,11 @@
 
 <script>
 import Nav from '../components/Nav.vue'
+import Footer from '../components/Footer.vue'
 
 export default {
   components: {
-    Nav
+    Nav, Footer
   },
   props: ['page']
   
@@ -26,7 +27,7 @@ export default {
   }
 
   .site {
-    padding-bottom 100px
+    // padding-bottom 100px
     // display grid
     // grid-column-gap 0
     // grid-row-gap 0

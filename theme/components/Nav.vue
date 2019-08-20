@@ -11,11 +11,12 @@
     <div class="main-menu grid">
       <ul>
         <li><saber-link to="/">Home</saber-link></li>
+        <!-- <li><slink url="/my-story">My story</slink></li> -->
         <li><saber-link to="/my-story">My story</saber-link></li>
         <li><saber-link to="/Now">Now</saber-link></li>
         <li><saber-link to="/work">Work</saber-link></li>
-        <li><saber-link to="/">Personal projects</saber-link></li>
-        <li><saber-link to="/">Blog</saber-link></li>
+        <li><saber-link to="/personal-projects">Personal projects</saber-link></li>
+        <li><saber-link to="/blog">Blog</saber-link></li>
         <!-- <li><saber-link to="/" class="special instagram">Instagram</saber-link></li>
         <li><saber-link to="/" class="special dribbble">Dribble</saber-link></li>
         <li><saber-link to="/" class="special behance">Behance</saber-link></li> -->
@@ -40,14 +41,15 @@ export default {
     openMenu () {
       console.log("klik na button")
       document.querySelector('.nav').classList.toggle('open-menu')
+      document.querySelector('.footer').classList.toggle('blur')
       document.querySelector('.main').classList.toggle('blur')
       return {}
     },
     handleSCroll (event) {
       let nav = document.querySelector(".nav");
-      if (window.scrollY > 80) {
+      if (window.scrollY > 40) {
         nav.classList.add('scrolled'); 
-      } else if (window.scrollY < 80) {
+      } else if (window.scrollY < 40) {
         nav.classList.remove('scrolled');
       }
     }
@@ -80,17 +82,20 @@ export default {
         cursor pointer
         outline none
         grid-column 2
+        justify-self start
         .icon
           width: 32px;
           height: 22px;
           border-radius 0
 
       .logo
-        grid-column 7/ -2
+        grid-column 4/ -2
         justify-self start
         text-decoration none
         font-weight 700
         transition all 0.2s ease
+        &:hover
+          text-decoration underline
     .main-menu
       z-index 1
       width 100%
@@ -113,7 +118,7 @@ export default {
       li a
         font-size 6vh
         text-decoration none 
-        font-weight bold
+        font-weight 700
         &.special
           color transparent
           background-clip: text;
@@ -124,6 +129,10 @@ export default {
           background-color #ea4c89
         &.behance
           background-color #1769ff
+        &.router-link-exact-active
+          text-decoration: line-through
+          cursor default
+          color #000
 
     &.scrolled
       .action-menu .logo

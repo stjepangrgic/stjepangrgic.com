@@ -4,7 +4,7 @@
     class="small-card"
     :style="styling">
       <h3>{{ title }}</h3>
-      <slink url="/my-story" linkColor="#fff" :isLink="false">See more</slink>
+      <slink :isLink="false" linkColor="#fff" >See more</slink>
   </saber-link>
 </template>
 
@@ -26,12 +26,12 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
   .small-card {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 30px;
+    padding-bottom: 24px;
     padding-right 2rem
     border-radius: 3px;
     overflow: hidden;
@@ -39,16 +39,22 @@ export default {
     background-repeat: no-repeat;
     color #fff
     text-decoration none
-    .link {
-      position relative
-      top 4px
+    &:hover {
+      .link {
+        text-decoration underline
+      }
     }
-  }
-  h3 {
-    margin-top: auto;
-    font-size: 3rem;
-    color: #fff;
-    line-height 1.2
-    margin-bottom 0
+    // .link {
+    //   position relative
+    //   top 4px
+    // }
+    h3 {
+      margin-top: auto;
+      font-size 30px
+      color: #fff;
+      // line-height 1.2
+      line-height 42px
+      margin-bottom 0
+    }
   }
 </style>

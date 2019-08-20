@@ -26,6 +26,6 @@ export default {
   }
   .subtitle {
     /* background-color: #ffa; */
-    font-weight: 400;
+    font-weight: 500;
   }
 </style>

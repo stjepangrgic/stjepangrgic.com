@@ -24,11 +24,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+      <header>Stjepan Grgic</header>
       <div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a>
+          Content © {new Date().getFullYear()}, Stjepan Grgic. All rights reserved. <br/> Design and code (except graphics) are open source on GitHub. Hosted on Netlify.
         </footer>
       </div>
     </>

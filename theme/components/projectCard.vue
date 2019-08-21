@@ -57,15 +57,18 @@ export default {
     grid-template-columns 416fr 648fr
     text-decoration none
     color #000
+    margin 2rem 0
+    box-shadow none
+    @media screen and (max-width: 700px)
+      margin 1rem 0
     &:hover
       background-color #afa
       .link:before
         width 100%
     
-    @media screen and (max-width: 600px)
+    @media screen and (max-width: 700px)
       grid-template-columns 1fr
-      grid-template-rows 1fr 200px
-      // direction: rtl;
+      grid-template-rows 1fr 230px
 
     
     .info
@@ -75,18 +78,22 @@ export default {
       align-items: flex-start
       flex-direction column
       // margin-top auto
-      padding-left 4rem
-      padding-bottom 3.5rem
+      padding 3.5rem 3.5rem
       background-color #FAFAFA
       
-      border 2px solid #F1F1F2
+      border-top 2px solid #F1F1F2
+      border-left 2px solid #F1F1F2
+      border-bottom 2px solid #F1F1F2
       z-index 3
-      @media screen and (max-width: 600px)
+      @media screen and (max-width: 700px)
         order: 1
+        padding 2rem 2.5rem
+        border-top 0
+        border-right 2px solid #F1F1F2
       
     .image
       background-color #aaf
-      @media screen and (max-width: 600px)
+      @media screen and (max-width: 700px)
         order: 0
     p
       margin 0
@@ -97,7 +104,8 @@ export default {
     
     .description
       font-size 1.25rem
-      line-height 2
+      line-height 1.2
+      margin 0.5rem 0
       
     .period
       font-size 1rem

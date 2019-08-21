@@ -5,7 +5,6 @@
       class="link" 
       v-if="isLink" 
       :to="url"
-      :style="{ color: linkColor}"
       v-bind="$attrs">
         <slot />
     </saber-link>
@@ -13,7 +12,6 @@
     <span 
       class="link"
       v-if="!isLink"
-      :style="{ color: linkColor}"
       v-bind="$attrs">
         <slot />
     </span>
@@ -45,7 +43,6 @@ export default {
 </script>
 
 <style lang="stylus">
-  // .link {
-  //   text-decoration 
-  // }
+  .link
+    line-height 1.1
 </style>

@@ -22,9 +22,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
-
-
-
+  .site
+    padding-bottom 15vh
 </style>
 

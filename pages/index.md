@@ -9,6 +9,17 @@ layout: page
   <!-- <simg name="stjepangrgic-portrait.jpg" /> -->
 </header>
 
+<section class="projects grid-width">
+  <h2 class="h3">Featuret projects</h2>
+  <projectCard
+    url="/work/agrivi"
+    title="Agrivi"
+    description="Farm managment software"
+    period="2016"
+    image="stjepangrgic-agrivi-card.jpg"
+    linkText="Read the case study"/>
+</section>
+
 
 
 
@@ -45,13 +56,22 @@ export default {
   header
     position relative
     .desk
-      position: relative;
+      margin-top -3rem
+      margin-right -4.7rem
+      @media screen and (min-width: 900px)
+        margin-top: -6rem;
+        float: right;
+/*      position: relative;
       top: -2rem;
       @media screen and (min-width: 800px)
         top initial
         position: absolute;
         right: -4.7rem;
-        bottom: -6rem
+        bottom: -6rem*/
+
+  .projects
+    /*background-color: #afa;*/
+    /*margin-top: 6rem;*/
 
 </style>
 

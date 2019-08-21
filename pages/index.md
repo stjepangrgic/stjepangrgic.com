@@ -1,25 +1,19 @@
 ---
 layout: page
 ---
+
 <header>
   <h1>Hi, my name is Stjepan <!-- <span role="img" aria-label="Waving Hand">👋</span> --></h1>
   <p>
     I can describe myself as a designer because solving problems makes me happy. Above all, I am a curious human being exploring the world and myself through art and travel. This site houses my thoughts and ideas. It also showcases commercial and personal projects I worked on.
     For more read <saber-link to="/my-story">my story</saber-link> or check what I'm doing <saber-link to="/my-story">now</saber-link>.
   </p>
-  <!-- <slink url="/my-story">My story</slink> -->
-  <!-- <slink url="/my-story" style="margin-left: 3rem">Now</slink> -->
 </header>
 
-<figure class="page-hero hero-width">
-  <!-- <simg name="stjepangrgic-petra-friends-selfy.jpg" /> -->
+<!-- <figure class="page-hero hero-width">
   <simg name="stjepangrgic-portrait.jpg" />
-</figure>
+</figure> -->
 
-<!-- ## Now
-Some of my work. Understanding of color, light, shapes, perspective helped me to go on design road I never have planed understanding of color, light, shapes.
-
-<slink url="/now">Now</slink> -->
 
 ## Work
 Some of my work. Understanding of color, light, shapes, perspective helped me to go on design road I never have planed understanding of color, light, shapes.

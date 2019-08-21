@@ -1,5 +1,14 @@
 <template>
-  <img :src="imgSrc(name)" :alt="alt">
+  <!-- <img :src="imgSrc(name)" :alt="alt"> -->
+  <saber-image
+    :src="imgSrc(name)"
+    :alt="alt"
+    :lazy="{
+      placeholder: true,
+      lazyLoad: true,
+      blendIn: true
+    }"
+  />
 </template>
 
 <script>

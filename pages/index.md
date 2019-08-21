@@ -48,6 +48,7 @@ export default {
       position: relative;
       top: -2rem;
       @media screen and (min-width: 800px)
+        top initial
         position: absolute;
         right: -4.7rem;
         bottom: -6rem

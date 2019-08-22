@@ -45,4 +45,5 @@ export default {
 <style lang="stylus">
   .link
     line-height 1.1
+    z-index 1
 </style>

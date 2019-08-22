@@ -21,15 +21,18 @@ layout: page
     description="Farm managment software"
     period="2016"
     image="stjepangrgic-agrivi-card.jpg"
-    linkText="Read the case study"/>
+    linkText="Read the case study"
+    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
+    underlinColor="#3A9300"/>
   <projectCard
-    class="reversed"
     url="/work/share-istria"
-    title="Share Istra"
+    title="Share Istria"
     description="Creative Tourism Campaign"
-    period="2015"
-    image="stjepangrgic-agrivi-card.jpg"
-    linkText="Read the case study"/>
+    period="2016"
+    image="stjepangrgic-shareistria-card.jpg"
+    linkText="Read the case study"
+    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
+    underlinColor="#0082AF"/>
 </section>
 
 
@@ -87,6 +90,9 @@ export default {
         position absolute
         top -2rem
         left -14rem
+        @media screen and (max-width 1310px) {
+          display: none;
+        }
     p
       margin-top: 4rem
       margin-bottom: 3rem
@@ -96,35 +102,6 @@ export default {
   
   .short
     max-width: 632px
-
-  
-/*  .header
-    position relative
-    background-color #FAF8F7
-    border-top 2px solid #E6DFDC
-    border-bottom 2px solid #E6DFDC*/
-/*    .paperplane
-      position absolute
-      top 0
-      left -14rem
-
-    .desk
-      margin-top -3rem
-      margin-right -4.7rem
-      @media screen and (min-width 900px)
-        margin-top -6rem
-        float right*/
-/*      position: relative
-      top: -2rem
-      @media screen and (min-width: 800px)
-        top initial
-        position: absolute
-        right: -4.7rem
-        bottom: -6rem*/
-
-  .projects
-    /*background-color: #afa*/
-    /*margin-top: 6rem*/
 
 </style>
 

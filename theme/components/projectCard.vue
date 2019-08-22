@@ -58,7 +58,6 @@ export default {
     text-decoration none
     color #000
     margin 2rem 0
-    box-shadow none
     @media screen and (max-width: 700px)
       margin 1rem 0
     &:hover
@@ -86,7 +85,7 @@ export default {
       border-bottom 2px solid #F1F1F2
       z-index 3
       @media screen and (max-width: 700px)
-        order: 1
+        order 1
         padding 2rem 2.5rem
         border-top 0
         border-right 2px solid #F1F1F2
@@ -113,7 +112,16 @@ export default {
       color #A9A7B6
       margin-bottom 2.5rem
 
-      
+  // .reversed
+  //   grid-template-columns 648fr 416fr
+  //   .info
+  //     order 1
+  //     border-top 2px solid #F1F1F2
+  //     border-right 2px solid #F1F1F2
+  //     border-bottom 2px solid #F1F1F2
+  //     border-left 0
+  //   .image
+  //     order 0
 
       // min-width 360px
   // .project-card

@@ -1,8 +1,8 @@
 <template>
   <nav class="nav grid">
-    <div class="path grid-width">
+<!--     <div class="path grid-width">
       <saber-link to="/" class="logo ">Stjepan Grgic</saber-link>
-    </div>
+    </div> -->
   </nav>
 </template>
 

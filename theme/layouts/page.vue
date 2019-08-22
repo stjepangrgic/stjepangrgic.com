@@ -22,7 +22,14 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
   .site
+    margin-top: 16vh
     padding-bottom 15vh
+    // @media screen and (min-height: 700px) and (max-height: 900px)
+    //   margin-top 16vh
+    
+  .main
+    // margin-top 4rem
 </style>
 

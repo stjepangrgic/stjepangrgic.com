@@ -44,9 +44,9 @@ export default {
     border: 2px solid #F1F1F2;
     border-radius: 3px;
     background-size cover
-    &:before {
-      display none
-    }
+    // &:before {
+    //   display none
+    // }
     &:hover {
       .link {
         &:before {

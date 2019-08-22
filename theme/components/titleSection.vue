@@ -1,13 +1,13 @@
 <template>
 	<h1 class="pageTitle">
 		{{first}} <br>
-		<span class="second">{{second}}</span>
+		<span class="second" :style="{ color: accentColor }">{{second}}</span>
 	</h1>
 </template>
 
 <script>
 export default {
-  props: ['first', 'second']
+  props: ['first', 'second', 'accentColor']
 }
 </script>
 

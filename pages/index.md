@@ -34,11 +34,11 @@ layout: page
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
     underlinColor="#0082AF"/>
   <projectCard
-    url="/work/vip-chat"
+    url="/work/vip-xmass-chat"
     title="Vip Xmas Chat"
     description="Promotional Chat App"
     period="2016"
-    image="stjepangrgic-vipchat-card.jpg"
+    image="stjepangrgic-card-vip-chat.jpg"
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
     textColor="#000"/>

@@ -2,16 +2,19 @@
 layout: page
 ---
 
-<ProjectHeader
+<!-- <ProjectHeader
   title="Agrivi"
   subtitle="Farm management software"
   description="As part of a design team in digital marketing agency Grey Entourage, I worked on creating a new influencer oriented marketing campaign called Share Istria for the client Istrian Tourist Board."
   accentColor="#926F52"
-/>
-
+/> -->
+<!-- 
 <figure class="page-hero hero-width">
   <simg name="stjepangrgic-projects-agrivi.jpg" />
-</figure>
+</figure> -->
+
+<titleSection title="Agrivi" subtitle="Farm management software" accentColor="#926F52"/>
+<heroSection heroImage="stjepangrgic-projects-agrivi.jpg" bgImage="stjepangrgic-projects-agrivi-bgImage.jpg"/>
 
 ## Why?
 The goal was to promote Istria (distinctive region in Croatia) trough, at the time, innovative approach by using travelers with the big social following. Or as we call them influencers today.

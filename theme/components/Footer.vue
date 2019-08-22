@@ -51,7 +51,7 @@ export default {
     transition: filter .5s cubic-bezier(.52,.02,.5,1.02)
     background-color #ccc
     padding-bottom 100px
-    margin-top 6rem
+    // margin-top 6rem
     background: #FAFAFA;
     border-top 2px solid #F1F1F2;
     .gray

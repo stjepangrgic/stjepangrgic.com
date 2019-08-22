@@ -1,0 +1,55 @@
+<template>
+	<figure class="full-width grid hero-section" :style="styleObject">
+    <simg v-if="bgImage" :name="bgImage" />
+    <div class="grid-width hero-image">
+      <simg :name="heroImage" />
+    </div>
+	</figure>
+</template>
+
+<script>
+import simg from '@/theme/components/simg.vue'
+export default {
+  components: {
+    simg
+  },
+  props: {
+  	heroImage: {
+      type: String,
+      required: true
+    },
+    bgImage: {
+      type: String,
+      required: false
+    },
+    bgColor: {
+      type: String,
+      required: false
+    }
+  },
+  computed: {
+    styleObject: function () {
+      return {
+        backgroundColor: this.bgColor,
+        // backgroundImage: 'url(' + require('@/assets/images/' + this.bgImage) + ')'
+      }
+    }
+  }
+}
+</script>
+
+<style lang="stylus" scoped>
+.hero-section
+  z-index 99
+
+.hero-image
+  box-shadow 0 25px 19px -17px rgba(44,29,22,0.15)
+  position relative
+  top 3rem
+  border-radius 3px
+  overflow hidden
+  display flex
+  img
+    z-index -1
+
+</style>

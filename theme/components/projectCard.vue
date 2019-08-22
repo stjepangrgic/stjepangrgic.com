@@ -45,7 +45,13 @@ export default {
     },
     underlinColor: {
       type: String,
-      required: true
+      required: false,
+      default: '#FFDB17'
+    },
+    textColor: {
+      type: String,
+      required: false,
+      default: '#fff'
     }
   },
   components: {
@@ -53,19 +59,29 @@ export default {
   },
   computed: {
     styleObject: function () {
-      return {'--underlineColor': this.underlinColor}
+      return {
+        '--underlineColor': this.underlinColor,
+        '--textColor': this.textColor
+      }
     }
   }
 }
 </script>
 
 <style lang="stylus" >
+  // @css {
+  //   .project-card info, .project-card .tags {
+  //     color: var(--textColor);
+  //   }
+  // }
 
   .project-card
     margin-bottom 1.5rem
     display flex
     position relative
     overflow hidden
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
+    border-radius 3px
     @media screen and (max-width 900px) {
       height 450px
     }
@@ -73,9 +89,11 @@ export default {
     .image
       min-width 1064px
       min-height 584px
+      height 584px
       position relative
       left 70%
       transform translateX(-70%)
+      z-index -1
       @media screen and (max-width 900px) {
         top 100%
         transform translateX(-70%) translateY(-100%)
@@ -97,10 +115,10 @@ export default {
       .h2
         margin 0
         margin-top auto
-        color #fff
+        color var(--textColor)
       
       .description
-        color #fff
+        color var(--textColor)
         margin-bottom 1.5rem
         
     .tags
@@ -115,12 +133,12 @@ export default {
         right 2rem
       }
       span
-        color #fff
+        color var(--textColor)
         font-size 1.25rem
         line-height 2
 
     .link
-      color #fff
+      color var(--textColor)
       
     @media screen and (max-width 900px) {
       

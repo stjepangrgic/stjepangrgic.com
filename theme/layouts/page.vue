@@ -4,7 +4,7 @@
     <main class="main grid">
       <slot name="default" />
     </main>
-    <!-- <Footer/> -->
+    <Footer/>
   </div>
 </template>
 
@@ -25,7 +25,6 @@ export default {
 
   .site
     margin-top: 16vh
-    padding-bottom 15vh
     // @media screen and (min-height: 700px) and (max-height: 900px)
     //   margin-top 16vh
     

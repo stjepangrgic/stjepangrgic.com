@@ -33,7 +33,36 @@ layout: page
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
     underlinColor="#0082AF"/>
+  <projectCard
+    url="/work/vip-chat"
+    title="Vip Xmas Chat"
+    description="Promotional Chat App"
+    period="2016"
+    image="stjepangrgic-vipchat-card.jpg"
+    linkText="Read the case study"
+    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
+    textColor="#000"/>
 </section>
+
+<!-- ## Growth
+Some of my work. Understanding of color, light, shapes, perspective helped me to go on design road I never have planed. -->
+<div class="growth">
+  <h2 class="h3">Growth</h2>
+  <div class="growtg-grid">
+    <smallCard
+      url="/book-list" 
+      title="Book list"
+      icon="book.svg"/>
+    <smallCard
+      url="/fail-list" 
+      title="Fail list"
+      icon="fail.svg"/>
+    <smallCard
+      url="/bucket-list" 
+      title="Bucket list"
+      icon="bucket.svg"/>
+  </div>
+</div>
 
 
 
@@ -102,6 +131,21 @@ export default {
   
   .short
     max-width: 632px
+
+  .growtg-grid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap 1.6161616% /*16px*/
+    height: 272px
+    @media screen and (max-width 700px) {
+      display: flex;
+      flex-direction: column;
+      height auto
+      .small-card {
+        height 272px
+        margin-bottom: 1rem;
+      }
+    }
 
 </style>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="footer full-width grid">
-    <div class="personal-width">
+    <div class="grid-width">
       <header>
         <h2>
           You are awesome<br>
@@ -25,7 +25,7 @@
         </form>
       </section>
       <section class="gray">
-        <p>Content © 2019 Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <saber-link to="/credits">GitHub</saber-link>. Hosted on <saber-link to="/credits">Netlify</saber-link>.</p> <br>
+        <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <saber-link to="/credits">GitHub</saber-link>. Built with <saber-link to="/credits">Vue Js</saber-link> and <saber-link to="/credits">Saber</saber-link>. Hosted on <saber-link to="/credits">Netlify</saber-link>.</p> <br>
 
         <p>See any grammar mistake or have feedback on this site? Pleas open an GitHub issue. <br> Read the <saber-link to="/credits">credits</saber-link>. </p>
       </section>
@@ -37,6 +37,11 @@
 export default {
   data () {
     return {};
+  },
+  computed: {
+    now: function () {
+      return new Date().getFullYear();
+    }
   }
 }
 </script>
@@ -48,17 +53,19 @@ export default {
     padding-bottom 100px
     margin-top 6rem
     background: #FAFAFA;
-    border: 1px solid #F1F1F2;
+    border-top 2px solid #F1F1F2;
     .gray
-      // opacity 0.5
       line-height 36px
       margin-top 4rem
+      font-size 1.25rem
       p 
         margin-bottom 0
         color #777
       a
         color inherit
         text-decoration underline
+        &:before
+          display none
         
     h2
       margin-top 4rem
@@ -71,19 +78,33 @@ export default {
     display grid
     grid-template-columns: 1fr 1fr
     margin-top 2rem
+    @media screen and (max-width 800px) {
+      display flex
+      flex-direction column
+      // display block
+    }
   form
     margin-top 3rem
-    width 488px
+    max-width 488px
+    // width 488px
+    width 100%
     display grid
     grid-row-gap 20px
     grid-template-columns: 1fr 2fr
     align-items center
+    @media screen and (max-width 800px) {
+      margin-top 0
+      max-width 100%
+      span {
+        grid-column 1/ -1
+      }
+    }
     input
       grid-column 1/ -1
     span
       line-height 16px
       text-transform uppercase
-      width 162px
+      max-width 162px
       display inline-block
       font-size 12px
       font-weight 500

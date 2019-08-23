@@ -48,8 +48,10 @@ export default {
   top 3rem
   border-radius 3px
   overflow hidden
-  display flex
+  // display flex
+  display grid
   img
     z-index -1
+    width:100%;
 
 </style>

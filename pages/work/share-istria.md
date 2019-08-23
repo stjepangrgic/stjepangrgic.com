@@ -2,20 +2,23 @@
 layout: page
 ---
 
-<ProjectHeader
+<!-- <ProjectHeader
   title="Share Istria"
   subtitle="Creative Tourism Campaign"
   description="As part of a design team in digital marketing agency Grey Entourage, I worked on creating a new influencer oriented marketing campaign called Share Istria for the client Istrian Tourist Board."
   accentColor="#47B800"
-/>
+/> -->
 
-<p class="project-info">
+<titleSection title="Share Istria" subtitle="Creative Tourism Campaign" accentColor="#47B800"/>
+<heroSection heroImage="stjepangrgic-project-share-istria-cover-image.jpg" bgColor="#009FE5" />
+
+<!-- <p class="project-info">
   <span><b>Year:</b> 2015</span> <span><b>Platform:</b> Web, Social media</span>
-</p>
+</p> -->
 
-<figure class="page-hero hero-width">
+<!-- <figure class="page-hero hero-width">
   <simg name="stjepangrgic-projects-share-istria.jpg" />
-</figure>
+</figure> -->
 
 ## Campaign goal
 Promote and raise awareness of [Istria](https://www.google.com/search?q=istria) (distinctive geographic region of Croatia). How? By using travel influencers, which was, at the time, an innovative approach to digital marketing. The team came up with a story and mechanic on how to get influencers to come to Istria and share as much as possible content while they are there.
@@ -29,7 +32,7 @@ This was the first bih project I was able to get my hands on while working in th
 
 Managers saw my work and decided to give me an opportunity to bring all my ideas to life.
 
-## The logo
+<!-- ## The logo
 I decided to blend the distinctive shape of the Istrian peninsula with all the experiences and photos one might have while visiting this amazing and unique region of Croatia. The campaign was distributed exclusively through digital channels so color choices were not restricted with print colors space.
 
 <figure class="work-width">
@@ -93,7 +96,7 @@ The website features a fully responsive design, providing the same story experie
 </figure>
 
 ## Conclusion
-Share Istria was a project I enjoyed very much. I got to experience how is it to work on a large scale project. I was shocked to see how hard is it to find good and usable photographs in the era when everyone is a photographer. I realized how important it is to have a great development team or at least outsource development to the experienced agency.
+Share Istria was a project I enjoyed very much. I got to experience how is it to work on a large scale project. I was shocked to see how hard is it to find good and usable photographs in the era when everyone is a photographer. I realized how important it is to have a great development team or at least outsource development to the experienced agency. -->
 
 
 <!-- <p>
@@ -114,10 +117,12 @@ Photo 1 - [https://unsplash.com/photos/aV5xrpB0bwQ](https://unsplash.com/photos/
 <script>
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
-import ProjectHeader from '@/theme/components/ProjectHeader.vue'
+// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
+import titleSection from '@/theme/components/titleSection.vue'
+import heroSection from '@/theme/components/heroSection.vue'
 export default {
   components: {
-    slink, ProjectHeader, simg
+    slink, simg, titleSection, heroSection
   }
 }
 </script>

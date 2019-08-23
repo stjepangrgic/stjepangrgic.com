@@ -1,13 +1,13 @@
 <template>
 	<h1 class="pageTitle">
-		{{first}} <br>
-		<span class="second" :style="{ color: accentColor }">{{second}}</span>
+		{{title}} <br>
+		<span class="subtitle" :style="{ color: accentColor }">{{subtitle}}</span>
 	</h1>
 </template>
 
 <script>
 export default {
-  props: ['first', 'second', 'accentColor']
+  props: ['title', 'subtitle', 'accentColor']
 }
 </script>
 
@@ -17,6 +17,6 @@ export default {
 		line-height 1.333333
 		margin 0
 		margin-bottom 5rem
-		.second
+		.subtitle
 			font-weight: 400;
 </style>

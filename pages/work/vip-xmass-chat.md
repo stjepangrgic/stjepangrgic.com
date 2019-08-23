@@ -9,7 +9,7 @@ layout: page
   accentColor="#926F52"
 /> -->
 
-<titleSection first="Vip Xmas Chat" second="Promotional chat app" accentColor="#E60028"/>
+<titleSection title="Vip Xmas Chat" subtitle="Promotional chat app" accentColor="#E60028"/>
 <heroSection heroImage="stjepangrgic-project-vip-chat-cover-image.jpg" bgImage="" bgColor="#E60028" />
 
 <div class="content full-width grid">
@@ -24,7 +24,7 @@ layout: page
   </div>
   <div class="role">
     <small>My role</small>
-    <p>Digital Designer, full time</p>
+    <p>Digital Designer</p>
   </div>
 </div>
 
@@ -38,6 +38,27 @@ I was involwed in whole creative proces - from character concepts to final deliv
 I always enyoied drawing so early in campaign development I sugessted we could use stylized characters and I could draw them. But I have never done anything like that before.
 
 So the challenge was: can I ilustrate characters using very limited color palete and can I design “chat boot” app.
+
+## Characters
+<figure class="grid-width character">
+  <simg name="stjepangrgic-project-vip-chat-character-bozidar.jpg" />
+</figure>
+
+<figure class="grid-width character">
+  <simg name="stjepangrgic-project-vip-chat-character-rudolf.jpg" />
+</figure>
+
+<figure class="grid-width character">
+  <simg name="stjepangrgic-project-vip-chat-character-santa.jpg" />
+</figure>
+
+<figure class="grid-width character">
+  <simg name="stjepangrgic-project-vip-chat-character-elf-girl.jpg" />
+</figure>
+
+<figure class="full-width character big-image">
+  <simg name="stjepangrgic-project-vip-chat-character-illustrator-lines.jpg" />
+</figure>
 
 </div> <!-- content end -->
 
@@ -112,5 +133,18 @@ export default {
     color #A9A7B6
   p
     margin: 0;
+
+.character
+  display: grid
+
+.big-image
+  mix-blend-mode: multiply;
+  /*overflow: scroll;*/
+  img
+    /*min-height: 300px;*/
+    object-fit: cover;
+    min-height: 300px;
+
+
 
 </style>

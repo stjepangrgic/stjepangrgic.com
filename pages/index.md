@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<titleSection class="grid-width" first="Hi to you! 👋" second="My name is Stjepan."/>
+<titleSection class="grid-width" title="Hi to you! 👋" subtitle="My name is Stjepan."/>
 
 <div class="text full-width grid">
   <div class="text-inner grid-width">

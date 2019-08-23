@@ -1,6 +1,6 @@
 <template>
   <div class="footer full-width grid">
-    <div class="grid-width">
+    <div class="content-width">
       <header>
         <h2>
           You are awesome<br>
@@ -49,10 +49,10 @@ export default {
 <style lang="stylus" scoped>
   .footer
     transition: filter .5s cubic-bezier(.52,.02,.5,1.02)
-    background-color #ccc
+    background-color #fff
     padding-bottom 100px
     // margin-top 6rem
-    background: #FAFAFA;
+    // background: #FAFAFA;
     border-top 2px solid #F1F1F2;
     .gray
       line-height 36px

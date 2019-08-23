@@ -63,7 +63,7 @@ So the challenges were:
 </figure>
 
 ## App
-We knew a native app wasn't ideal for this project (time, cost), so we opted up for responsive web app. This enabled it to work on smartphones and desktop computers as well as interactive outdoor displays across the country.
+We knew a native app wasn't ideal for this project (time and cost reasons), so we opted up for responsive web app. This enabled the app to work on smartphones and desktop computers as well as interactive outdoor displays across the country.
 
 <figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vip-chat-app-phones.png" />
@@ -79,30 +79,33 @@ At the time, chat boots were not a thing, so we created predefined multiple choi
   <simg name="stjepangrgic-project-vip-chat-app-outputs.jpg" />
 </figure>
 
+## Results
+The campaign was very well received. Thousands of users participated and spent, on average, over 4 minutes chatting with their favorite character. Rudolph turned out to be the most popular one.
 
-</div> <!-- content end -->
+There were also special coupon rewards that generated a large number of leads towards Vipnet webshop.
 
-<!-- <figure class="full-width" >
-  <simg name="stjepangrgic-vipchat-project-image.jpg" />
-</figure> -->
-
-
-<!-- <figure class="page-hero hero-width">
-  <simg name="stjepangrgic-projects-agrivi.jpg" />
+<figure class="grid-width fix-img">
+  <simg name="stjepangrgic-project-vip-chat-coupons.jpg" />
 </figure>
 
-## Why?
-The goal was to promote Istria (distinctive region in Croatia) trough, at the time, innovative approach by using travelers with the big social following. Or as we call them influencers today.
+## Conclusion
+I loved the project and how the proces went along. I saw how simple ideas can be powerfull if execude creatively. I felt empowered becaus my voice was heard.
+To this day I think of it as one of most enjed projects and fun time of my career.
 
-- Branding
-- Iconography
-- Photography
+## Check out next
+<div class="grid-width next-project">
+  <projectCard
+    url="/work/share-istria"
+    title="Share Istria"
+    description="Creative Tourism Campaign"
+    period="2016"
+    image="stjepangrgic-shareistria-card.jpg"
+    linkText="Read the case study"
+    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
+    underlinColor="#0082AF"/>
+</div>
 
-
-### Credits
-Map - [https://commons.wikimedia.org/wiki/File:Croatia_Istria_County.svg](https://commons.wikimedia.org/wiki/File:Croatia,_Istria_County.svg)
-
-Photo 1 - [https://unsplash.com/photos/aV5xrpB0bwQ](https://unsplash.com/photos/aV5xrpB0bwQ) -->
+</div> <!-- content end -->
 
 </div>
 
@@ -112,10 +115,11 @@ import simg from '@/theme/components/simg.vue'
 import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 import titleSection from '@/theme/components/titleSection.vue'
 import heroSection from '@/theme/components/heroSection.vue'
+import projectCard from '@/theme/components/projectCard.vue'
 
 export default {
   components: {
-    slink, ProjectHeader, simg, titleSection, heroSection
+    slink, ProjectHeader, simg, titleSection, heroSection, projectCard
   }
 }
 </script>
@@ -177,6 +181,10 @@ export default {
 
 p + .fix-img
   margin-top: 2rem;
+
+.next-project
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 
 
 

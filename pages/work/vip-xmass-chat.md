@@ -29,36 +29,56 @@ layout: page
 </div>
 
 ## Introduction
-Vip Xmas Chat was a promotional “chat” application that was part of christmas  campaign for telecommunication company Vipnet Hrvatska (A1 Telekom Austria Group) aimed at rising brand awernes amongu younger audience. I worked on it while employed at agency Gray Entourage. 
+Vip Xmas Chat was a promotional “chat” application that was part of a Christmas campaign for telecommunication company Vipnet Hrvatska (A1 Telekom Austria Group) aimed at raising brand awareness among a younger audience. I worked on it while employed at agency Gray Entourage.
 
 ### My role
-I was involwed in whole creative proces - from character concepts to final delivery. But my main responsabilities were character illustrations and app design.
+I was involved in the whole creative process - from character concepts to final delivery. But my main responsibilities were character illustrations and app design.
 
-### The chalange
-I always enyoied drawing so early in campaign development I sugessted we could use stylized characters and I could draw them. But I have never done anything like that before.
+### The challenge
+Early in campaign development I suggested we could use stylized characters and I could draw them. But I have never done anything like that before.
 
-So the challenge was: can I ilustrate characters using very limited color palete and can I design “chat boot” app.
+So the challenges were:
+- Can I illustrate characters using a rather limited color palette
+- Can I design “chat boot” app
 
 ## Characters
-<figure class="grid-width character">
+<figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vip-chat-character-bozidar.jpg" />
 </figure>
 
-<figure class="grid-width character">
+<figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vip-chat-character-rudolf.jpg" />
 </figure>
 
-<figure class="grid-width character">
+<figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vip-chat-character-santa.jpg" />
 </figure>
 
-<figure class="grid-width character">
+<figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vip-chat-character-elf-girl.jpg" />
 </figure>
 
-<figure class="full-width character big-image">
+<figure class="full-width fix-img big-image">
   <simg name="stjepangrgic-project-vip-chat-character-illustrator-lines.jpg" />
 </figure>
+
+## App
+We knew a native app wasn't ideal for this project (time, cost), so we opted up for responsive web app. This enabled it to work on smartphones and desktop computers as well as interactive outdoor displays across the country.
+
+<figure class="grid-width fix-img">
+  <simg name="stjepangrgic-project-vip-chat-app-phones.png" />
+</figure>
+
+<figure class="grid-width fix-img">
+  <simg name="stjepangrgic-project-vip-chat-app-displays.jpg" />
+</figure>
+
+At the time, chat boots were not a thing, so we created predefined multiple choice answers for users to select. We created 268 different outputs for all 4 characters.
+
+<figure class="grid-width fix-img">
+  <simg name="stjepangrgic-project-vip-chat-app-outputs.jpg" />
+</figure>
+
 
 </div> <!-- content end -->
 
@@ -134,16 +154,29 @@ export default {
   p
     margin: 0;
 
-.character
-  display: grid
-
 .big-image
   mix-blend-mode: multiply;
+  position: relative;
   /*overflow: scroll;*/
   img
     /*min-height: 300px;*/
     object-fit: cover;
     min-height: 300px;
+  &:after
+    content ""
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    bottom: -400px;
+    left: 0;
+    opacity: 0.3;
+    background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
+
+.fix-img
+  margin-bottom: 2rem;
+
+p + .fix-img
+  margin-top: 2rem;
 
 
 

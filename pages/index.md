@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<titleSection class="grid-width" title="Hi to you! 👋" subtitle="My name is Stjepan."/>
+<TitleSection class="grid-width" title="Hi to you! 👋" subtitle="My name is Stjepan."/>
 
 <div class="text full-width grid">
   <div class="text-inner grid-width">
@@ -15,7 +15,7 @@ layout: page
 
 <section class="projects grid-width">
   <h2 class="h3">Featuret projects</h2>
-  <projectCard
+  <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
     description="Farm managment software"
@@ -24,7 +24,7 @@ layout: page
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
     underlinColor="#3A9300"/>
-  <projectCard
+  <ProjectCard
     url="/work/share-istria"
     title="Share Istria"
     description="Creative Tourism Campaign"
@@ -33,7 +33,7 @@ layout: page
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
     underlinColor="#0082AF"/>
-  <projectCard
+  <ProjectCard
     url="/work/vip-xmass-chat"
     title="Vip Xmas Chat"
     description="Promotional Chat App"
@@ -49,15 +49,15 @@ Some of my work. Understanding of color, light, shapes, perspective helped me to
 <div class="growth">
   <h2 class="h3">Growth</h2>
   <div class="growtg-grid">
-    <smallCard
+    <SmallCard
       url="/book-list" 
       title="Book list"
       icon="book.svg"/>
-    <smallCard
+    <SmallCard
       url="/fail-list" 
       title="Fail list"
       icon="fail.svg"/>
-    <smallCard
+    <SmallCard
       url="/bucket-list" 
       title="Bucket list"
       icon="bucket.svg"/>
@@ -71,18 +71,18 @@ Some of my work. Understanding of color, light, shapes, perspective helped me to
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 import sfigure from '@/theme/components/sfigure.vue'
-import projectCard from '@/theme/components/projectCard.vue'
-import smallCard from '@/theme/components/smallCard.vue'
-import titleSection from '@/theme/components/titleSection.vue'
+import ProjectCard from '@/theme/components/ProjectCard.vue'
+import SmallCard from '@/theme/components/SmallCard.vue'
+import TitleSection from '@/theme/components/TitleSection.vue'
 
 export default {
   components: {
     slink,
     simg,
     sfigure,
-    projectCard,
-    smallCard,
-    titleSection
+    ProjectCard,
+    SmallCard,
+    TitleSection
   },
   computed: {
     // icon() {
@@ -107,7 +107,7 @@ export default {
         position: absolute
         bottom: -8px
         right: -76px
-        z-index: -1
+        z-index: 1;
         @media screen and (max-width 900px) {
           position relative
           margin-top: -6rem
@@ -125,6 +125,8 @@ export default {
     p
       margin-top: 4rem
       margin-bottom: 3rem
+      z-index: 2;
+      position: relative;
       &:last-of-type
         margin-top: 3rem
         margin-bottom: 4rem

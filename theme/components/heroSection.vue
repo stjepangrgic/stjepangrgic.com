@@ -40,6 +40,7 @@ export default {
 
 <style lang="stylus" scoped>
 .hero-section
+  position relative
   z-index 99
 
 .hero-image

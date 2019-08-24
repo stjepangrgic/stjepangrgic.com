@@ -82,6 +82,7 @@ export default {
     overflow hidden
     box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
     border-radius 3px
+    z-index 1
     @media screen and (max-width 900px) {
       height 450px
     }

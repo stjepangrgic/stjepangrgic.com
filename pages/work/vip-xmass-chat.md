@@ -9,24 +9,25 @@ layout: page
   accentColor="#926F52"
 /> -->
 
-<titleSection title="Vip Xmas Chat" subtitle="Promotional chat app" accentColor="#E60028"/>
-<heroSection heroImage="stjepangrgic-project-vip-chat-cover-image.jpg" bgImage="" bgColor="#E60028" />
+<TitleSection
+  title="Vip Xmas Chat"
+  subtitle="Promotional chat app"
+  accentColor="#E60028"
+/>
+
+<HeroSection
+  heroImage="stjepangrgic-project-vip-chat-cover-image.jpg"
+  bgImage=""
+  bgColor="#E60028"
+/>
+
 
 <div class="content full-width grid">
-<div class="info">
-  <div class="periond">
-    <small>Period</small>
-    <p>2016</p>
-  </div>
-  <div class="platform">
-    <small>Platform</small>
-    <p>Web, Mobile</p>
-  </div>
-  <div class="role">
-    <small>My role</small>
-    <p>Digital Designer</p>
-  </div>
-</div>
+  <ProjectInfo
+    period="2014"
+    platform="Web, Social media"
+    role="Digital Designer"
+  />
 
 ## Introduction
 Vip Xmas Chat was a promotional “chat” application that was part of a Christmas campaign for telecommunication company Vipnet Hrvatska (A1 Telekom Austria Group) aimed at raising brand awareness among a younger audience. I worked on it while employed at agency Gray Entourage.
@@ -94,7 +95,7 @@ To this day I think of it as one of most enjed projects and fun time of my caree
 
 ## Check out next
 <div class="grid-width next-project">
-  <projectCard
+  <ProjectCard
     url="/work/share-istria"
     title="Share Istria"
     description="Creative Tourism Campaign"
@@ -113,13 +114,14 @@ To this day I think of it as one of most enjed projects and fun time of my caree
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import titleSection from '@/theme/components/titleSection.vue'
-import heroSection from '@/theme/components/heroSection.vue'
-import projectCard from '@/theme/components/projectCard.vue'
+import TitleSection from '@/theme/components/TitleSection.vue'
+import HeroSection from '@/theme/components/HeroSection.vue'
+import ProjectCard from '@/theme/components/ProjectCard.vue'
+import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 
 export default {
   components: {
-    slink, ProjectHeader, simg, titleSection, heroSection, projectCard
+    slink, ProjectHeader, simg, TitleSection, HeroSection, ProjectCard, ProjectInfo
   }
 }
 </script>
@@ -127,36 +129,14 @@ export default {
 <style lang="stylus" scoped>
 .content
   background-color: #FAFAFA;
-  > *
-    grid-column 3 / -3
-    @media screen and (max-width: 800px) {
-      /*grid-column 2 / -2*/
-    }
+/*  > *
+    grid-column 3 / -3*/
   
 /*.credits
   a 
     text-decoration: underline;*/
 
-.info
-  /*display: grid;*/
-  display: flex;
-  /*  grid-column-gap 0.625%
-  grid-template-columns: 1fr 1fr 1fr*/
-  /*align-items: left;*/
-  /*justify-items: start;*/
-  /*justify-content: start;*/
-  margin-top: 7rem;
-  > *
-    margin-right: 4rem
-    display: flex;
-    flex-direction: column;
-  small
-    font-size: 1rem
-    line-height: 1.5;
-    font-weight: 600;
-    color #A9A7B6
-  p
-    margin: 0;
+
 
 .big-image
   mix-blend-mode: multiply;
@@ -164,8 +144,8 @@ export default {
   /*overflow: scroll;*/
   img
     /*min-height: 300px;*/
-    object-fit: cover;
-    min-height: 300px;
+    object-fit cover
+    min-height 300px
   &:after
     content ""
     position: absolute;

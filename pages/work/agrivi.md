@@ -2,21 +2,97 @@
 layout: page
 ---
 
-<!-- <ProjectHeader
-  title="Agrivi"
+<TitleSection
+  title="Abrivi"
   subtitle="Farm management software"
-  description="As part of a design team in digital marketing agency Grey Entourage, I worked on creating a new influencer oriented marketing campaign called Share Istria for the client Istrian Tourist Board."
-  accentColor="#926F52"
-/> -->
+  accentColor="#8E6948"
+/>
+
+<HeroSection
+  heroImage="stjepangrgic-project-agrivi-cover-image.png"
+  bgImage=""
+  bgColor="#8E6948"
+/>
+
+<div class="content full-width grid">
+
+<ProjectInfo
+  period="2016"
+  platform="Web, Mobile"
+  role="Digital Product Designer"
+/>
+
+## Introduction
+Agrivi is agritech startup with a promis of solving world food problem by providing farmers with knowledge-based software solutions. 
+
+### My role
+Being only designer in a small team with big dreams is a lot of work. I knew that. But griwing up in countriside souranded with crops and domestic animals I understod painpoints that farmers face. So I decided to join and design products that will solve actual problems . I was involved in whol product cycle, from branding to web and mobile aplications all the way to ads.
+
+### The chalange
+As it goes, startups don’t spend a lot of time making apps understandable and easy to use, let alone beautifull. It just has to work and prove the concept. That was the case at the time I joined the company. No consistent branding and poor web app experience.
+
+So the challenge was: rethink company branding, build flexible and lightwaight design system capable of adapting to web an mobile enviroments all while having farmers in mind.
+
+<div class="block full-width grid">
+
+## Branding
+Everythin Agrivi was using at the time was few stock icons and logo made from stuf downloaded from internet (nothing new for a sturtup). But logo had a strong idea that I wanted to build upon.
+
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-branding-idea.jpg" />
+</figure> 
+  
+</div>
+
+### Colors
+Thinking about primary colors green was an obvious choice. But it had to be warm and inviting.  As a young plant lit with warm morning sunshine.
+
+<figure class="grid-width fix-img">
+  <simg name="stjepangrgic-project-agrivi-colors.jpg" />
+</figure>
+
+### The logomark
+I wanted to incorporate idea of a young plant. To symbolize agriculture and something to take care of. It was also idea of a startup -  young growing company.
+
+Perfection of nature reflets in fibonacy numbers. So I constructed two stylized leafs  using the proportions present in nature. 
+
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-logomark-construction.png" />
+</figure>
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-logomark.png" />
+</figure>
+
+### Typography
+To quote the fonts autor: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me it beautifuly reflected perfection of nature i was looking for.
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-typography.png" />
+</figure>
+
+### The logo
+To quote the fonts autor: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me it beautifuly reflected perfection of nature i was looking for.
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-logo-construction.png" />
+</figure>
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-logo.png" />
+</figure>
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-logo-monochrome.png" />
+</figure>
+
+<div class="block full-width grid">
+
+## Design system
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, natus possimus neque quidem sed dolore ducimus libero modi. Provident sapiente sit optio maiores rem minima quod nostrum accusantium quo porro!
+  
+</div>
+
 <!-- 
-<figure class="page-hero hero-width">
-  <simg name="stjepangrgic-projects-agrivi.jpg" />
-</figure> -->
-
 <titleSection title="Agrivi" subtitle="Farm management software" accentColor="#926F52"/>
-<heroSection heroImage="stjepangrgic-projects-agrivi.jpg" bgImage="stjepangrgic-projects-agrivi-bgImage.jpg"/>
+<heroSection heroImage="stjepangrgic-projects-agrivi.jpg" bgImage="stjepangrgic-projects-agrivi-bgImage.jpg"/> -->
 
-## Why?
+<!-- ## Why?
 The goal was to promote Istria (distinctive region in Croatia) trough, at the time, innovative approach by using travelers with the big social following. Or as we call them influencers today.
 
 - Branding
@@ -27,7 +103,7 @@ The goal was to promote Istria (distinctive region in Croatia) trough, at the ti
 ### Credits
 Map - [https://commons.wikimedia.org/wiki/File:Croatia_Istria_County.svg](https://commons.wikimedia.org/wiki/File:Croatia,_Istria_County.svg)
 
-Photo 1 - [https://unsplash.com/photos/aV5xrpB0bwQ](https://unsplash.com/photos/aV5xrpB0bwQ)
+Photo 1 - [https://unsplash.com/photos/aV5xrpB0bwQ](https://unsplash.com/photos/aV5xrpB0bwQ) -->
 
 </div>
 
@@ -35,17 +111,45 @@ Photo 1 - [https://unsplash.com/photos/aV5xrpB0bwQ](https://unsplash.com/photos/
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 import ProjectHeader from '@/theme/components/ProjectHeader.vue'
+import HeroSection from '@/theme/components/HeroSection.vue'
+import ProjectInfo from '@/theme/components/ProjectInfo.vue'
+import TitleSection from '@/theme/components/TitleSection.vue'
+
 export default {
   components: {
-    slink, ProjectHeader, simg
+    slink, ProjectHeader, simg, HeroSection, ProjectInfo, TitleSection
   }
 }
 </script>
 
 <style lang="stylus" scoped>
+
+.content
+  background-color #FCFBFA
+  position relative
+  z-index -1
+
+.block
+  position relative
+  margin-top 4rem
+  &:before
+    content ""
+    display block
+    position absolute
+    width 100vw
+    left 50%
+    transform translateX(-50%)
+    height 700px
+    border-top 2px solid #E6DFDC
+    background-color #fff
+    background: linear-gradient(180deg, #FAF8F7 0%, #FCFBFA 100%);
+    z-index -1
   
 .credits
   a 
     text-decoration: underline;
+
+.shadow
+  box-shadow: 0 12px 19px -8px rgba(44,29,22,0.15);
 
 </style>

@@ -30,7 +30,7 @@ export default {
   computed: {
     styleObject: function () {
       return {
-        backgroundColor: this.bgColor,
+        background: this.bgColor,
         // backgroundImage: 'url(' + require('@/assets/images/' + this.bgImage) + ')'
       }
     }
@@ -42,6 +42,7 @@ export default {
 .hero-section
   position relative
   z-index 99
+  margin 0
 
 .hero-image
   box-shadow 0 25px 19px -17px rgba(44,29,22,0.15)
@@ -54,5 +55,8 @@ export default {
   img
     z-index -1
     width:100%;
+    
+  figure
+    margin 0
 
 </style>

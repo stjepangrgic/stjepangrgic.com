@@ -2,13 +2,6 @@
 layout: page
 ---
 
-<!-- <ProjectHeader
-  title="Vip "
-  subtitle="Farm management software"
-  description="As part of a design team in digital marketing agency Grey Entourage, I worked on creating a new influencer oriented marketing campaign called Share Istria for the client Istrian Tourist Board."
-  accentColor="#926F52"
-/> -->
-
 <TitleSection
   title="Vip Xmas Chat"
   subtitle="Promotional chat app"
@@ -63,7 +56,7 @@ So the challenges were:
   <simg name="stjepangrgic-project-vip-chat-character-illustrator-lines.jpg" />
 </figure>
 
-## App
+## The App
 We knew a native app wasn't ideal for this project (time and cost reasons), so we opted up for responsive web app. This enabled the app to work on smartphones and desktop computers as well as interactive outdoor displays across the country.
 
 <figure class="grid-width fix-img">
@@ -157,14 +150,10 @@ export default {
     background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
 
 .fix-img
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
 
-p + .fix-img
-  margin-top: 2rem;
-
-.next-project
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+/*p + .fix-img
+  margin-top: 2rem;*/
 
 
 

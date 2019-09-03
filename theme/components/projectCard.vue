@@ -80,12 +80,23 @@ export default {
     display flex
     position relative
     overflow hidden
-    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
+    // box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
     border-radius 3px
     z-index 1
     @media screen and (max-width 900px) {
       height 450px
     }
+    &:after
+      content ""
+      display block
+      width 100%
+      height 100%
+      position absolute
+      top 0
+      right 0
+      bottom 0
+      left 0
+      box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
     
     .image
       min-width 1064px

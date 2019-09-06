@@ -2,6 +2,7 @@
   <div class="site">
     <!-- <Nav/> -->
     <main class="main grid">
+      <!-- <h1>{{page.attributes.test}}</h1> -->
       <slot name="default" />
     </main>
     <Footer/>
@@ -17,7 +18,24 @@ export default {
     // Nav,
     Footer
   },
-  props: ['page']
+  data: function() {
+    return {
+      ooj: this.page.attributes.test,
+    }
+  },
+  props: ['page'],
+  computed: {
+    // test() {
+    //   // console.log(this.page.attributes.test)
+    //   return this.page.attributes.test
+    // }
+  },
+  // data: function () {
+  //   return {}
+  // },
+  created: function () {
+    this.test = console.log(this.page.attributes.test)
+  }
   
 }
 </script>

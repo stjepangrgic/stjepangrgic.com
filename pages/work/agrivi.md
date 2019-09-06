@@ -1,5 +1,6 @@
 ---
 layout: page
+test: hej
 ---
 
 <TitleSection
@@ -13,6 +14,7 @@ layout: page
   bgImage=""
   bgColor="#8E6948"
 />
+
 
 <div class="content full-width grid">
 

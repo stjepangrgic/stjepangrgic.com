@@ -8,8 +8,8 @@ accentColor: "#538AFF"
 heroImage: "stjepangrgic-project-vibby-cover-image.jpg"
 bgColor: "linear-gradient(180deg, #2CA3FF 0%, #6A7BFF 100%)"
 
-period: 2015
-platform: Web
+period: "2015"
+platform: "Web"
 role: "Digital Product Designer"
 ---
 
@@ -152,10 +152,9 @@ export default {
     ProjectCard
   }
 }
-
 </script>
-<style lang="stylus" scoped>
 
+<style lang="stylus" scoped>
 .idea
   background-color #32333D
   margin-top 4rem

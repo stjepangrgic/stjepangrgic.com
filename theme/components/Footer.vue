@@ -52,6 +52,8 @@ export default {
     background-color #fff
     padding-bottom 100px
     border-top 2px solid #F1F1F2;
+    position relative
+    z-index 80
     .gray
       line-height 36px
       margin-top 4rem

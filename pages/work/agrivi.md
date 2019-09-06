@@ -1,28 +1,19 @@
 ---
-layout: page
-test: hej
+layout: project
+
+title: Agrivi
+subtitle: "Farm management software"
+accentColor: "#8E6948"
+
+heroImage: "stjepangrgic-project-agrivi-cover-image.png"
+bgColor: "#8E6948"
+
+period: "2016"
+platform: "Web, Mobile"
+role: "Digital Product Designer"
+
+contentBgColor: "#FCFBFA"
 ---
-
-<TitleSection
-  title="Abrivi"
-  subtitle="Farm management software"
-  accentColor="#8E6948"
-/>
-
-<HeroSection
-  heroImage="stjepangrgic-project-agrivi-cover-image.png"
-  bgImage=""
-  bgColor="#8E6948"
-/>
-
-
-<div class="content full-width grid">
-
-<ProjectInfo
-  period="2016"
-  platform="Web, Mobile"
-  role="Digital Product Designer"
-/>
 
 ## Introduction
 Agrivi is agritech startup with a promis of solving world food problem by providing farmers with knowledge-based software solutions. 
@@ -85,29 +76,11 @@ To quote the fonts autor: "Sofia Pro is a geometric sans font family who dares t
 
 <div class="block full-width grid">
 
-## Design system
+## website system
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, natus possimus neque quidem sed dolore ducimus libero modi. Provident sapiente sit optio maiores rem minima quod nostrum accusantium quo porro!
   
 </div>
 
-<!-- 
-<titleSection title="Agrivi" subtitle="Farm management software" accentColor="#926F52"/>
-<heroSection heroImage="stjepangrgic-projects-agrivi.jpg" bgImage="stjepangrgic-projects-agrivi-bgImage.jpg"/> -->
-
-<!-- ## Why?
-The goal was to promote Istria (distinctive region in Croatia) trough, at the time, innovative approach by using travelers with the big social following. Or as we call them influencers today.
-
-- Branding
-- Iconography
-- Photography
-
-
-### Credits
-Map - [https://commons.wikimedia.org/wiki/File:Croatia_Istria_County.svg](https://commons.wikimedia.org/wiki/File:Croatia,_Istria_County.svg)
-
-Photo 1 - [https://unsplash.com/photos/aV5xrpB0bwQ](https://unsplash.com/photos/aV5xrpB0bwQ) -->
-
-</div>
 
 <script>
 import slink from '@/theme/components/slink.vue'
@@ -126,14 +99,10 @@ export default {
 
 <style lang="stylus" scoped>
 
-.content
-  background-color #FCFBFA
-  position relative
-  z-index -1
-
 .block
   position relative
   margin-top 4rem
+  z-index 2
   &:before
     content ""
     display block

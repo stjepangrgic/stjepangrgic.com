@@ -21,11 +21,11 @@
             :bgImage="page.attributes.bgImage"
             :bgColor="page.attributes.bgColor" />
         </header>
-        <section class="content full-width grid">
+        <section class="content full-width grid" :style="{ backgroundColor: page.attributes.contentBgColor }">
           <ProjectInfo
             :period="page.attributes.period"
             :platform="page.attributes.platform"
-            :rolerole="page.attributes.role" />
+            :role="page.attributes.role" />
           <slot name="default" />
         </section>
       </article>
@@ -75,6 +75,7 @@ export default {
     svg 
       position relative
       top 2px
+      margin 0 0.5rem
 
   main
     margin-top: 16vh

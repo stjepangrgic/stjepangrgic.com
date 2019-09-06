@@ -2,7 +2,8 @@
   <div class="site">
     <nav>
       <saber-link to="/">Stjepan Grgic</saber-link>
-      <saber-link to="/">Stjepan Grgic</saber-link>
+      <saber-link to="/work">Work</saber-link>
+      <saber-link :to="url">{title}</saber-link>
     </nav>
     <main class="main grid">
       <slot name="default" />

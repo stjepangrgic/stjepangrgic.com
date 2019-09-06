@@ -51,8 +51,6 @@ export default {
     transition: filter .5s cubic-bezier(.52,.02,.5,1.02)
     background-color #fff
     padding-bottom 100px
-    // margin-top 6rem
-    // background: #FAFAFA;
     border-top 2px solid #F1F1F2;
     .gray
       line-height 36px
@@ -63,14 +61,17 @@ export default {
         color #777
       a
         color inherit
-        text-decoration underline
+        border-bottom 1px solid #ccc
+        transition all 0.1s ease
         &:before
           display none
+        &:hover
+          color #333
+          border-bottom 1px solid #333
         
     h2
       margin-top 4rem
       font-size 36px
-      // line-height 1.160714286
       line-height 48px
       .light
         font-weight 400
@@ -78,11 +79,9 @@ export default {
     display grid
     grid-template-columns: 1fr 1fr
     margin-top 2rem
-    @media screen and (max-width 800px) {
+    @media screen and (max-width 800px)
       display flex
       flex-direction column
-      // display block
-    }
   form
     margin-top 3rem
     max-width 488px
@@ -92,13 +91,12 @@ export default {
     grid-row-gap 20px
     grid-template-columns: 1fr 2fr
     align-items center
-    @media screen and (max-width 800px) {
+    @media screen and (max-width 800px)
       margin-top 0
       max-width 100%
-      span {
+      span
         grid-column 1/ -1
-      }
-    }
+
     input
       grid-column 1/ -1
     span

@@ -7,7 +7,7 @@
       <slink :isLink="false">{{linkText}}</slink>
     </div>
     <div class="tags">
-      <span v-for="tag in tags">{{ tag }}</span>
+      <span v-for="(tag, index) in tags" :key="index">{{ tag }}</span>
     </div>
   </saber-link>
 </template>
@@ -155,5 +155,8 @@ export default {
     @media screen and (max-width 900px) {
       
     }
+    
+    &:hover .link:before
+      width 100%
 
 </style>

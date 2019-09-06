@@ -1,7 +1,7 @@
 <template>
 	<h1 class="pageTitle">
-		{{title}} <br>
-		<span class="subtitle" :style="{ color: accentColor }">{{subtitle}}</span>
+		{{title}} <br v-if="subtitle">
+		<span v-if="subtitle" class="subtitle" :style="{ color: accentColor }">{{subtitle}}</span>
 	</h1>
 </template>
 

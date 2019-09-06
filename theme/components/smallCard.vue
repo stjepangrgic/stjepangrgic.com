@@ -27,45 +27,33 @@ export default {
 </script>
 
 <style lang="stylus">
-  .small-card {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2.5rem;
-    padding-bottom: 2rem;
+  .small-card
+    display flex
+    flex-direction column
+    padding-left 2.5rem
+    padding-bottom 2rem
     padding-right 2.5rem
-    border-radius: 3px;
-    overflow: hidden;
+    border-radius 3px
+    overflow hidden
     align-items flex-start
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    // color #fff
+    background-position 50% 50%
+    background-repeat no-repeat
     text-decoration none
-    background-color #FAFAFA;
-    border: 2px solid #F1F1F2;
-    border-radius: 3px;
+    background-color #FAFAFA
+    border 2px solid #F1F1F2
+    border-radius 3px
     background-size cover
-    &:before {
+    
+    &:before
       display none
-    }
-    &:hover {
-      .link {
-        &:before {
-          width 100%
-        }
-      }
-    }
-    // .link {
-    //   position relative
-    //   top 4px
-    // }
-    h3 {
-      margin-top: auto;
+      
+    &:hover .link:before
+      width 100%
+
+    h3
+      margin-top auto
       font-size 30px
-      // color: #fff;
-      // line-height 1.2
       line-height 42px
       margin-bottom 0
-    }
-  }
 
 </style>

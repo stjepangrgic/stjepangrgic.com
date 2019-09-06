@@ -3,6 +3,7 @@
 <!--     <div class="path grid-width">
       <saber-link to="/" class="logo ">Stjepan Grgic</saber-link>
     </div> -->
+    Stjepan Grgic
   </nav>
 </template>
 

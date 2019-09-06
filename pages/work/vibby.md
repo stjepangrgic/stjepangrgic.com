@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: work
 ---
 
 <TitleSection
@@ -165,7 +165,9 @@ export default {
   components: {
     slink, ProjectHeader, simg, TitleSection, HeroSection, ProjectCard, ProjectInfo
   }
+  
 }
+
 </script>
 
 <style lang="stylus" scoped>

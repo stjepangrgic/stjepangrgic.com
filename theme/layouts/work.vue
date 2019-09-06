@@ -1,6 +1,9 @@
 <template>
   <div class="site">
-    <!-- <Nav/> -->
+    <nav>
+      <saber-link to="/">Stjepan Grgic</saber-link>
+      <saber-link to="/">Stjepan Grgic</saber-link>
+    </nav>
     <main class="main grid">
       <slot name="default" />
     </main>
@@ -9,12 +12,10 @@
 </template>
 
 <script>
-// import Nav from '../components/Nav.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
   components: {
-    // Nav,
     Footer
   },
   props: ['page']

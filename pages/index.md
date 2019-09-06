@@ -6,15 +6,15 @@ layout: page
 
 <div class="text full-width grid">
   <div class="text-inner grid-width">
-    <p><b>I am a curious human</b> being exploring myself and the world through art and travel. By challenging myself to draw, <saber-link to="/my-story">take photos</saber-link>, <saber-link to="/my-story">read</saber-link>, do something different every day I am trying to grow as a person. If you're curious, read <saber-link to="/my-story">my story</saber-link> or find out what I am doing <saber-link to="/my-story">now</saber-link>.</p>
-    <p class="short"><b>I am also a digital product designer</b> with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out <saber-link to="/my-story">my work</saber-link> or read my <saber-link to="/my-story">resume</saber-link>.</p>
+    <p><b>I am a curious human</b> being exploring myself and the world through art and travel. By challenging myself to draw, <saber-link to="/photos">take photos</saber-link>, <saber-link to="/book-list">read</saber-link>, do something different every day I am trying to grow as a person. If you're curious, read <saber-link to="/my-story">my story</saber-link> or find out what I am doing <saber-link to="/now">now</saber-link>.</p>
+    <p class="short"><b>I am also a digital product designer</b> with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out <saber-link to="/work">my work</saber-link> or read my <saber-link to="/resume">resume</saber-link>.</p>
     <simg name="paperplane-illustration.svg" class="paperplane" />
-    <simg name="desk-illustration.svg" class="desk" />
+    <simg name="desk-illustration.png" class="desk" />
   </div>
 </div>
 
 <section class="projects grid-width">
-  <h2 class="h3">Featuret projects</h2>
+  <h2 class="h3">Featuret projects <saber-link to="/work">See all</saber-link></h2>
   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
@@ -46,9 +46,9 @@ layout: page
 
 <!-- ## Growth
 Some of my work. Understanding of color, light, shapes, perspective helped me to go on design road I never have planed. -->
-<div class="growth">
+<div class="growth grid-width">
   <h2 class="h3">Growth</h2>
-  <div class="growtg-grid">
+  <div class="growth-grid">
     <SmallCard
       url="/book-list" 
       title="Book list"
@@ -107,7 +107,9 @@ export default {
         position: absolute
         bottom: -8px
         right: -76px
-        z-index: 1;
+        z-index: 1
+        width 786px
+        /* height 238px */
         @media screen and (max-width 900px) {
           position relative
           margin-top: -6rem
@@ -120,13 +122,13 @@ export default {
         top -2rem
         left -14rem
         @media screen and (max-width 1310px) {
-          display: none;
+          display: none
         }
     p
       margin-top: 4rem
       margin-bottom: 3rem
-      z-index: 2;
-      position: relative;
+      z-index: 2
+      position: relative
       &:last-of-type
         margin-top: 3rem
         margin-bottom: 4rem
@@ -134,20 +136,34 @@ export default {
   .short
     max-width: 632px
 
-  .growtg-grid
+  .growth-grid
     display: grid
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr
     grid-column-gap 1.6161616% /*16px*/
     height: 272px
     @media screen and (max-width 700px) {
-      display: flex;
-      flex-direction: column;
+      display: flex
+      flex-direction: column
       height auto
       .small-card {
         height 272px
-        margin-bottom: 1rem;
+        margin-bottom: 1rem
       }
     }
+  .h3
+    margin-bottom: 1.5rem
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+    a
+      /*background-color: #afa*/
+      height: 29px
+      display: block
+      line-height: 1.3
+      font-weight: 400
+
+  .growth
+    margin-bottom: 4rem
 
 </style>
 

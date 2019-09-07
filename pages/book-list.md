@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: test
+title: Favorite Books on Creativity, Productivity & Life
+navbarTitle: Book list
 ---
 
 # Book list

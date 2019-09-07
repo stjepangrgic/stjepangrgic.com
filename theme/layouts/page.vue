@@ -18,24 +18,13 @@ export default {
     // Nav,
     Footer
   },
-  data: function() {
-    return {
-      ooj: this.page.attributes.test,
-    }
-  },
   props: ['page'],
-  computed: {
-    // test() {
-    //   // console.log(this.page.attributes.test)
-    //   return this.page.attributes.test
-    // }
-  },
   // data: function () {
   //   return {}
   // },
-  created: function () {
-    this.test = console.log(this.page.attributes.test)
-  }
+  // created: function () {
+  //   this.test = console.log(this.page.attributes.test)
+  // }
   
 }
 </script>

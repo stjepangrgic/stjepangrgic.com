@@ -2,6 +2,22 @@
 layout: page
 ---
 
+<!-- 
+<header>
+  title section
+</header>
+<main>
+  <section class="intro"></section>
+  <section class="featured">
+    <article></article>
+  </section>
+  <section class="growth">
+    <article></article>
+  </section>
+</main>
+<footer></footer>
+-->
+
 <TitleSection class="grid-width" title="Hi to you! 👋" subtitle="My name is Stjepan."/>
 
 <div class="text full-width grid">

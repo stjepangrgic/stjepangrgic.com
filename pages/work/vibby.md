@@ -1,5 +1,6 @@
 ---
 layout: project
+navbarTitle: Vibby
 
 title: Vibby
 subtitle: Interactive video platform startup

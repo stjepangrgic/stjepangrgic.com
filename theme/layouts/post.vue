@@ -2,10 +2,17 @@
   <fragment>
     <Navbar :attributes="page.attributes"/>
     <main>
-      <article>
-        <header>
-          <h1>{{page.attributes.title}}</h1>
+      <article ref="article" class="grid">
+        <header class="grid-width">
+          <h1 class="page-title" v-html="page.attributes.title"></h1> <!-- So I could use <br> inside title -->
+          <div class="info">
+            <span class="updatedAt">Updated on <time :datetime="datetime">{{updatedAt}}</time></span>
+            <span>{{readingTime}} min read</span>
+          </div>
         </header>
+        <section class="content">
+          <slot name="default" />
+        </section>
       </article>
 <!--       <article>
         <header class="main grid">
@@ -26,86 +33,76 @@
           <slot name="default" />
         </section>
       </article> -->
-      <slot name="default" />
     </main>
     <Footer/>
   </fragment>
 </template>
 
 <script>
+// Vue.use(require('vue-moment'));
+
 import { Fragment } from 'vue-fragment'
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import TitleSection from '@/theme/components/TitleSection.vue'
-import HeroSection from '@/theme/components/HeroSection.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
-import ProjectInfo from '@/theme/components/ProjectInfo.vue'
+// import slink from '@/theme/components/slink.vue'
+// import simg from '@/theme/components/simg.vue'
+// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
+// import TitleSection from '@/theme/components/TitleSection.vue'
+// import HeroSection from '@/theme/components/HeroSection.vue'
+// import ProjectCard from '@/theme/components/ProjectCard.vue'
+// import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 import Footer from '@/theme/components/Footer.vue'
 import Navbar from '@/theme/components/Navbar.vue'
-import arrow from '@/theme/components/arrow.vue'
+// import arrow from '@/theme/components/arrow.vue'
 
 export default {
   components: {
     Fragment,
-    slink,
-    ProjectHeader,
-    simg,
-    TitleSection,
-    HeroSection,
-    ProjectCard,
-    ProjectInfo,
+    // slink,
+    // ProjectHeader,
+    // simg,
+    // TitleSection,
+    // HeroSection,
+    // ProjectCard,
+    // ProjectInfo,
     Footer,
     Navbar,
-    arrow
+    // arrow
   },
   props: ['page'],
   data: function () {
     return {
-      // pageAttributes: {},
-      // pathTest: [],
-      // pathTitles: [],
-      // path: {},
-      // parentPage: ""
+      readingTime: 0,
+      datetime: "",
+      updatedAt: ""
     }
   },
   mounted() {
-    // console.log(this.page.excerpt.split(".")[0].slice(3))
-    // let urls = this.page.attributes.slug.split("/")
-    // console.log(urls)
-    // for(let i = 0; i < urls.length; i++) {
-    //   // console.log(urls[i])
-    //   let e = urls[i].split("-").join(" ").charAt(0).toUpperCase() + urls[i].split("-").join(" ").slice(1)
-    //   // console.log(e)
-    //   this.path[i] = { "title": e, "ulr": urls[i] }
-    // }
-    // console.log(this.path)
-    // console.log('/' + this.page.attributes.slug.split('/')[0])
-    // this.parentPage = '/' + this.page.attributes.slug.split('/')[0]
+    this.updatedAt = this.page.attributes.updatedAt.toString().split(" ").splice(1, 3).join(" ")
+    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/100)
+    let date = this.page.attributes.updatedAt
+    this.datetime = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`
   },
 }
 
 // console.log(this.page.attributes)
 </script>
 <style lang="stylus" scoped>
-  // nav
-  //   font-size: 1.5rem
-  //   margin-top 2rem
-  //   position absolute
-  //   top 0
-  //   left 0
-  //   right 0
-  //   width 100%
-  //   svg 
-  //     position relative
-  //     top 2px
-  //     margin 0 0.5rem
+.page-title
+  padding-bottom 5.5rem
+  line-height 1
+  border-bottom 2px solid #FFDB17  
 
-  // main
-  //   margin-top: 16vh
-  // .site
-  //   margin-top: 16vh
-  //   // @media screen and (min-height: 700px) and (max-height: 900px)
-  //   //   margin-top 16vh
+.info
+  font-size 1rem
+  padding-top 0.5rem
+  line-height 40px
+  .updatedAt
+    margin-right 2rem
+
+main
+  margin-top 29vh
+  // margin-top 14rem
+  
+.content
+  margin-top 3.5rem
 </style>
 

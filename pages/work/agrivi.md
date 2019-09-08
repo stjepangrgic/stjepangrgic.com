@@ -1,5 +1,6 @@
 ---
 layout: project
+navbarTitle: Agrivi
 
 title: Agrivi
 subtitle: "Farm management software"

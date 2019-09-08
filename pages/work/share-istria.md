@@ -1,5 +1,6 @@
 ---
 layout: page
+navbarTitle: Share Istria
 ---
 
 <TitleSection

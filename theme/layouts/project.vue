@@ -1,6 +1,7 @@
 <template>
   <fragment>
-    <nav class="nav grid">
+    <Navbar :attributes="page.attributes"/>
+<!--     <nav class="nav grid">
       <div class="nav__inner">
         <saber-link to="/" style="font-weight: 600;">Stjepan Grgic</saber-link>
         <arrow/>
@@ -8,7 +9,7 @@
         <arrow/>
         <span>{{page.attributes.title}}</span>
       </div>
-    </nav>
+    </nav> -->
     <main>
       <article>
         <header class="main grid">
@@ -43,6 +44,7 @@ import TitleSection from '@/theme/components/TitleSection.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
+import Navbar from '@/theme/components/Navbar.vue'
 import Footer from '@/theme/components/Footer.vue'
 import arrow from '@/theme/components/arrow.vue'
 
@@ -56,6 +58,7 @@ export default {
     HeroSection,
     ProjectCard,
     ProjectInfo,
+    Navbar,
     Footer,
     arrow
   },

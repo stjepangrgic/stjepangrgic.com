@@ -1,5 +1,6 @@
 ---
 layout: page
+navbarTitle: Vip Xmas Chat
 ---
 
 <TitleSection

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: What I’m doing lately
-navbarTitle: Now
+title: Photos makes you look
+navbarTitle: Photography
 ---
 
-Inspired by Siver's now page
-
-
+Photography
 
 <script>
 import simg from '@/theme/components/simg.vue'

@@ -22,7 +22,7 @@ layout: page
 
 <div class="text full-width grid">
   <div class="text-inner grid-width">
-    <p><b>I am a curious human</b> being exploring myself and the world through art and travel. By challenging myself to draw, <saber-link to="/photos">take photos</saber-link>, <saber-link to="/book-list">read</saber-link>, do something different every day I am trying to grow as a person. If you're curious, read <saber-link to="/my-story">my story</saber-link> or find out what I am doing <saber-link to="/now">now</saber-link>.</p>
+    <p><b>I am a curious human</b> being exploring myself and the world through art and travel. By challenging myself to draw, <saber-link to="/photography">take photos</saber-link>, <saber-link to="/book-list">read</saber-link>, do something different every day I am trying to grow as a person. If you're curious, read <saber-link to="/my-story">my story</saber-link> or find out what I am doing <saber-link to="/now">now</saber-link>.</p>
     <p class="short"><b>I am also a digital product designer</b> with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out <saber-link to="/work">my work</saber-link> or read my <saber-link to="/resume">resume</saber-link>.</p>
     <simg name="paperplane-illustration.svg" class="paperplane" />
     <simg name="desk-illustration.png" class="desk" />

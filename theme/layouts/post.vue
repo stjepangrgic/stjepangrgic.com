@@ -4,7 +4,12 @@
     <main>
       <article ref="article" class="grid">
         <header class="grid-width">
-          <h1 class="page-title" v-html="page.attributes.title"></h1> <!-- So I could use <br> inside title -->
+          <!-- v-html so I could use <br> inside title -->
+          <!-- :style="{ backgroundImage: require('@/assets/images/' + this.page.attributes.smallImage) }" / -->
+          <h1 class="page-title">
+            <span v-html="page.attributes.title" />
+            <simg v-if="page.attributes.smallImage" :name="page.attributes.smallImage" class="small-image" />
+          </h1>
           <div class="info">
             <span class="updatedAt">Updated on <time :datetime="datetime">{{updatedAt}}</time></span>
             <span>{{readingTime}} min read</span>
@@ -43,7 +48,7 @@
 
 import { Fragment } from 'vue-fragment'
 // import slink from '@/theme/components/slink.vue'
-// import simg from '@/theme/components/simg.vue'
+import simg from '@/theme/components/simg.vue'
 // import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 // import TitleSection from '@/theme/components/TitleSection.vue'
 // import HeroSection from '@/theme/components/HeroSection.vue'
@@ -58,7 +63,7 @@ export default {
     Fragment,
     // slink,
     // ProjectHeader,
-    // simg,
+    simg,
     // TitleSection,
     // HeroSection,
     // ProjectCard,
@@ -77,9 +82,10 @@ export default {
   },
   mounted() {
     this.updatedAt = this.page.attributes.updatedAt.toString().split(" ").splice(1, 3).join(" ")
-    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/100)
+    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/100) // 100 gives more realistc number of minutes to me then 200
     let date = this.page.attributes.updatedAt
     this.datetime = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`
+    // console.log(require('@/assets/images/' + this.page.attributes.smallImage))
   },
 }
 
@@ -88,8 +94,14 @@ export default {
 <style lang="stylus" scoped>
 .page-title
   padding-bottom 5.5rem
-  line-height 1
   border-bottom 2px solid #FFDB17  
+  background-size 100%
+  display block
+  position relative
+  
+.small-image
+  position absolute
+  z-index -1
 
 .info
   font-size 1rem

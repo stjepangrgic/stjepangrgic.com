@@ -1,5 +1,5 @@
 <template>
-  <h1 class="pageTitle">
+  <h1 class="page-title grid-width">
     {{title}} <br v-if="subtitle">
     <span v-if="subtitle" class="subtitle" :style="{ color: accentColor }">{{subtitle}}</span>
   </h1>
@@ -12,11 +12,9 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .pageTitle
-    font-size 3rem
-    line-height 1.333333
+  .page-title
     margin 0
-    margin-bottom 5rem
+    margin-bottom 5.5rem
     .subtitle
       font-weight: 400;
 </style>

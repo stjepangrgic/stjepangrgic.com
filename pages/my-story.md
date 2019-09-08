@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
+title: How I am what I am
+navbarTitle: My Story
+smallImage: flower.png
 ---
 
-# My Story
-
-I would oftenly wonder, what this person did, how they managed to do that. How his/her life looked like.
+<b>I would oftenly wonder, what this person did</b>, how they managed to do that. How his/her life looked like.
 
 Inspired by Siver's now page, I decided to make My story page where I will answer to my own questions.
 
@@ -20,3 +21,18 @@ All my writings will be filled with photographs. This is the best that I know ho
 ## Road to folow
 This is me trying to express everything that I experienced and everything that changed me. In hopes, someone of you might get the courage to go and explore or to realize that you don’t need courage, just some scary lust that would lead you on the road.
 All my writings will be filled with photographs. This is the best that I know how to do. So even if I don’t express myself in the best way, maybe photos will fill that gap.
+
+<script>
+import simg from '@/theme/components/simg.vue'
+export default {
+  components: {
+    simg
+  }
+}
+</script>
+<style lang="stylus">
+.small-image
+  bottom: 0;
+  right: 100px;
+  width 43px
+</style> 

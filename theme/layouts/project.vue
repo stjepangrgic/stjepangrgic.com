@@ -1,18 +1,9 @@
 <template>
   <fragment>
     <Navbar :attributes="page.attributes"/>
-<!--     <nav class="nav grid">
-      <div class="nav__inner">
-        <saber-link to="/" style="font-weight: 600;">Stjepan Grgic</saber-link>
-        <arrow/>
-        <saber-link to="/work">Work</saber-link>
-        <arrow/>
-        <span>{{page.attributes.title}}</span>
-      </div>
-    </nav> -->
     <main>
-      <article>
-        <header class="main grid">
+      <article class="grid">
+        <header class="full-width grid">
           <TitleSection
             :title="page.attributes.title"
             :subtitle="page.attributes.subtitle"
@@ -84,7 +75,7 @@ export default {
       margin 0 0.5rem
 
   main
-    margin-top: 16vh
+    margin-top 29vh
   // .site
   //   margin-top: 16vh
   //   // @media screen and (min-height: 700px) and (max-height: 900px)

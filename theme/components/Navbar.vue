@@ -33,7 +33,7 @@ export default {
   // }
   mounted() {
     // console.log(this.attributes.updatedAt.getFullYear())
-    // console.log(this.attributes.slug.split('/').length)
+    // console.log(this.attributes.slug.split('/'))
   }
 }
 </script>

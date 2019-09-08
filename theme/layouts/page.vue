@@ -19,6 +19,9 @@ export default {
     Footer
   },
   props: ['page'],
+  mounted() {
+    // console.log(this.page.attributes)
+  }
   // data: function () {
   //   return {}
   // },

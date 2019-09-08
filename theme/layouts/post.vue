@@ -1,20 +1,12 @@
 <template>
   <fragment>
-    <Navbar :attributes="this.page.attributes"/>
-    <nav class="nav grid">
-      <!-- {{this.this.pageAttributes.slug.split("-").join(" ").charAt(0).toUpperCase() + this.this.pageAttributes.slug.split("-").join(" ").slice(1)}} -->
-      <!-- {{this.pageAttributes}} -->
-<!--       {{pathTest}}
-      {{pathTitles}} -->
-<!--       <div class="nav__inner">
-        <saber-link to="/" style="font-weight: 600;">Stjepan Grgic</saber-link>
-        <arrow/>
-        <saber-link to="/work">Work</saber-link>
-        <arrow/>
-        <span>{{page.attributes.title}}</span>
-      </div> -->
-    </nav>
+    <Navbar :attributes="page.attributes"/>
     <main>
+      <article>
+        <header>
+          <h1>{{page.attributes.title}}</h1>
+        </header>
+      </article>
 <!--       <article>
         <header class="main grid">
           <TitleSection
@@ -70,14 +62,15 @@ export default {
   props: ['page'],
   data: function () {
     return {
-      pageAttributes: {},
-      pathTest: [],
-      pathTitles: [],
-      path: {},
-      parentPage: ""
+      // pageAttributes: {},
+      // pathTest: [],
+      // pathTitles: [],
+      // path: {},
+      // parentPage: ""
     }
   },
   mounted() {
+    // console.log(this.page.excerpt.split(".")[0].slice(3))
     // let urls = this.page.attributes.slug.split("/")
     // console.log(urls)
     // for(let i = 0; i < urls.length; i++) {

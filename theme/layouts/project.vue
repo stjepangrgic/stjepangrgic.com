@@ -59,7 +59,10 @@ export default {
     Footer,
     arrow
   },
-  props: ['page']
+  props: ['page'],
+  mounted() {
+    console.log(this.page.attributes)
+  }
 }
 </script>
 

@@ -11,10 +11,6 @@
       <arrow/>
       <span>{{this.attributes.navbarTitle}}</span>
     </span>
-<!--     <arrow/>
-    <saber-link :to="parentPage">{{capitalizedParentPage}}</saber-link>
-    <arrow/>
-    {{curentPage}} -->
   </nav>
 </template>
 
@@ -34,8 +30,8 @@ export default {
   //   }
   // }
   mounted() {
-    console.log(this.attributes.slug.split('/'))
-    console.log(this.attributes.slug.split('/').length)
+    console.log(this.attributes.updatedAt.getFullYear())
+    // console.log(this.attributes.slug.split('/').length)
   }
 }
 </script>

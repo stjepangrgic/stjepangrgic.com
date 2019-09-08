@@ -91,7 +91,7 @@ export default {
 
 // console.log(this.page.attributes)
 </script>
-<style lang="stylus" scoped>
+<style lang="stylus">
 .page-title
   padding-bottom 5.5rem
   border-bottom 2px solid #FFDB17  

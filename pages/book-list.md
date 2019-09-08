@@ -2,7 +2,7 @@
 layout: post
 title: Favorite Books on <br> Creativity, Productivity & Life
 navbarTitle: Book list
-smallImage: book.png
+smallImage: books.png
 ---
 
 <b>Growing up, I never realy liked to read.</b> I also totaly stole the title from Tobias. But it is just perfect. I also used his idea on how to read the book… many at one time. Vip Xmas Chat was a promotional “chat” application that was part of a Christmas campaign for telecommunication company Vipnet Hrvatska (A1 Telekom Austria Group) aimed at raising brand awareness among a younger audience. I worked on it while employed at agency Gray Entourage.
@@ -21,6 +21,8 @@ export default {
 <style lang="stylus">
 .small-image
   left -18vw
+  right auto
+  top auto
   bottom 10vh
   width 198px
 </style> 

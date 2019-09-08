@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Favorite Books on <br> Creativity, Productivity & Life
+title: Fear of failing <br> is wors than failing itself.
 navbarTitle: Fail list
 smallImage: fail-list.png
 ---
@@ -18,3 +18,20 @@ Call my parents more often
 Spent more time with my sister when she was younger
 Fight with my brother less when we were younger
 … and more. I will write about them.
+
+<script>
+import simg from '@/theme/components/simg.vue'
+export default {
+  components: {
+    simg
+  }
+}
+</script>
+<style lang="stylus">
+.small-image
+  width 272px
+  right: -20vw
+  left auto
+  bottom auto
+  top auto
+</style> 

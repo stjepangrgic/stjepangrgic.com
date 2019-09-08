@@ -68,8 +68,15 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-  ul {
+<style lang="stylus">
+.small-image
+  width 272px
+  top: -15vh;
+  right -10vw
+  bottom auto
+  left auto
+
+/*  ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -78,5 +85,5 @@ export default {
         
       }
     }
-  }
+  }*/
 </style>

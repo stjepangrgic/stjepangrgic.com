@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: post
+title: Bucket list is <br> my way to direct myself
+navbarTitle: Bucket list
+smallImage: bucket-list.png
 ---
 
-# Bucket list
+Having a star, a goal to go twords is veryy important. <!-- Mozda dodaj reference na Petersona i kako sam skuzio da sam uvije imao cilj i uspijevao ici naprijed -->
 
 Moonshots are important
 I knew I want to write a bucket list on this site. But then I realized fails are as important as desires.
@@ -66,14 +69,14 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-	ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		li {
-			input {
-				
-			}
-		}
-	}
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      input {
+        
+      }
+    }
+  }
 </style>

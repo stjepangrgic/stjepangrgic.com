@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: post
+title: Favorite Books on <br> Creativity, Productivity & Life
+navbarTitle: Fail list
+smallImage: fail-list.png
 ---
 
-# Fail list
-
+Having a bucket list is important, but having a fail list, colection of misteps, fails, mistakes, make me avare of stuff I wish I did differentyl.
 List of failures in life I made that remind me not to make them again.
 
 I should learn from my own failures

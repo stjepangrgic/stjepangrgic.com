@@ -1,27 +1,20 @@
 ---
-layout: page
+layout: project
 navbarTitle: Vip Xmas Chat
+
+title: "How we made a chat <br> for a younger audience"
+accentColor: "#E60028"
+
+heroImage: "stjepangrgic-project-vip-chat-cover-image.jpg"
+bgColor: "#E60028"
+
+period: "2014"
+platform: "Web, Social media"
+role: "Digital Designer"
+
+contentBgColor: "#FAFAFA"
 ---
-
-<PageHeader
-  title="Vip Xmas Chat"
-  subtitle="Promotional chat app"
-  accentColor="#E60028"
-/>
-
-<HeroSection
-  heroImage="stjepangrgic-project-vip-chat-cover-image.jpg"
-  bgImage=""
-  bgColor="#E60028"
-/>
-
-
-<div class="content full-width grid">
-  <ProjectInfo
-    period="2014"
-    platform="Web, Social media"
-    role="Digital Designer"
-  />
+<!-- Promotional chat app -->
 
 ## Introduction
 Vip Xmas Chat was a promotional “chat” application that was part of a Christmas campaign for telecommunication company Vipnet Hrvatska (A1 Telekom Austria Group) aimed at raising brand awareness among a younger audience. I worked on it while employed at agency Gray Entourage.
@@ -99,8 +92,6 @@ To this day I think of it as one of most enjed projects and fun time of my caree
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
     underlinColor="#0082AF"/>
 </div>
-
-</div> <!-- content end -->
 
 </div>
 

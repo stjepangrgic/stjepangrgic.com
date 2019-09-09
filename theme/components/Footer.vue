@@ -1,6 +1,7 @@
 <template>
-  <div class="footer full-width grid">
-    <div class="content-width">
+  <footer class="footer full-width grid">
+    <simg name="paperplane-illustration.svg" class="paperplane" />
+    <div>
       <header>
         <h2>
           You are awesome<br>
@@ -10,7 +11,8 @@
           </span>
         </h2>
       </header>
-      <section class="newsletter">
+      <!-- Not ready yet -->
+<!--       <section class="newsletter">
         <p>
           <b>For updates</b> on new work,<br>
           travel stories<br>
@@ -23,18 +25,22 @@
           <span>I dont send spam unsubscribe at any time</span>
           <input type="submit" value="Subscribe to newsletter">
         </form>
-      </section>
+      </section> -->
       <section class="gray">
         <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <saber-link to="/credits">GitHub</saber-link>. Built with <saber-link to="/credits">Vue Js</saber-link> and <saber-link to="/credits">Saber</saber-link>. Hosted on <saber-link to="/credits">Netlify</saber-link>.</p> <br>
 
         <p>See any grammar mistake or have feedback on this site? Pleas open an GitHub issue. <br> Read the <saber-link to="/credits">credits</saber-link>. </p>
       </section>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
+import simg from '@/theme/components/simg.vue'
 export default {
+  components: {
+    simg
+  },
   data () {
     return {};
   },
@@ -49,11 +55,16 @@ export default {
 <style lang="stylus" scoped>
   .footer
     transition: filter .5s cubic-bezier(.52,.02,.5,1.02)
-    background-color #fff
+    background-color #FAF8F7
     padding-bottom 100px
-    border-top 2px solid #F1F1F2;
+    border-top 2px solid #E6DFDC;
     position relative
     z-index 80
+    // margin-top 4rem
+    .paperplane
+      position absolute
+      top -29px
+      right -70px
     .gray
       line-height 36px
       margin-top 4rem
@@ -79,7 +90,7 @@ export default {
         font-weight 400
   .newsletter
     display grid
-    grid-template-columns: 1fr 1.2fr
+    grid-template-columns: 1fr 1.4fr
     margin-top 2rem
     font-size 1.5rem
     @media screen and (max-width 800px)
@@ -88,7 +99,6 @@ export default {
   form
     margin-top 3rem
     max-width 488px
-    // width 488px
     width 100%
     display grid
     grid-row-gap 20px

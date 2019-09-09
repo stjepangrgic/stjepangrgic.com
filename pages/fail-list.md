@@ -28,10 +28,13 @@ export default {
 }
 </script>
 <style lang="stylus">
-.small-image
-  width 272px
-  right: -20vw
-  left auto
-  bottom auto
-  top auto
+.fail-list
+  /*background-color: #afa;*/
+  .page-header
+    overflow: hidden;
+  .small-image
+    width 272px
+    right: 0
+    /*top: 100px;*/
+    bottom: -50px;
 </style> 

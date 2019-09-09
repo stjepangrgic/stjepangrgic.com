@@ -89,11 +89,11 @@ import simg from '@/theme/components/simg.vue'
 import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
-import TitleSection from '@/theme/components/TitleSection.vue'
+import PageHeader from '@/theme/components/PageHeader.vue'
 
 export default {
   components: {
-    slink, ProjectHeader, simg, HeroSection, ProjectInfo, TitleSection
+    slink, ProjectHeader, simg, HeroSection, ProjectInfo, PageHeader
   }
 }
 </script>

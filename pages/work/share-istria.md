@@ -1,28 +1,20 @@
 ---
-layout: page
+layout: project
 navbarTitle: Share Istria
+
+title: Share Istria
+subtitle: Creative Tourism Campaign
+accentColor: "#47B800"
+
+heroImage: "stjepangrgic-project-share-istria-cover-image.jpg"
+bgColor: "#009FE5"
+
+period: "2014-2015"
+platform: "Web, Social media"
+role: "Digital Designer"
+
+contentBgColor: "#fff"
 ---
-
-<TitleSection
-  title="Share Istria"
-  subtitle="Creative Tourism Campaign"
-  accentColor="#47B800"
-/>
-
-<HeroSection
-  heroImage="stjepangrgic-project-share-istria-cover-image.jpg"
-  bgColor="#009FE5"
-/>
-<!-- 
-<Content>
-  test
-</Content> -->
-
-<ProjectInfo
-  period="2014-2015"
-  platform="Web, Social media"
-  role="Digital Designer"
-/>
 
 ## Introduction
 As part of a design team in digital marketing agency Grey Entourage, I worked on creating a influencer oriented marketing campaign called Share Istria for the client Istrian Tourist Board.
@@ -126,7 +118,7 @@ Share Istria was a project I enjoyed very much. I got to experience how is it to
 <script>
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
-import TitleSection from '@/theme/components/TitleSection.vue'
+import PageHeader from '@/theme/components/PageHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 import Content from '@/theme/components/Content.vue'
@@ -134,7 +126,7 @@ import ProjectCard from '@/theme/components/ProjectCard.vue'
 
 export default {
   components: {
-    slink, simg, TitleSection, HeroSection, ProjectInfo, Content, ProjectCard
+    slink, simg, PageHeader, HeroSection, ProjectInfo, Content, ProjectCard
   }
 }
 </script>

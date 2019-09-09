@@ -1,9 +1,12 @@
 ---
 layout: page
+title: Work
+navbarTitle: Work
 ---
-
 <!-- # Work -->
-<TitleSection class="grid-width" title="Work"/>
+<!-- <PageHeader class="grid-width" title="Work"/> -->
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quos animi consectetur voluptates veniam debitis quia sit consequuntur architecto sapiente facilis voluptas, quasi illo iusto possimus saepe quidem, rerum nam.
 
 <section class="projects grid-width">
   <!-- <h2 class="h3">Featuret projects</h2> -->
@@ -52,7 +55,7 @@ layout: page
 // import sfigure from '@/theme/components/sfigure.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
 // import SmallCard from '@/theme/components/SmallCard.vue'
-import TitleSection from '@/theme/components/TitleSection.vue'
+import PageHeader from '@/theme/components/PageHeader.vue'
 
 export default {
   components: {
@@ -61,7 +64,14 @@ export default {
     // sfigure,
     ProjectCard,
     // SmallCard,
-    TitleSection
+    PageHeader
   }
 }
 </script>
+
+<style lang="stylus">
+.work
+  /*background-color: #afa;*/
+  .projects
+    margin-top: 3rem;
+</style>

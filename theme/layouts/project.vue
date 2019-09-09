@@ -1,13 +1,14 @@
 <template>
   <fragment>
     <Navbar :attributes="page.attributes"/>
-    <main>
-      <article class="grid">
-        <header class="full-width grid">
-          <TitleSection
+    <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
+      <article>
+        <header>
+          <PageHeader
             :title="page.attributes.title"
             :subtitle="page.attributes.subtitle"
-            :accentColor="page.attributes.accentColor" />
+            :accentColor="page.attributes.accentColor"
+            :isWhite="true"/>
           <HeroSection 
             :heroImage="page.attributes.heroImage"
             :bgImage="page.attributes.bgImage"
@@ -31,7 +32,7 @@ import { Fragment } from 'vue-fragment'
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import TitleSection from '@/theme/components/TitleSection.vue'
+import PageHeader from '@/theme/components/PageHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
@@ -45,7 +46,7 @@ export default {
     slink,
     ProjectHeader,
     simg,
-    TitleSection,
+    PageHeader,
     HeroSection,
     ProjectCard,
     ProjectInfo,
@@ -55,7 +56,8 @@ export default {
   },
   props: ['page'],
   mounted() {
-    console.log(this.page.attributes)
+    // console.log(this.page.attributes)
+    // console.log(this.page.attributes.slug.split("/").slice(-1)[0])
   }
 }
 </script>
@@ -74,8 +76,8 @@ export default {
       top 2px
       margin 0 0.5rem
 
-  main
-    margin-top 29vh
+  // main
+  //   margin-top 29vh
   // .site
   //   margin-top: 16vh
   //   // @media screen and (min-height: 700px) and (max-height: 900px)

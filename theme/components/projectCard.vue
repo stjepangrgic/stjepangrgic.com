@@ -76,7 +76,7 @@ export default {
   // }
 
   .project-card
-    margin-bottom 1.5rem
+    margin-bottom 2rem
     display flex
     position relative
     overflow hidden

@@ -3,7 +3,7 @@ layout: page
 navbarTitle: Vip Xmas Chat
 ---
 
-<TitleSection
+<PageHeader
   title="Vip Xmas Chat"
   subtitle="Promotional chat app"
   accentColor="#E60028"
@@ -108,14 +108,14 @@ To this day I think of it as one of most enjed projects and fun time of my caree
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import TitleSection from '@/theme/components/TitleSection.vue'
+import PageHeader from '@/theme/components/PageHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 
 export default {
   components: {
-    slink, ProjectHeader, simg, TitleSection, HeroSection, ProjectCard, ProjectInfo
+    slink, ProjectHeader, simg, PageHeader, HeroSection, ProjectCard, ProjectInfo
   }
 }
 </script>

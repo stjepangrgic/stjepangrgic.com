@@ -2,7 +2,7 @@
   <nav class="nav grid">
     <div class="nav__inner grid-width">
       <saber-link to="/">Stjepan Grgic</saber-link>
-      <arrow/>
+      <arrow v-if="this.attributes.slug.split('/')[0] !== 'index' "/>
       <!-- This is a mass but works for now -->
       <span v-if="this.attributes.slug.split('/').length < 2">{{this.attributes.navbarTitle}}</span>
       <span v-else>
@@ -33,7 +33,6 @@ export default {
   // }
   mounted() {
     // console.log(this.attributes.updatedAt.getFullYear())
-    // console.log(this.attributes.slug.split('/'))
   }
 }
 </script>
@@ -46,6 +45,7 @@ export default {
   right 0
   width 100%
   margin 2rem auto 0
+  z-index 999
   &__inner
     font-size: 1.5rem
     > a

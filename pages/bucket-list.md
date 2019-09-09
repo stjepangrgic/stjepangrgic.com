@@ -69,12 +69,13 @@ export default {
 </script>
 
 <style lang="stylus">
-.small-image
-  width 272px
-  top: -15vh;
-  right -10vw
-  bottom auto
-  left auto
+.bucket-list
+  /*background-color: #afa;*/
+  .small-image
+    width 220px
+    right: 5vw;
+    top: -30px;
+    /*top: -10vh;*/
 
 /*  ul {
     list-style: none;

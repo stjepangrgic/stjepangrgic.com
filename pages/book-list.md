@@ -19,10 +19,13 @@ export default {
 }
 </script>
 <style lang="stylus">
-.small-image
-  left -18vw
-  right auto
-  top auto
-  bottom 10vh
-  width 198px
+.book-list
+  .small-image
+    width 198px
+    bottom: 10vh;
+    left: -18vw;
+/*    left -18vw
+    right auto
+    top auto
+    bottom 10vh*/
 </style> 

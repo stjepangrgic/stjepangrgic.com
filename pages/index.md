@@ -5,9 +5,15 @@ subtitle: My name is Stjepan.
 smallImage: desk-illustration.png
 ---
 
-<b>I am a curious human being</b> exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography), [read](/book-list) and do something different every day I am trying to grow as a person. If you're curious, read [my story](/my-story) or find out what I am doing [now](/now).
+<div class="intro">
+  
+### Human
+I am a courious human being, exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography), [read](/book-list) and do something different every day I am trying to grow as a person. If you're curious, read [my story](/my-story) or find out what I am doing [now](/now).
 
-<b>I am also a digital product designer</b> with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out [my work](/work) or read my [resume](/resume).
+### Designer
+I am digital product designer with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out [my work](/work) or read my [resume](/resume).
+
+</div>
 
 <section class="projects grid-width">
   <div class="title-wrap">
@@ -81,7 +87,7 @@ export default {
 }
 </script>
 
-<style lang="stylus" >
+<style lang="stylus">
 .index
   .small-image
     width 785px
@@ -89,7 +95,13 @@ export default {
     right 0
     transform translate(72px, 3.3613445%)
   .content
-    margin-top 5rem
+    margin-top 2rem
+  .intro
+    h3
+      /*background-color #afa*/
+      /*font-weight 700*/
+      margin-top 2rem
+      margin-bottom 0rem
     
   .title-wrap
     display: flex

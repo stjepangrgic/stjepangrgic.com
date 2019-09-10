@@ -59,7 +59,7 @@ export default {
   font-weight 800
   line-height 1.1
   margin-bottom 5.5rem
-  margin-top 29vh
+  margin-top 23vh
   position relative
   z-index 2
   

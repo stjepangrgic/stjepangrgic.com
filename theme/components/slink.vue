@@ -20,11 +20,12 @@
 </template>
 
 <script>
-import arrow from '@/theme/components/icon-arrow.vue'
 import { Fragment } from 'vue-fragment'
 // console.log(this.vm.$attrs)
 export default {
-  components: { Fragment, arrow },
+  components: { 
+    Fragment
+  },
   props: {
     url: {
       type: String

@@ -121,12 +121,12 @@ import simg from '@/theme/components/simg.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
-import Content from '@/theme/components/Content.vue'
+// import Content from '@/theme/components/Content.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
 
 export default {
   components: {
-    slink, simg, PageHeader, HeroSection, ProjectInfo, Content, ProjectCard
+    slink, simg, PageHeader, HeroSection, ProjectInfo, ProjectCard
   }
 }
 </script>

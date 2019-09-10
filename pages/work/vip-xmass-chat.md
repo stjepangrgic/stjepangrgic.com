@@ -114,14 +114,6 @@ export default {
 <style lang="stylus" scoped>
 .content
   background-color: #FAFAFA;
-/*  > *
-    grid-column 3 / -3*/
-  
-/*.credits
-  a 
-    text-decoration: underline;*/
-
-
 
 .big-image
   mix-blend-mode: multiply;
@@ -140,13 +132,4 @@ export default {
     left: 0;
     opacity: 0.3;
     background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
-
-.fix-img
-  /*margin-bottom: 2rem;*/
-
-/*p + .fix-img
-  margin-top: 2rem;*/
-
-
-
 </style>

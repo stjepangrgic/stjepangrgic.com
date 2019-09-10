@@ -70,21 +70,8 @@ export default {
 
 <style lang="stylus">
 .bucket-list
-  /*background-color: #afa;*/
   .small-image
     width 220px
     right: 5vw;
     top: -30px;
-    /*top: -10vh;*/
-
-/*  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    li {
-      input {
-        
-      }
-    }
-  }*/
 </style>

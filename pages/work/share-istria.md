@@ -134,17 +134,6 @@ export default {
 
 .branding
   figure
-    margin 0    
-
-/* .project-info {
-  font-size: 18px;
-  span:last-of-type {
-    margin-left: 36px;
-  }
-}
-
-.credits
-  a 
-    text-decoration: underline; */
+    margin 0
 
 </style>

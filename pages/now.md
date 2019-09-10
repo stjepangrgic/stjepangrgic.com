@@ -6,8 +6,6 @@ navbarTitle: Now
 
 Inspired by Siver's now page
 
-
-
 <script>
 import simg from '@/theme/components/simg.vue'
 export default {

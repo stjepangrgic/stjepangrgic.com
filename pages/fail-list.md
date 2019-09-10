@@ -35,6 +35,5 @@ export default {
   .small-image
     width 272px
     right: 0
-    /*top: 100px;*/
     bottom: -50px;
 </style> 

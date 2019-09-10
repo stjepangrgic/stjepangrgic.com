@@ -60,6 +60,7 @@ export default {
     border-top 2px solid #E6DFDC;
     position relative
     z-index 80
+    // overflow-y hidden    
     // margin-top 4rem
     .paperplane
       position absolute

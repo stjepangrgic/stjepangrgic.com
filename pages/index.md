@@ -100,8 +100,8 @@ export default {
     h3
       /*background-color #afa*/
       /*font-weight 700*/
-      margin-top 2rem
-      margin-bottom 0rem
+      /*margin-top 2rem*/
+      /*margin-bottom 0rem*/
     
   .title-wrap
     display: flex

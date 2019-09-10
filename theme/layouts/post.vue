@@ -102,7 +102,7 @@ export default {
     margin-right 2rem
   
 .content
-  margin-top 2rem
+  // margin-top 2rem
   padding-bottom 4rem
 </style>
 

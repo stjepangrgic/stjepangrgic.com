@@ -35,6 +35,11 @@ export default {
     margin-right: 4rem
     display: flex;
     flex-direction: column;
+  @media screen and (max-width: 800px)
+    flex-direction: column;
+    margin-top 5rem
+    > *
+      margin-top 1rem
   small
     font-size: 1rem
     line-height: 1.5;

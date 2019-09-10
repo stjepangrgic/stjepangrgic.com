@@ -129,14 +129,14 @@ I decided to blend the distinctive shape of the Istrian peninsula with all the e
 
 <div class="grid-width next-project">
   <ProjectCard
-    url="/work/share-istria"
-    title="Share Istria"
-    description="Creative Tourism Campaign"
+    url="/work/agrivi"
+    title="Agrivi"
+    description="Farm managment software"
     period="2016"
-    image="stjepangrgic-shareistria-card.jpg"
+    image="stjepangrgic-agrivi-card.jpg"
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#0082AF"/>
+    underlinColor="#3A9300"/>
 </div>
 
 </div>

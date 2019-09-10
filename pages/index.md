@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Hi to you! 👋
 subtitle: My name is Stjepan.
 smallImage: desk-illustration.png
@@ -179,35 +179,44 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-.title-wrap
-  display: flex
-  flex-direction: row
-  justify-content: space-between;
-  align-items: baseline
-  a
-    line-height: 1.2
-.h3
-  margin-bottom: 1.5rem;
-  margin-top: 4rem;
-  font-weight: 800;
-  font-size: 2rem;
-
-.growth-grid
-  display: grid
-  grid-template-columns: 1fr 1fr 1fr
-  grid-column-gap 1.6161616%
-  height: 272px
-  margin-bottom: 5rem;
-  @media screen and (max-width 700px) {
+<style lang="stylus" >
+.index
+  .small-image
+    width 785px
+    bottom 0
+    right 0
+    transform translate(72px, 3.3613445%)
+  .content
+    margin-top 5rem
+    
+  .title-wrap
     display: flex
-    flex-direction: column
-    height auto
-    .small-card {
-      height 272px
-      margin-bottom: 1rem
+    flex-direction: row
+    justify-content: space-between;
+    align-items: baseline
+    a
+      line-height: 1.2
+  .h3
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+    font-weight: 800;
+    font-size: 2rem;
+
+  .growth-grid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-column-gap 1.6161616%
+    height: 272px
+    margin-bottom: 5rem;
+    @media screen and (max-width 700px) {
+      display: flex
+      flex-direction: column
+      height auto
+      .small-card {
+        height 272px
+        margin-bottom: 1rem
+      }
     }
-  }
 </style>
 
 

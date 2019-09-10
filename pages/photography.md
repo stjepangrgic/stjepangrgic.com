@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Photos makes you look
 navbarTitle: Photography
 ---

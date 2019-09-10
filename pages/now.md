@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: What I’m doing lately
 navbarTitle: Now
 ---

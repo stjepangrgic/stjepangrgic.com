@@ -2,15 +2,13 @@
   <fragment>
     <Navbar :attributes="page.attributes"/>
     <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
-      <article ref="article">
-        <PageHeader
-          :title="page.attributes.title"
-          :subtitle="page.attributes.subtitle"
-          :smallImage="page.attributes.smallImage" />
-        <section class="content grid">
-          <slot name="default" />
-        </section>
-      </article>
+      <PageHeader
+        :title="page.attributes.title"
+        :subtitle="page.attributes.subtitle"
+        :smallImage="page.attributes.smallImage" />
+      <section class="content grid">
+        <slot name="default" />
+      </section>
     </main>
     <Footer/>
   </fragment>
@@ -20,7 +18,6 @@
 // Vue.use(require('vue-moment'));
 
 import { Fragment } from 'vue-fragment'
-// import slink from '@/theme/components/slink.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
 import Footer from '@/theme/components/Footer.vue'
 import Navbar from '@/theme/components/Navbar.vue'

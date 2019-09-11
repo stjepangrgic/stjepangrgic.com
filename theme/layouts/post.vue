@@ -104,6 +104,6 @@ export default {
   
 .content
   // margin-top 2rem
-  padding-bottom 4rem
+  // padding-bottom 4rem
 </style>
 

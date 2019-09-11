@@ -1,5 +1,8 @@
 // Google fonts
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700,800&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700,800&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Eczar:800&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap');
 
 @css {
   :root {
@@ -12,24 +15,26 @@
 //   -moz-osx-font-smoothing: grayscale;
 
 body
-  font-family: 'Barlow';
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   color #111
   // font-size: 24px;
   font-size 1.5rem
   line-height 1.666666667
   font-weight 400
-  // line-height 1.818181818
+  line-height 1.818181818
   // line-height 32px
   // line-height 40px
-  // letter-spacing -0.0125em
+  letter-spacing -0.0125em
   @media screen and (max-width: 1500px)
     font-size 1.375rem
   @media screen and (max-width: 800px)
     font-size 1.125rem
 
 h1, h2, h3, h4, h5, h6
+  // font-family: 'Eczar', serif;
+  // font-family: 'Vollkorn', serif;
   color #000
-  font-weight 700
+  font-weight 800
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -40,22 +45,42 @@ a:not(.project-card),
   color inherit
   position relative
   white-space nowrap
+  font-weight 500
   z-index 1
+  // &:before
+  //   content ""
+  //   position absolute
+  //   left 0
+  //   bottom -0.0833em
+  //   background-color var(--underlineColor)
+  //   height 0.21666em
+  //   width 70%
+  //   z-index -1
+  //   transform rotate(-2deg)
+  //   transition all 0.1s ease
+  //   transform-origin: 0% 0%;
+  // &:hover
+  //   &:before
+  //     width 100%
+  // border-bottom 1px solid var(--underlineColor)
   &:before
     content ""
     position absolute
-    left 0
-    bottom -0.0833em
+    left 50%
+    bottom 0
     background-color var(--underlineColor)
-    height 0.21666em
-    width 70%
+    height 2px
+    // width 70%
+    width 100%
     z-index -1
-    transform rotate(-2deg)
     transition all 0.1s ease
-    transform-origin: 0% 0%;
+    border-radius 2px
+    transform translateX(-50%)
   &:hover
     &:before
-      width 100%
+      width calc(100% + 0.5em)
+      height 100%
+    
       
 p 
   // margin-top 0
@@ -65,16 +90,16 @@ p
   margin 0
   margin-top 0.5rem
   b
-    font-weight 700
-    &.info
-      background-color #FFF7F0
-      padding 1rem 2rem
-      width 100%
-      display inline-block
-      margin-top 3rem
-      border 2px solid #FFD1A6
-      border-radius 4px
-      font-weight 500
+    font-weight 600
+  span.info
+    background-color #FFF7F0
+    padding 1rem 2rem
+    width 100%
+    display inline-block
+    margin-top 3rem
+    border 2px solid #FFD1A6
+    border-radius 4px
+    font-weight 400
 p + p
   margin-top 2rem
 
@@ -83,11 +108,6 @@ h1,.h1
   line-height 1.333333
   letter-spacing -0.0125em
   margin 0
-
-// .page-title
-//   font-size 4rem
-//   font-weight 800
-//   line-height 1.1
   
   
 h2, .h2

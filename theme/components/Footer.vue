@@ -27,7 +27,7 @@
         </form>
       </section> -->
       <section class="gray">
-        <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <saber-link to="/credits">GitHub</saber-link>. Built with <saber-link to="/credits">Vue Js</saber-link> and <saber-link to="/credits">Saber</saber-link>. Hosted on <saber-link to="/credits">Netlify</saber-link>.</p> <br>
+        <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <a href="https://github.com/stjepangrgic/stjepangrgic.com" target="_blank">GitHub</a>. Built with <a href="https://vuejs.org/" target="_blank">VueJS</a> and <a href="https://saber.land/" target="_blank">Saber</a>. Hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.</p> <br>
 
         <p>See any grammar mistake or have feedback on this site? Pleas open an GitHub issue. <br> Read the <saber-link to="/credits">credits</saber-link>. </p>
       </section>
@@ -75,13 +75,13 @@ export default {
         color #777
       a
         color inherit
-        border-bottom 1px solid #ccc
+        // border-bottom 2px solid #ccc
         transition all 0.1s ease
         &:before
-          display none
+          background-color #E6DFDC
         &:hover
           color #333
-          border-bottom 1px solid #333
+          // border-bottom 1px solid #333
         
     h2
       margin-top 4rem

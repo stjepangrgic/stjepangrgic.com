@@ -63,24 +63,26 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  nav
-    font-size: 1.5rem
-    margin-top 2rem
-    position absolute
-    top 0
-    left 0
-    right 0
-    width 100%
-    svg 
-      position relative
-      top 2px
-      margin 0 0.5rem
-
-  // main
-  //   margin-top 29vh
-  // .site
-  //   margin-top: 16vh
-  //   // @media screen and (min-height: 700px) and (max-height: 900px)
-  //   //   margin-top 16vh
+nav
+  font-size: 1.5rem
+  margin-top 2rem
+  position absolute
+  top 0
+  left 0
+  right 0
+  width 100%
+  svg 
+    position relative
+    top 2px
+    margin 0 0.5rem
+.content
+  padding-top 6rem
+  
+// main
+//   margin-top 29vh
+// .site
+//   margin-top: 16vh
+//   // @media screen and (min-height: 700px) and (max-height: 900px)
+//   //   margin-top 16vh
 </style>
 

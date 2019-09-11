@@ -42,7 +42,7 @@ export default {
   position relative
   
 .content
-  margin-top 2rem
-  padding-bottom 4rem
+  // margin-top 2rem
+  // padding-bottom 4rem
 </style>
 

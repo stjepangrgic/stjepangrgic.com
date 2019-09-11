@@ -157,6 +157,7 @@ export default {
     }
     
     &:hover .link:before
-      width 100%
+      height 100%
+      width calc(100% + 0.5em)
 
 </style>

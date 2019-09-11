@@ -92,7 +92,7 @@ export default {
     right 0
     transform translate(72px, 3.3613445%)
   .content
-    margin-top 4rem
+    /*margin-top 4rem*/
   /*.intro*/
     /*h3*/
       /*background-color #afa*/

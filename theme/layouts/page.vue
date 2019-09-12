@@ -22,6 +22,10 @@ import PageHeader from '@/theme/components/PageHeader.vue'
 import Footer from '@/theme/components/Footer.vue'
 import Navbar from '@/theme/components/Navbar.vue'
 
+import Vue from 'vue'
+import VuePictureSwipe from 'vue-picture-swipe';
+Vue.component('vue-picture-swipe', VuePictureSwipe);
+
 export default {
   components: {
     Fragment,

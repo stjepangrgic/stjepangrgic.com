@@ -4,7 +4,8 @@
     "nprogress": "^0.2.0",
     "saber": "^0.6.10",
     "saber-plugin-image": "^0.2.0",
-    "vue-fragment": "^1.5.1"
+    "vue-fragment": "^1.5.1",
+    "vue-picture-swipe": "^1.2.0"
   },
   "scripts": {
     "dev": "saber",

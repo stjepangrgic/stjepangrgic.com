@@ -19,8 +19,8 @@ I knew I want to write a bucket list on this site. But then I realized fails are
 <task title="Take photos at Serengeti" />
 <task title="See polar light" />
 <task title="Croatia tour" />
-<task title="Ride a camel" done="true" link="/test" />
-<task title="Start a company" done="true" link="/test" />
+<task title="Ride a camel" done="true" />
+<task title="Start a company" done="true" />
 <task title="Live in desert for a month" />
 <task title="Go on Ted conference" />
 <task title="Give TED talk" />
@@ -34,7 +34,7 @@ I knew I want to write a bucket list on this site. But then I realized fails are
 <task title="Canyon of Tara river" />
 <task title="Every Ex You monument" />
 <task title="Angel falls" />
-<task title="Acropolis" done="true" link="/test" />
+<task title="Acropolis" done="true" />
 <task title="Piramids" />
 <task title="Great coral reef" />
 <task title="White desert in Egipt" />
@@ -42,7 +42,7 @@ I knew I want to write a bucket list on this site. But then I realized fails are
 ### Visit
 <task title="Every continent" />
 <task title="Easter island" />
-<task title="Rome" done="true" link="/test" />
+<task title="Rome" done="true" />
 <task title="Egypt" />
 <task title="Australia" />
 <task title="Hong Kong" />
@@ -54,7 +54,7 @@ I knew I want to write a bucket list on this site. But then I realized fails are
 <task title="Maroko" />
 <task title="Thailand" />
 <task title="Venezuela" />
-<task title="Petra" done="true" link="/test" />
+<task title="Petra" done="true" />
 
 <script>
 import task from '@/theme/components/task.vue'

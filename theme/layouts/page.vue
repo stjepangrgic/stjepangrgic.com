@@ -1,6 +1,6 @@
 <template>
   <fragment>
-    <Navbar :attributes="page.attributes"/>
+    <Navbar :attributes="page.attributes" :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__nav'"/>
     <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
       <PageHeader
         :title="page.attributes.title"
@@ -10,7 +10,7 @@
         <slot name="default" />
       </section>
     </main>
-    <Footer/>
+    <Footer :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__footer'"/>
   </fragment>
 </template>
 

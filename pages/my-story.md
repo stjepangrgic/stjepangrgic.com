@@ -2,7 +2,7 @@
 layout: post
 title: How I am what I am
 navbarTitle: My Story
-smallImage: flower.png
+smallImage: stjepangrgic-portrait.jpg
 ---
 
 <b>I would oftenly wonder, what this person did</b>, how they managed to do that. How his/her life looked like.
@@ -32,8 +32,29 @@ export default {
 </script>
 <style lang="stylus">
 .my-story
+  &__nav
+    color #fafafa
+    a:hover
+      color #111
+  .page-title
+    margin-top: 60vh;
+  .page-header
+    overflow: hidden;
+    border-bottom: none;
+  .page-title
+    color #fff
   .small-image
-    bottom: 0;
-    right: 100px;
-    width 43px
+    object-fit: cover;
+    width: 100vw
+    height: 90vh;
+    position: fixed;
+  .info 
+    position: relative;
+    z-index: 2
+    background-color: #fff;
+    /*color #eee*/
+  .content
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
 </style> 

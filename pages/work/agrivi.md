@@ -32,7 +32,7 @@ So the challenge was: rethink company branding, build flexible and lightwaight d
 ## Branding
 Everythin Agrivi was using at the time was few stock icons and logo made from stuf downloaded from internet (nothing new for a sturtup). But logo had a strong idea that I wanted to build upon.
 
-<figure class="grid-width fix-img shadow">
+<figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-agrivi-branding-idea.jpg" />
 </figure> 
   
@@ -50,10 +50,8 @@ I wanted to incorporate idea of a young plant. To symbolize agriculture and some
 
 Perfection of nature reflets in fibonacy numbers. So I constructed two stylized leafs  using the proportions present in nature. 
 
-<figure class="grid-width fix-img shadow">
+<figure class="grid-width fix-img two-grid">
   <simg name="stjepangrgic-project-agrivi-logomark-construction.png" />
-</figure>
-<figure class="grid-width fix-img shadow">
   <simg name="stjepangrgic-project-agrivi-logomark.png" />
 </figure>
 
@@ -77,8 +75,12 @@ To quote the fonts autor: "Sofia Pro is a geometric sans font family who dares t
 
 <div class="block full-width grid">
 
-## website system
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, natus possimus neque quidem sed dolore ducimus libero modi. Provident sapiente sit optio maiores rem minima quod nostrum accusantium quo porro!
+## Web app
+I can only share bits of all the work I have been Involwed with regarding web app. These are just a small excerpt of all the screen I worked on.
+<figure class="grid-width fix-img shadow">
+  <simg name="stjepangrgic-project-agrivi-typography.png" />
+</figure>
+
   
 </div>
 
@@ -123,5 +125,10 @@ export default {
 
 .shadow
   box-shadow: 0 12px 19px -8px rgba(44,29,22,0.15);
+.two-grid
+  display: flex;
+  flex-direction: row;
+  img
+    width: 50%;
 
 </style>

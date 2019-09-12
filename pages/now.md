@@ -2,6 +2,7 @@
 layout: post
 title: What I’m doing lately
 navbarTitle: "Now *"
+smallImage: flower.png
 ---
 
 ### Moving to London.
@@ -11,18 +12,18 @@ However moving anywhere, especially moving to a different country, is no small d
 
 <b>I am also searching for a job in London</b>. As I am more experienced than before, I am not just trying to find the first boat to jump in. Therefore I have set myself a few specific requirements that I am looking for:
 - company solving a real-life problem
-- a creatively and technically challenging position
-- a place where I am going to be surrounded by smart people
+- creatively and technically challenging position
+- place where I am going to be surrounded by smart people
 - team of designers I can learn from
-- a place where I can make new friendships
-- a place where I can stay for a longer time <!-- - [Here is why](/freelancing-is-not-for-everyone) -->
+- place where I can make new friendships
+- place where I can stay for a longer time <!-- - [Here is why](/freelancing-is-not-for-everyone) -->
 
 ### Reading
 I am currently reading two books:
 - [David and Goliath](https://www.gladwellbooks.com/titles/malcolm-gladwell/david-and-goliath/9780316204361/) by Malcolm Gladwell
 - [The 4-Hour Work Week](https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357/?tag=offsitoftimfe-20) by Timothy Ferriss
 
-Why am I reading more than one book at the time? Read [here](/how-I-learned-to-read). Check out my [book list](/book-list)
+Check out my [favourite books](/book-list) or find out [how I learned to read](/how-I-learned-to-read).
 
 <!-- I have also started a few more, but they stayed with a friend of mine. There was no more space in my bags to London. Why am I reading more than one book at the time? Read [here](/how-I-learned-to-read). -->
 
@@ -37,4 +38,9 @@ export default {
 }
 </script>
 <style lang="stylus">
+.now
+  .small-image
+    bottom: 0;
+    right: 100px;
+    width 43px
 </style> 

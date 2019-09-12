@@ -15,9 +15,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .divider {
-    display inline-block
-    width 30px
-    text-align center
-  }
+.task
+  margin-top 0
+.divider
+  display inline-block
+  width 30px
+  text-align center
 </style>

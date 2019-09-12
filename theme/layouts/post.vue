@@ -1,6 +1,6 @@
 <template>
   <fragment>
-    <Navbar :attributes="page.attributes"/>
+    <Navbar :attributes="page.attributes" :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__nav'"/>
     <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
       <article ref="article">
         <PageHeader
@@ -39,7 +39,7 @@
         </section>
       </article> -->
     </main>
-    <Footer/>
+    <Footer :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__footer'" />
   </fragment>
 </template>
 

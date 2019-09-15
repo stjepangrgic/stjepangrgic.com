@@ -1,9 +1,9 @@
 <template>
-  <header class="page-header grid" :class="{ white: isWhite }">
+  <header class="page-header grid">
     <h1 class="page-title grid-width">
       <span v-html="title" />
       <br v-if="subtitle">
-      <span v-if="subtitle" class="subtitle" :style="{ color: accentColor }">{{subtitle}}</span>
+      <span v-if="subtitle" class="subtitle">{{subtitle}}</span>
     </h1>
     <simg v-if="smallImage" :name="smallImage" class="grid-width small-image" />
   </header>
@@ -23,13 +23,6 @@ export default {
     subtitle: {
       type: String
     },
-    accentColor: {
-      type: String
-    },
-    isWhite: {
-      type: Boolean,
-      default: false
-    },
     smallImage: {
       type: String
     }
@@ -39,20 +32,17 @@ export default {
 
 <style lang="stylus" scoped>
 .page-header
-  background-color #FAF8F7
-  border-bottom 2px solid #E6DFDC
+  // background-color #FAF8F7
+  // border-bottom 2px solid #E6DFDC
   position relative
   // overflow hidden
   
-.page-header.white
-  background-color #fff
-  border-color #fff
+// .page-header.white
+//   background-color #fff
+//   border-color #fff
 
 .small-image
   position absolute
-  // z-index -1
-  // left 0
-  // bottom 0
   
 .page-title
   font-size 4rem
@@ -66,10 +56,5 @@ export default {
   
 .subtitle
   font-weight 400
-//   .page-title
-//     margin 0
-//     margin-bottom 5.5rem
-//     border-bottom none
-//     .subtitle
-//       font-weight: 400;
+
 </style>

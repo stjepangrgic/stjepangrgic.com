@@ -1,18 +1,17 @@
 <template>
   <fragment>
-    <Navbar :attributes="page.attributes"/>
+    <Navbar :attributes="page.attributes" :class="scopeClass('__nav')"/>
     <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
       <article>
         <header>
           <PageHeader
             :title="page.attributes.title"
             :subtitle="page.attributes.subtitle"
-            :accentColor="page.attributes.accentColor"
-            :isWhite="true"/>
-          <HeroSection 
+            :accentColor="page.attributes.accentColor"/>
+<!--           <HeroSection 
             :heroImage="page.attributes.heroImage"
             :bgImage="page.attributes.bgImage"
-            :bgColor="page.attributes.bgColor" />
+            :bgColor="page.attributes.bgColor" /> -->
         </header>
         <section class="content full-width grid" :style="{ backgroundColor: page.attributes.contentBgColor }">
           <ProjectInfo
@@ -23,7 +22,7 @@
         </section>
       </article>
     </main>
-    <Footer/>
+    <Footer :class="scopeClass('__footer')"/>
   </fragment>
 </template>
 
@@ -31,7 +30,7 @@
 import { Fragment } from 'vue-fragment'
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
-import ProjectHeader from '@/theme/components/ProjectHeader.vue'
+// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
@@ -44,7 +43,7 @@ export default {
   components: {
     Fragment,
     slink,
-    ProjectHeader,
+    // ProjectHeader,
     simg,
     PageHeader,
     HeroSection,
@@ -55,6 +54,16 @@ export default {
     arrow
   },
   props: ['page'],
+  computed: {
+    // navClass(suffix) {
+    //   return this.page.attributes.slug.split('/').slice(-1)[0] + this.suffix
+    // }
+  },
+  methods: {
+    scopeClass(suffix) {
+      return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+    }
+  },
   mounted() {
     // console.log(this.page.attributes)
     // console.log(this.page.attributes.slug.split("/").slice(-1)[0])

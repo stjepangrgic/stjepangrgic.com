@@ -4,20 +4,18 @@ navbarTitle: Agrivi
 
 title: Agrivi
 subtitle: "Farm management software"
-accentColor: "#8E6948"
-
 heroImage: "stjepangrgic-project-agrivi-cover-image.png"
-bgColor: "#8E6948"
 
 period: "2016"
 platform: "Web, Mobile"
 role: "Digital Product Designer"
-
-contentBgColor: "#FCFBFA"
 ---
 
+<!-- bgColor: "#8E6948" -->
+<!-- contentBgColor: "#FCFBFA" -->
+
 ## Introduction
-Agrivi is agritech startup with a promis of solving world food problem by providing farmers with knowledge-based software solutions. 
+Agrivi is agritech (agriculture technology) startup with a promise of solving world food problem by providing farmers with knowledge-based software solutions. At the time, Agrivi secured a worthy investment to help them grow the company and improve the product. So I was the first designer to join the team.
 
 ### My role
 Being only designer in a small team with big dreams is a lot of work. I knew that. But griwing up in countriside souranded with crops and domestic animals I understod painpoints that farmers face. So I decided to join and design products that will solve actual problems . I was involved in whol product cycle, from branding to web and mobile aplications all the way to ads.
@@ -88,47 +86,52 @@ I can only share bits of all the work I have been Involwed with regarding web ap
 <script>
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
-import ProjectHeader from '@/theme/components/ProjectHeader.vue'
+// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 import HeroSection from '@/theme/components/HeroSection.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
 
 export default {
   components: {
-    slink, ProjectHeader, simg, HeroSection, ProjectInfo, PageHeader
+    slink,
+    // ProjectHeader,
+    simg,
+    HeroSection,
+    ProjectInfo,
+    PageHeader
   }
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
+.agrivi
+  .block
+    position relative
+    margin-top 4rem
+    z-index 2
+    &:before
+      content ""
+      display block
+      position absolute
+      width 100vw
+      left 50%
+      transform translateX(-50%)
+      height 700px
+      border-top 2px solid #E6DFDC
+      background-color #fff
+      background: linear-gradient(180deg, #FAF8F7 0%, #FCFBFA 100%);
+      z-index -1
+    
+  .credits
+    a 
+      text-decoration: underline;
 
-.block
-  position relative
-  margin-top 4rem
-  z-index 2
-  &:before
-    content ""
-    display block
-    position absolute
-    width 100vw
-    left 50%
-    transform translateX(-50%)
-    height 700px
-    border-top 2px solid #E6DFDC
-    background-color #fff
-    background: linear-gradient(180deg, #FAF8F7 0%, #FCFBFA 100%);
-    z-index -1
-  
-.credits
-  a 
-    text-decoration: underline;
-
-.shadow
-  box-shadow: 0 12px 19px -8px rgba(44,29,22,0.15);
-.two-grid
-  display: flex;
-  flex-direction: row;
-  img
-    width: 50%;
+  .shadow
+    box-shadow: 0 12px 19px -8px rgba(44,29,22,0.15);
+  .two-grid
+    display: flex;
+    flex-direction: row;
+    img
+      width: 50%;
 
 </style>

@@ -17,12 +17,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
   .header {
     /* background-color: #faf; */
   }
   .title {
-    /* background-color: #afa; */
+    // background-color #afa
   }
   .subtitle {
     /* background-color: #ffa; */

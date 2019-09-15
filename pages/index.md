@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hi to you! 👋 
-subtitle: My name is Stjepan
+subtitle: My name is Stjepan.
 smallImage: desk-illustration.png
 ---
 

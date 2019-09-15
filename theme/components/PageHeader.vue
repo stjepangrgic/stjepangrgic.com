@@ -62,6 +62,7 @@ export default {
   margin-top 29vh
   position relative
   z-index 2
+  // max-width 700px
   
 .subtitle
   font-weight 400

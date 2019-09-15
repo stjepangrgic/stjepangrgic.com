@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I am what I am
+title: How I am what I am.
 navbarTitle: My Story
 smallImage: stjepangrgic-portrait.jpg
 ---

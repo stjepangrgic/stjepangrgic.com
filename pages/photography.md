@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Photography was <br> my first love
+title: Photography was
+subtitle: my first love.
 navbarTitle: Photography
 ---
 
-### It all started with Wild Kingdom
-I fall in love with photography watching old man with a small lion. I was vey young, but I can remember it clearly. It was Wild Kingdom. I used to dream about going there and look them, explore them, take pictures of them, and film them. 
+<b>Photography make you see how light revels the world to you.</b> It makes you see the colors, shapes, bright spots and dark shadows. <!-- All that and the right moment emotion emerges -->Ultimately, it made me a better designer.
 
 <vue-picture-swipe
   class="gallery"
@@ -15,24 +15,21 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-09.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-01.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-01.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-02.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-02.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-18.jpg'),
@@ -40,16 +37,14 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-03.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-03.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-24.jpg'),
@@ -57,24 +52,21 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-04.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-04.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-05.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-05.jpg'),
       w: 2048,
-      h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      h: 1348,
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-11.jpg'),
@@ -82,32 +74,28 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 1365,
       h: 2048,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-06.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-06.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-07.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-07.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-08.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-08.jpg'),
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-10.jpg'),
@@ -115,8 +103,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
 
     {
@@ -125,8 +112,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-13.jpg'),
@@ -134,8 +120,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-14.jpg'),
@@ -143,8 +128,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-15.jpg'),
@@ -152,8 +136,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-16.jpg'),
@@ -161,8 +144,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-17.jpg'),
@@ -170,8 +152,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-19.jpg'),
@@ -179,8 +160,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 1594,
       h: 2048,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-20.jpg'),
@@ -188,8 +168,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-22.jpg'),
@@ -197,17 +176,15 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-28.jpg'),
       thumbnail: require('@/assets/images/photography/thumb/sg-photo-28.jpg'),
       class: 'test',
       w: 2048,
-      h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      h: 1331,
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-36.jpg'),
@@ -215,8 +192,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 1405,
       h: 2048,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-31.jpg'),
@@ -224,8 +200,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 1365,
       h: 2048,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-37.jpg'),
@@ -233,8 +208,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-32.jpg'),
@@ -242,8 +216,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-34.jpg'),
@@ -251,8 +224,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-35.jpg'),
@@ -260,8 +232,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1152,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-25.jpg'),
@@ -269,8 +240,7 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 2048,
       h: 1365,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
     {
       src: require('@/assets/images/photography/sg-photo-30.jpg'),
@@ -278,10 +248,13 @@ I fall in love with photography watching old man with a small lion. I was vey yo
       class: 'test',
       w: 1365,
       h: 2048,
-      alt: 'Pawn prints in the snow',
-      title: 'Will be used for caption'
+      alt: 'Image',
     },
   ]" />
+
+### How it all started
+It all started with Wild Kingdom. I fall in love with photography watching old man with a small lion. I was vey young, but I can remember it clearly. It was Wild Kingdom. I used to dream about going there and look them, explore them, take pictures of them, and film them. 
+
 
 <script>
 import simg from '@/theme/components/simg.vue'
@@ -293,6 +266,8 @@ export default {
 </script>
 <style lang="stylus">
 .photography
+  p b
+    font-weight: 700
   *
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -323,6 +298,7 @@ export default {
     h2,h3,p
       color #fafafa
   .gallery
+    margin-top: 3rem;
     /*background-color: #afa;*/
     grid-column 1/ -1 !important
     padding-left: 5px;

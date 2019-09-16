@@ -217,7 +217,7 @@ export default {
       align-self: end;
       margin-bottom: 3rem;
       padding-left: 2rem;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
       .text {
         margin-bottom: 0;
         padding: 0;

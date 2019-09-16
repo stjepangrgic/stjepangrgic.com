@@ -27,9 +27,9 @@
         </form>
       </section> -->
       <section class="gray">
-        <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <a href="https://github.com/stjepangrgic/stjepangrgic.com" target="_blank">GitHub</a>. Built with <a href="https://vuejs.org/" target="_blank">VueJS</a> and <a href="https://saber.land/" target="_blank">Saber</a>. Hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.</p> <br>
+        <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <a href="https://github.com/stjepangrgic/stjepangrgic.com" target="_blank">GitHub</a>. Built with <a href="https://vuejs.org/" target="_blank">VueJS</a> and <a href="https://saber.land/" target="_blank">Saber</a>. Hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. Read the <saber-link to="/credits">credits</saber-link>.</p>
 
-        <p>See any grammar mistake or have feedback on this site? Pleas open an GitHub issue. <br> Read the <saber-link to="/credits">credits</saber-link>. </p>
+        <p>See any grammar mistake or have feedback on this site? <br> Pleas open an <a href="">GitHub issue</a>. </p>
       </section>
     </div>
   </footer>
@@ -68,13 +68,11 @@ export default {
     right -70px
   .gray
     line-height 36px
-    margin-top 4rem
-    font-size 1.25rem
+    margin-top 3rem
+    // font-size 1.25rem
     p 
       margin-bottom 0
       color #777
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     a
       color inherit
       // border-bottom 2px solid #ccc

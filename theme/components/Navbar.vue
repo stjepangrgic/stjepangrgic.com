@@ -1,15 +1,12 @@
 <template>
   <nav class="nav grid">
     <!-- <menuicon class="menu-icon" /> -->
-    <div :class="['nav__inner', 'grid-width', classObject ]" >
+    <div :class="['nav__inner', 'grid-width', { hidden: isIndex } ]" >
       <saber-link to="/">Stjepan Grgic</saber-link>
-      <arrow v-if="this.attributes.slug.split('/')[0] !== 'index' "/>
-      <!-- This is a mass but works for now -->
-      <span v-if="this.attributes.slug.split('/').length < 2">{{this.attributes.navbarTitle}}</span>
+      <arrow v-if="!isIndex"/>
+      <span v-if="isDeep">{{this.attributes.navbarTitle}}</span>
       <span v-else>
-        <saber-link :to="'/' + this.attributes.slug.split('/')[0]">
-          {{this.attributes.slug.split('/')[0].charAt(0).toUpperCase() + this.attributes.slug.split('/')[0].slice(1)}}
-        </saber-link>
+        <saber-link :to="secondLinkUrl">{{secondLinkText}}</saber-link>
         <arrow/>
         <span>{{this.attributes.navbarTitle}}</span>
       </span>
@@ -26,24 +23,30 @@ export default {
     arrow,
     menuicon
   },
-  props: [
-    "attributes",
-    "isHidden"
-  ],
-  computed: {
-    classObject: function () {
-      return {
-        hidden: this.attributes.slug.split('/').slice(-1)[0] == 'index'
-      }
+  data() {
+    return {
+      secondLinkText: "",
+      secondLinkUrl: ""
     }
   },
-  // computed: {
-  //   capitalizedParentPage: function () {
-  //     return this.parentPage.charAt(1).toUpperCase() + this.parentPage.slice(2)
-  //   }
-  // }
+  props: [
+    "attributes"
+  ],
+  computed: {
+    isIndex: function () {
+      if (this.attributes.slug.split('/')[0] == 'index' ) return true
+      return false
+    },
+    isDeep() {
+      if (this.attributes.slug.split('/').length < 2) return true
+      return false
+    }
+  },
   mounted() {
     // console.log(this.attributes.updatedAt.getFullYear())
+    this.secondLinkText = this.attributes.slug.split('/')[0].charAt(0).toUpperCase() + this.attributes.slug.split('/')[0].slice(1)
+    this.secondLinkUrl = '/' + this.attributes.slug.split('/')[0]
+    // console.log("isIndex", this.isIndex)
   }
 }
 </script>

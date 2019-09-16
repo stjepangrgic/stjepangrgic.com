@@ -1,19 +1,15 @@
 <template>
   <fragment>
     <Navbar :attributes="page.attributes" :class="scopeClass('__nav')"/>
-    <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
+    <main :class="scopeClass()">
       <article>
-        <header>
-          <PageHeader
-            :title="page.attributes.title"
-            :subtitle="page.attributes.subtitle"
-            :accentColor="page.attributes.accentColor"/>
-<!--           <HeroSection 
-            :heroImage="page.attributes.heroImage"
-            :bgImage="page.attributes.bgImage"
-            :bgColor="page.attributes.bgColor" /> -->
-        </header>
-        <section class="content full-width grid" :style="{ backgroundColor: page.attributes.contentBgColor }">
+        <PageHeader
+          :title="page.attributes.title"
+          :subtitle="page.attributes.subtitle"/>
+        <ProjectHeroSection 
+          :heroImage="page.attributes.heroImage"
+          :bgImage="page.attributes.bgImage"/>
+        <section class="content full-width grid">
           <ProjectInfo
             :period="page.attributes.period"
             :platform="page.attributes.platform"
@@ -32,7 +28,7 @@ import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 // import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
-import HeroSection from '@/theme/components/HeroSection.vue'
+import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
 import ProjectCard from '@/theme/components/ProjectCard.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 import Navbar from '@/theme/components/Navbar.vue'
@@ -46,7 +42,7 @@ export default {
     // ProjectHeader,
     simg,
     PageHeader,
-    HeroSection,
+    ProjectHeroSection,
     ProjectCard,
     ProjectInfo,
     Navbar,
@@ -61,7 +57,11 @@ export default {
   },
   methods: {
     scopeClass(suffix) {
-      return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      if (suffix) {
+        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      } else {
+        return this.page.attributes.slug.split('/').slice(-1)[0]
+      }
     }
   },
   mounted() {
@@ -84,14 +84,10 @@ nav
     position relative
     top 2px
     margin 0 0.5rem
-.content
-  padding-top 6rem
   
-// main
-//   margin-top 29vh
-// .site
-//   margin-top: 16vh
-//   // @media screen and (min-height: 700px) and (max-height: 900px)
-//   //   margin-top 16vh
+.page-header
+  --page-header-bgc #fff
+  --page-header-border-color #fff
+
 </style>
 

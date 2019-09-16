@@ -2,34 +2,54 @@
 
 #_saber
   overflow hidden
+  background-color var(--page-bgc)
+  // padding 0 1rem
+  
+article
+  // padding 0 1rem
 
 .grid
   display grid
   grid-column-gap 16px
   grid-row-gap 0
-  grid-template-columns: minmax(1rem, 1fr) repeat(15, minmax(0px, 56px)) minmax(1rem, 1fr)
+  // grid-template-columns: minmax(0px, 1fr) repeat(24, minmax(0px, 40px)) minmax(0px, 1fr)
+  grid-template-columns: repeat(24, minmax(0px, 40px))
+  justify-content: center;
+  grid-auto-flow dense
+  // align-items: end;
+  // margin 0
   // background-color #ffa
   // overflow hidden
   
   > *
-    grid-column 4 / -4
+    grid-column 7 / -7
     // z-index 1
     //   // grid-row 1/-1
       
-  @media screen and (max-width: 800px)
-    grid-column-gap 0
-    > *
-      grid-column 3 / -3
-    // grid-column-gap 0.625%
-      
+  // @media screen and (max-width: 800px)
+  //   grid-column-gap 0
+  //   > *
+  //     grid-column 3 / -3
+  //     grid-column-gap 0.625%
+
+// All combinations for grid-column-start and grid-column-end: span x
+for num in (1..24)
+  .gcs{num}
+    grid-column-start: num
+  .span{num}
+    grid-column-end: span num
+  .g{num}-{num}
+    grid-column-start: num
+    grid-column-end: - num
+
 .grid-width
-  grid-column 2/ -2 !important
+  grid-column 3/ -3 !important
 
 .full-width
   grid-column 1/ -1 !important
 
 .content-width
-  grid-column 3/ -3 !important
+  grid-column 7/ -7 !important
   
 figure
   margin-bottom 1.5rem
@@ -37,11 +57,14 @@ figure
   // margin-top 2.5rem
   
 p + figure 
-  margin-top 2.5rem
+  margin-top 2rem
   
 figure + h2,
 figure + h3
   margin-top 3rem
+  
+figure + div
+  margin-top 1.5rem
   
 .conclusion
   background-color #FAFAFA
@@ -89,12 +112,13 @@ figure + h3
 .content
   padding-top 3rem
   padding-bottom 4rem
+  background-color var(--content-bgc)
 
 
-.page-header
-  --page-header-bgc:#FAF8F7
-  --page-header-border-color: #E6DFDC
-  background-color var(--page-header-bgc)
-  border-bottom 2px solid var(--page-header-border-color)
+// .page-header
+//   --page-header-bgc:#fff
+//   --page-header-border-color: #fff
+//   background-color var(--page-header-bgc)
+//   border-bottom 2px solid var(--page-header-border-color)
 
 

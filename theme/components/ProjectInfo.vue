@@ -43,8 +43,8 @@ export default {
   small
     font-size: 1rem
     line-height: 1.5;
-    font-weight: 600;
-    color #A9A7B6
+    // font-weight: 600;
+    color rgba(#000, 0.3)
   p
     margin: 0;
 </style>

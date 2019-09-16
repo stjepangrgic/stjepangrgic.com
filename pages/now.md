@@ -10,11 +10,11 @@ smallImage: flower.png
 For some time now I was avare of how much imposter sindrom I have suffered. I have been extremly unopened with sharing anything with the world. And for last couple of moonts I have been trying to shutter ground below my feet. I was trying to break my inconfidences. -->
 
 ### Moving to London.
-I decided [Zagreb](https://www.google.com/search?q=zagreb) is no longer a place for me. I have been living there for the last nine years, and as I write it, I can't believe it's been that long. Zagreb is small and the same streets, same people same everything started to bother me. I needed a change. So after a few considered places, London seamed the perfect place to go.
+I decided [Zagreb](https://www.google.com/search?q=Zagreb) is no longer a place for me. It's really a small city, and as I've been living there for the last nine years, I was getting bored. I needed a change. So after a few considered places, London seamed the perfect place to go.
 
-However moving anywhere, especially moving to a different country, is no small decision. So, for a long time, I was hesitant to even think about moving. I was too comfortable. I realized I had to approach it differently. Instead of finding a job and a place to live before moving, I decided to come here and figure out stuff as I go along. I made a leap, and now I am writing this from London. Besides, I feel it is an excellent way to get confident about working and living here as I visited London only two times before. I will write more about the whole process once I am somewhat settled.
+However moving anywhere, especially moving to a different country, is no small decision. So, for a long time, I was hesitant to even think about moving. I was too comfortable. I realized I had to approach it differently. Instead of finding a job and a place to live before moving, I decided to move and figure out stuff as I go along. I made a leap, and now I'm writing this from London. Besides, I feel it is an excellent way to get confident about working and living here as I visited London only two times before. I will write more about the whole process once I am somewhat settled.
 
-<b>I am also searching for a job in London</b>. As I am more experienced than before, I am not just trying to find the first boat to jump in. Therefore I have set myself a few specific requirements that I am looking for:
+<b>I'm also searching for a job in London</b>. As I am more experienced than before, I'm not looking for the first boat to jump in. So I have set myself a few specific requirements that I am looking for:
 - company solving a real-life problem
 - creatively and technically challenging position
 - place where I am going to be surrounded by smart people

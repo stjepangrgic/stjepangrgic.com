@@ -25,7 +25,7 @@
             :title="page.attributes.title"
             :subtitle="page.attributes.subtitle"
             :accentColor="page.attributes.accentColor" />
-          <HeroSection 
+          <ProjectHeroSection 
             :heroImage="page.attributes.heroImage"
             :bgImage="page.attributes.bgImage"
             :bgColor="page.attributes.bgColor" />

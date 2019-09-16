@@ -1,7 +1,7 @@
 <template>
   <fragment>
-    <Navbar :attributes="page.attributes" :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__nav'"/>
-    <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
+    <Navbar :attributes="page.attributes" :class="[scopeClass('__nav')]"/>
+    <main :class="[scopeClass()]">
       <PageHeader
         :title="page.attributes.title"
         :subtitle="page.attributes.subtitle"
@@ -10,7 +10,7 @@
         <slot name="default" />
       </section>
     </main>
-    <Footer :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__footer'"/>
+    <Footer :class="[scopeClass('__footer')]"/>
   </fragment>
 </template>
 
@@ -34,6 +34,15 @@ export default {
     Navbar,
   },
   props: ['page'],
+  methods: {
+    scopeClass(suffix) {
+      if (suffix) {
+        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      } else {
+        return this.page.attributes.slug.split('/').slice(-1)[0]
+      }
+    }
+  },
 }
 </script>
 

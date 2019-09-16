@@ -35,11 +35,15 @@ export default {
   // background-color #FAF8F7
   // border-bottom 2px solid #E6DFDC
   position relative
+  background-color var(--page-header-bgc)
+  border-bottom 2px solid var(--page-header-border-color)
   // overflow hidden
   
 // .page-header.white
 //   background-color #fff
 //   border-color #fff
+  
+
 
 .small-image
   position absolute
@@ -47,7 +51,7 @@ export default {
 .page-title
   font-size 4rem
   font-weight 800
-  line-height 1.1
+  line-height 1
   margin-bottom 5.5rem
   margin-top 29vh
   position relative
@@ -56,5 +60,7 @@ export default {
   
 .subtitle
   font-weight 400
+  font-size 3.5rem
+  color var(--subtitle-color)
 
 </style>

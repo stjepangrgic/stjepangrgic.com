@@ -18,67 +18,135 @@ role: "Digital Product Designer"
 Agrivi is agritech (agriculture technology) startup with a promise of solving world food problem by providing farmers with knowledge-based software solutions. At the time, Agrivi secured a worthy investment to help them grow the company and improve the product. So I was the first designer to join the team.
 
 ### My role
-Being only designer in a small team with big dreams is a lot of work. I knew that. But griwing up in countriside souranded with crops and domestic animals I understod painpoints that farmers face. So I decided to join and design products that will solve actual problems . I was involved in whol product cycle, from branding to web and mobile aplications all the way to ads.
+As Agrivi was an early-stage startup, I was involved with a whole product. I started with branding, redesigning the logo and setting the groundwork for visual language. Next came web application which had poor experience as it was a proof of concept. I led the rethinking process of changing the existing ways of using the essential features of the web application and created a lightweight design system that can be extended in future. Besides, I designed and coded the emails, designed ads, business cards and all the small things one designer faces within a small team.
 
 ### The chalange
-As it goes, startups don’t spend a lot of time making apps understandable and easy to use, let alone beautifull. It just has to work and prove the concept. That was the case at the time I joined the company. No consistent branding and poor web app experience.
+How to design appealing and honest branding that would convey Agrivi's mission? How should a web application that would be easy to use for any farmer with any crop look like, be used? Apart from different crops, agriculture processes differ between different regions, seasons and weather conditions. Those were just a couple of questions and consideration I was faced with.
 
-So the challenge was: rethink company branding, build flexible and lightwaight design system capable of adapting to web an mobile enviroments all while having farmers in mind.
+Besides, being the only designer in a small team with big dreams is a lot of work. I knew that. But growing up in the countryside surrounded with crops and domestic animals, I understood pain points that farmers face. So I decided to join and design products that will solve actual problems. 
 
 <div class="block full-width grid">
 
 ## Branding
-Everythin Agrivi was using at the time was few stock icons and logo made from stuf downloaded from internet (nothing new for a sturtup). But logo had a strong idea that I wanted to build upon.
+Agrivi was using a few stock icons and logo made from stuff downloaded from the internet (nothing new for a startup). But they had a firm idea that I wanted to build upon. The concept of a young plant starting its life. Furthermore, it reflected Agrivi as a young company.
 
-<figure class="grid-width fix-img">
+<figure class="full-width">
   <simg name="stjepangrgic-project-agrivi-branding-idea.jpg" />
 </figure> 
   
 </div>
 
-### Colors
-Thinking about primary colors green was an obvious choice. But it had to be warm and inviting.  As a young plant lit with warm morning sunshine.
+### Colours
+I was looking for friendly and inviting colours. I went with warm green hues that appear on leaves illuminated with morning sun.
 
-<figure class="grid-width fix-img">
-  <simg name="stjepangrgic-project-agrivi-colors.jpg" />
+<figure class="g5-5">
+  <simg name="stjepangrgic-project-agrivi-colors.png" />
 </figure>
 
-### The logomark
-I wanted to incorporate idea of a young plant. To symbolize agriculture and something to take care of. It was also idea of a startup -  young growing company.
+<!-- Typography -->
+<!-- <figure class="gcs1 span12" style="margin: 0">
+  <simg name="stjepangrgic-project-agrivi-typography.png" />
+</figure>
+<div class="gcs13 span10" style="align-self: end; padding-bottom: 3rem; padding-left: 2rem">
+  <h3>Typography</h3>
+  <p>To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.</p>
+</div> -->
+<div class="typography full-width grid">
+  <div class="text">
+    <h3>Typography</h3>
+    <p>To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.</p>
+  </div>
+  <figure>
+    <simg name="stjepangrgic-project-agrivi-typography.png" />
+  </figure>
+</div>
 
-Perfection of nature reflets in fibonacy numbers. So I constructed two stylized leafs  using the proportions present in nature. 
 
-<figure class="grid-width fix-img two-grid">
+<div class="gcs4 span12" style="margin-bottom: 1.5rem">
+  <h3>The logomark</h3>
+  <p>The perfection of nature reflects in the Fibonacci sequence. So I constructed two stylized leaves using the numbers as a guide.</p>
+</div>
+<figure class="gcs4 span10">
   <simg name="stjepangrgic-project-agrivi-logomark-construction.png" />
+</figure>
+<figure class="gcs14 span10">
   <simg name="stjepangrgic-project-agrivi-logomark.png" />
 </figure>
 
-### Typography
-To quote the fonts autor: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me it beautifuly reflected perfection of nature i was looking for.
-<figure class="grid-width fix-img shadow">
-  <simg name="stjepangrgic-project-agrivi-typography.png" />
-</figure>
+<!-- <div class="logomark gcs5 span20">
+
+  <figure class="">
+    <simg name="stjepangrgic-project-agrivi-logomark-construction.png" />
+  </figure>
+  <figure>
+    <simg name="stjepangrgic-project-agrivi-logomark.png" />
+  </figure>
+</div> -->
 
 ### The logo
-To quote the fonts autor: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me it beautifuly reflected perfection of nature i was looking for.
-<figure class="grid-width fix-img shadow">
+All of the above together looks like this.
+
+<figure class="full-width mb8">
   <simg name="stjepangrgic-project-agrivi-logo-construction.png" />
 </figure>
-<figure class="grid-width fix-img shadow">
+<figure class="full-width mb8">
   <simg name="stjepangrgic-project-agrivi-logo.png" />
 </figure>
-<figure class="grid-width fix-img shadow">
-  <simg name="stjepangrgic-project-agrivi-logo-monochrome.png" />
+<figure class="gcs1 span12 mb8">
+  <simg name="stjepangrgic-project-agrivi-logo-monochrome-light.png" />
 </figure>
+<figure class="gcs13 span12 mb8">
+  <simg name="stjepangrgic-project-agrivi-logo-monochrome-dark.png" />
+</figure>
+
+<div class="block full-width grid" style="position: relative; z-index: 11">
+
+## Web app
+At the moment, I can only share highlights of all the work I have been involved with regarding web application.
+
+<figure class="grid-width " style="margin-bottom: 2rem">
+  <simg name="stjepangrgic-project-agrivi-webapp.png" />
+</figure>
+
+Field and crop management experience was especially challenging to envision as it widely differed between crops, seasons and countries. Additionally, it differed between organisation structure like a cooperative and individual farmer.
+
+<figure class="grid-width" style="margin-top: 2.5rem">
+  <simg name="stjepangrgic-project-agrivi-webapp-fields.png" />
+</figure>
+
+  
+</div>
+
+<div class="block reverse full-width grid">
+
+## The website
+I have also worked on the website and other public pages. I developed wireframes, custom icons, and illustrations.
+
+<figure class="grid-width " style="margin-bottom: 2rem">
+  <simg name="stjepangrgic-project-agrivi-website.jpg" />
+</figure>
+  
+</div>
+
 
 <div class="block full-width grid">
 
-## Web app
-I can only share bits of all the work I have been Involwed with regarding web app. These are just a small excerpt of all the screen I worked on.
-<figure class="grid-width fix-img shadow">
-  <simg name="stjepangrgic-project-agrivi-typography.png" />
-</figure>
+## What I learned
+The success of any project or startup is determined by the team's ability to work together, to be harmonious. Interpersonal skills are, therefore, as valuable as technical skills when working in a small group. So after a few months of intensive work, I unhappily realised Agrivi was not a good fit for me.  I firmly believed Agrivi had a great idea and a bright future I could be part of. But circumstances like this happen, so I moved on.
 
+<!-- ### Check out next
+
+<div class="grid-width next-project">
+  <ProjectCard
+    url="/work/agrivi"
+    title="Agrivi"
+    description="Farm managment software"
+    period="2016"
+    image="stjepangrgic-agrivi-card.jpg"
+    linkText="Read the case study"
+    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
+    underlinColor="#3A9300"/>
+</div> -->
   
 </div>
 
@@ -86,17 +154,17 @@ I can only share bits of all the work I have been Involwed with regarding web ap
 <script>
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
-// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import HeroSection from '@/theme/components/HeroSection.vue'
+import ProjectCard from '@/theme/components/ProjectCard.vue'
+import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
 
 export default {
   components: {
     slink,
-    // ProjectHeader,
+    ProjectCard,
     simg,
-    HeroSection,
+    ProjectHeroSection,
     ProjectInfo,
     PageHeader
   }
@@ -105,6 +173,19 @@ export default {
 
 <style lang="stylus">
 .agrivi
+  --hero-section-bg: #7F5A43
+  --subtitle-color: #8E6948
+  --content-bgc #F8F3F0
+  .hero-image
+    top: 3.375rem
+    img
+      box-shadow none
+      max-width: 967px;
+      width 100%
+  figure
+    display flex
+  figure img
+    border-radius: 1px;
   .block
     position relative
     margin-top 4rem
@@ -117,11 +198,38 @@ export default {
       left 50%
       transform translateX(-50%)
       height 700px
-      border-top 2px solid #E6DFDC
+      /*border-top 2px solid #E6DFDC*/
       background-color #fff
-      background: linear-gradient(180deg, #FAF8F7 0%, #FCFBFA 100%);
+      /*background: linear-gradient(180deg, #FAF8F7 0%, #FCFBFA 100%);*/
+      background: linear-gradient(180deg, #ECE1DC 0%, rgba(#ECE1DC, 0) 100%);
       z-index -1
-    
+  .block.reverse:before
+    transform translateX(-50%) rotate(180deg)
+    top -700px 
+
+  .typography
+    margin-bottom 1rem
+    figure
+      grid-column 2 / span 12
+      margin-bottom 0
+    .text
+      grid-column 14 / span 10
+      align-self: end;
+      margin-bottom: 3rem;
+      padding-left: 2rem;
+    @media screen and (max-width: 800px) {
+      .text {
+        margin-bottom: 0;
+        padding: 0;
+        grid-column: 4/-4;
+      }
+      figure {
+        grid-column 2 / -2
+      }
+    }
+  figure.mb8
+    margin-bottom: 0.5rem;
+
   .credits
     a 
       text-decoration: underline;

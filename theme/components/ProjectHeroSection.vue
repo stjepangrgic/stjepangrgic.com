@@ -1,5 +1,5 @@
 <template>
-	<figure class="full-width grid hero-section" :style="styleObject">
+	<figure class="full-width grid hero-section">
     <simg v-if="bgImage" :name="bgImage" />
     <div class="grid-width hero-image">
       <simg :name="heroImage" />
@@ -21,18 +21,6 @@ export default {
     bgImage: {
       type: String,
       required: false
-    },
-    bgColor: {
-      type: String,
-      required: false
-    }
-  },
-  computed: {
-    styleObject: function () {
-      return {
-        background: this.bgColor,
-        // backgroundImage: 'url(' + require('@/assets/images/' + this.bgImage) + ')'
-      }
     }
   }
 }
@@ -43,18 +31,23 @@ export default {
   position relative
   z-index 99
   margin 0
+  background-color var(--hero-section-bg)
+  // height 640px
 
 .hero-image
-  box-shadow 0 25px 19px -17px rgba(44,29,22,0.15)
   position relative
-  top 3rem
+  top 3.5rem
   border-radius 3px
-  overflow hidden
-  // display flex
+  // overflow hidden
   display grid
+  // margin-top 6rem
+  padding 2.5rem 0  
   img
     z-index -1
-    width:100%;
+    // height 560px
+    box-shadow 0 25px 19px -17px rgba(44,29,22,0.15)
+    margin 0 auto
+    // width:100%;
     
   figure
     margin 0

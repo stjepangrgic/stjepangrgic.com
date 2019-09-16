@@ -266,6 +266,10 @@ export default {
 </script>
 <style lang="stylus">
 .photography
+  --page-header-bgc: #111;
+  --page-header-border-color: #222;
+  --content-bgc #111
+
   p b
     font-weight: 700
   *
@@ -288,13 +292,10 @@ export default {
           background-color: #555;
         &:hover
           color #fff
-  .page-header
-    background-color: #111;
-    border-bottom-color: #222;
   .page-title
     color #eee
   .content
-    background-color: #111
+    /*background-color: #111*/
     h2,h3,p
       color #fafafa
   .gallery
@@ -307,7 +308,7 @@ export default {
       display: grid;
       grid-gap 5px
       grid-template-columns repeat(auto-fit, minmax(260px, 1fr))
-      grid-auto-rows 186px
+      grid-auto-rows 216px
       grid-auto-flow dense
       figure
         margin: 0;

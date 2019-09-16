@@ -7,15 +7,40 @@ navbarTitle: Work
 <section class="projects grid-width">
   <!-- <h2 class="h3">Featuret projects</h2> -->
   <ProjectCard
+    url="/work/agrivi"
+    title="Agrivi"
+    right="113"
+    description="Farm managment software"
+    bgImage="stjepangrgic-agrivi-card-bgImage.jpg"
+    projectImage="stjepangrgic-agrivi-card-projectImage.png"
+    underlinColor="#5FC21E"/>
+  <ProjectCard
+    url="/work/share-istria"
+    title="Share Istria"
+    description="Creative Tourism Campaign"
+    bgImage="stjepangrgic-share-istria-card-bgImage.png"
+    projectImage="stjepangrgic-share-istria-card-projectImage.png"
+    underlinColor="#009FE2"/>
+  <ProjectCard
+    url="/work/vip-xmass-chat"
+    title="Vip Xmas Chat"
+    description="Promotional Chat App"
+    bgImage="stjepangrgic-vip-chat-card-bgImage.jpg"
+    projectImage="stjepangrgic-vip-chat-card-projectImage.png"
+    textColor="#000"/>
+
+<!--     background-image: linear-gradient(180deg, #F5F5F5 0%, #F2F2F2 100%);
+    box-shadow: inset 0 -2px 0 0 #F2F2F2;
+    border-radius: 3px; -->
+
+<!--   <ProjectCard
     url="/work/vibby"
     title="Vibby"
     description="Interactive video platform startup"
-    period="2015"
-    image="stjepangrgic-vibby-card.png"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#2C45BC"/>
-  <ProjectCard
+    bgImage="stjepangrgic-vibby-card.png"
+    projectImage="test.png"
+    underlinColor="#2C45BC"/> -->
+<!--   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
     description="Farm managment software"
@@ -41,7 +66,7 @@ navbarTitle: Work
     image="stjepangrgic-card-vip-chat.jpg"
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    textColor="#000"/>
+    textColor="#000"/> -->
 </section>
 
 
@@ -53,7 +78,7 @@ export default {
   components: {
     ProjectCard,
     PageHeader
-  }
+  },
 }
 </script>
 

@@ -128,7 +128,7 @@ I decided to blend the distinctive shape of the Istrian peninsula with all the e
 ## Check out next
 
 <div class="grid-width next-project">
-  <ProjectCard
+<!--   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
     description="Farm managment software"
@@ -136,7 +136,9 @@ I decided to blend the distinctive shape of the Istrian peninsula with all the e
     image="stjepangrgic-agrivi-card.jpg"
     linkText="Read the case study"
     :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#3A9300"/>
+    underlinColor="#3A9300"/> -->
+
+  <ProjectCard project="Agrivi" />
 </div>
 
 </div>

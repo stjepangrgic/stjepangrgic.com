@@ -65,7 +65,7 @@ export default {
     }
   },
   mounted() {
-    // console.log(this.page.attributes)
+    console.log(this.page.attributes)
     // console.log(this.page.attributes.slug.split("/").slice(-1)[0])
   }
 }

@@ -3,7 +3,7 @@
 
     <saber-link 
       class="link" 
-      v-if="isLink" 
+      v-if="url" 
       :to="url"
       v-bind="$attrs">
         <slot />
@@ -11,7 +11,7 @@
 
     <span 
       class="link"
-      v-if="!isLink"
+      v-if="!url"
       v-bind="$attrs">
         <slot />
     </span>
@@ -34,10 +34,10 @@ export default {
       type: String,
       default: '#0000EE'
     },
-    isLink: {
-      type: Boolean,
-      default: true
-    }
+    // isLink: {
+    //   type: Boolean,
+    //   default: true
+    // }
   },
 }
 

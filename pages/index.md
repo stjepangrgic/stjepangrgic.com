@@ -17,29 +17,24 @@ smallImage: desk-illustration.png
   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
+    right="113"
     description="Farm managment software"
-    period="2016"
-    image="stjepangrgic-agrivi-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#3A9300"/>
+    bgImage="stjepangrgic-agrivi-card-bgImage.jpg"
+    projectImage="stjepangrgic-agrivi-card-projectImage.png"
+    underlinColor="#5FC21E"/>
   <ProjectCard
     url="/work/share-istria"
     title="Share Istria"
     description="Creative Tourism Campaign"
-    period="2016"
-    image="stjepangrgic-shareistria-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#0082AF"/>
+    bgImage="stjepangrgic-share-istria-card-bgImage.png"
+    projectImage="stjepangrgic-share-istria-card-projectImage.png"
+    underlinColor="#009FE2"/>
   <ProjectCard
     url="/work/vip-xmass-chat"
     title="Vip Xmas Chat"
     description="Promotional Chat App"
-    period="2016"
-    image="stjepangrgic-card-vip-chat.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
+    bgImage="stjepangrgic-vip-chat-card-bgImage.jpg"
+    projectImage="stjepangrgic-vip-chat-card-projectImage.png"
     textColor="#000"/>
 </section>
 

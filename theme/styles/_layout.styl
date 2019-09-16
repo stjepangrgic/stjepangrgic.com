@@ -11,6 +11,7 @@ article
 .grid
   display grid
   grid-column-gap 16px
+  // grid-column-gap 0.625%
   grid-row-gap 0
   // grid-template-columns: minmax(0px, 1fr) repeat(24, minmax(0px, 40px)) minmax(0px, 1fr)
   grid-template-columns: repeat(24, minmax(0px, 40px))
@@ -46,7 +47,11 @@ for num in (1..24)
   grid-column 3/ -3 !important
 
 .full-width
-  grid-column 1/ -1 !important
+  // grid-column 1/ -1 !important
+  width 100vw
+  position relative
+  left 50%
+  transform translateX(-50%)
 
 .content-width
   grid-column 7/ -7 !important

@@ -25,12 +25,12 @@ How to design appealing and honest branding that would convey Agrivi's mission? 
 
 Besides, being the only designer in a small team with big dreams is a lot of work. I knew that. But growing up in the countryside surrounded with crops and domestic animals, I understood pain points that farmers face. So I decided to join and design products that will solve actual problems. 
 
-<div class="block full-width grid">
+<div class="block g1-1 grid">
 
 ## Branding
 Agrivi was using a few stock icons and logo made from stuff downloaded from the internet (nothing new for a startup). But they had a firm idea that I wanted to build upon. The concept of a young plant starting its life. Furthermore, it reflected Agrivi as a young company.
 
-<figure class="full-width">
+<figure class="g1-1">
   <simg name="stjepangrgic-project-agrivi-branding-idea.jpg" />
 </figure> 
   
@@ -51,7 +51,7 @@ I was looking for friendly and inviting colours. I went with warm green hues tha
   <h3>Typography</h3>
   <p>To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.</p>
 </div> -->
-<div class="typography full-width grid">
+<div class="typography g1-1 grid">
   <div class="text">
     <h3>Typography</h3>
     <p>To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.</p>
@@ -86,10 +86,10 @@ I was looking for friendly and inviting colours. I went with warm green hues tha
 ### The logo
 All of the above together looks like this.
 
-<figure class="full-width mb8">
+<figure class="g1-1 mb8">
   <simg name="stjepangrgic-project-agrivi-logo-construction.png" />
 </figure>
-<figure class="full-width mb8">
+<figure class="g1-1 mb8">
   <simg name="stjepangrgic-project-agrivi-logo.png" />
 </figure>
 <figure class="gcs1 span12 mb8">
@@ -99,7 +99,7 @@ All of the above together looks like this.
   <simg name="stjepangrgic-project-agrivi-logo-monochrome-dark.png" />
 </figure>
 
-<div class="block full-width grid" style="position: relative; z-index: 11">
+<div class="block g1-1 grid" style="position: relative; z-index: 11">
 
 ## Web app
 At the moment, I can only share highlights of all the work I have been involved with regarding web application.
@@ -117,7 +117,7 @@ Field and crop management experience was especially challenging to envision as i
   
 </div>
 
-<div class="block reverse full-width grid">
+<div class="block reverse g1-1 grid">
 
 ## The website
 I have also worked on the website and other public pages. I developed wireframes, custom icons, and illustrations.
@@ -129,7 +129,7 @@ I have also worked on the website and other public pages. I developed wireframes
 </div>
 
 
-<div class="block full-width grid">
+<div class="block g1-1 grid">
 
 ## What I learned
 The success of any project or startup is determined by the team's ability to work together, to be harmonious. Interpersonal skills are, therefore, as valuable as technical skills when working in a small group. So after a few months of intensive work, I unhappily realised Agrivi was not a good fit for me.  I firmly believed Agrivi had a great idea and a bright future I could be part of. But circumstances like this happen, so I moved on.

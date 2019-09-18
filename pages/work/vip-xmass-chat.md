@@ -2,11 +2,9 @@
 layout: project
 navbarTitle: Vip Xmas Chat
 
-title: "How we made a chat <br> for a younger audience"
-accentColor: "#E60028"
-
+title: Vip XmasCard
+subtitle: Promotional chat app
 heroImage: "stjepangrgic-project-vip-chat-cover-image.jpg"
-bgColor: "#E60028"
 
 period: "2014"
 platform: "Web, Social media"
@@ -30,6 +28,8 @@ So the challenges were:
 - Can I design “chat boot” app
 
 ## Characters
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolorum cumque, dolorem impedit deserunt, consequatur libero exercitationem cupiditate nulla quisquam laudantium ab expedita dolor dolore et quibusdam incidunt itaque officia!
+
 <figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vip-chat-character-bozidar.jpg" />
 </figure>
@@ -46,7 +46,7 @@ So the challenges were:
   <simg name="stjepangrgic-project-vip-chat-character-elf-girl.jpg" />
 </figure>
 
-<figure class="full-width fix-img big-image">
+<figure class="g1-1 fix-img big-image">
   <simg name="stjepangrgic-project-vip-chat-character-illustrator-lines.jpg" />
 </figure>
 
@@ -54,7 +54,7 @@ So the challenges were:
 We knew a native app wasn't ideal for this project (time and cost reasons), so we opted up for responsive web app. This enabled the app to work on smartphones and desktop computers as well as interactive outdoor displays across the country.
 
 <figure class="grid-width fix-img">
-  <simg name="stjepangrgic-project-vip-chat-app-phones.png" />
+  <simg name="stjepangrgic-project-vip-chat-app-phones.jpg" />
 </figure>
 
 <figure class="grid-width fix-img">
@@ -86,11 +86,9 @@ To this day I think of it as one of most enjed projects and fun time of my caree
     url="/work/share-istria"
     title="Share Istria"
     description="Creative Tourism Campaign"
-    period="2016"
-    image="stjepangrgic-shareistria-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#0082AF"/>
+    bgImage="stjepangrgic-share-istria-card-bgImage.png"
+    projectImage="stjepangrgic-share-istria-card-projectImage.png"
+    underlinColor="#009FE2"/>
 </div>
 
 </div>
@@ -117,25 +115,27 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-.content
-  background-color: #FAFAFA;
-
-.big-image
-  mix-blend-mode: multiply;
-  position: relative;
-  /*overflow: scroll;*/
-  img
-    /*min-height: 300px;*/
-    object-fit cover
-    min-height 300px
-  &:after
-    content ""
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    bottom: -400px;
-    left: 0;
-    opacity: 0.3;
-    background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
+<style lang="stylus">
+.vip-xmass-chat
+  --hero-section-bg: #E60028
+  --subtitle-color: #E60028
+  --content-bgc #F5F5F5
+  .big-image
+    mix-blend-mode: multiply;
+    position: relative;
+    /*overflow: scroll;*/
+    img
+      /*min-height: 300px;*/
+      object-fit cover
+      min-height 300px
+    &:after
+      content ""
+      position: absolute;
+      width: 100vw;
+      height: 300px;
+      bottom: -300px;
+      left: 50%
+      transform translateX(-50%)
+      opacity: 0.3;
+      background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
 </style>

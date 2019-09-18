@@ -11,9 +11,6 @@ platform: "Web, Mobile"
 role: "Digital Product Designer"
 ---
 
-<!-- bgColor: "#8E6948" -->
-<!-- contentBgColor: "#FCFBFA" -->
-
 ## Introduction
 Agrivi is agritech (agriculture technology) startup with a promise of solving world food problem by providing farmers with knowledge-based software solutions. At the time, Agrivi secured a worthy investment to help them grow the company and improve the product. So I was the first designer to join the team.
 
@@ -134,19 +131,17 @@ I have also worked on the website and other public pages. I developed wireframes
 ## What I learned
 The success of any project or startup is determined by the team's ability to work together, to be harmonious. Interpersonal skills are, therefore, as valuable as technical skills when working in a small group. So after a few months of intensive work, I unhappily realised Agrivi was not a good fit for me.  I firmly believed Agrivi had a great idea and a bright future I could be part of. But circumstances like this happen, so I moved on.
 
-<!-- ### Check out next
+## Check out next
 
 <div class="grid-width next-project">
   <ProjectCard
-    url="/work/agrivi"
-    title="Agrivi"
-    description="Farm managment software"
-    period="2016"
-    image="stjepangrgic-agrivi-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#3A9300"/>
-</div> -->
+    url="/work/vip-xmass-chat"
+    title="Vip Xmas Chat"
+    description="Promotional Chat App"
+    bgImage="stjepangrgic-vip-chat-card-bgImage.jpg"
+    projectImage="stjepangrgic-vip-chat-card-projectImage.png"
+    textColor="#000"/>
+</div>
   
 </div>
 

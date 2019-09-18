@@ -78,6 +78,7 @@ export default {
   display flex
   overflow hidden
   margin-bottom 1rem
+  border-radius 2px
   &:after
     content ""
     display block
@@ -90,7 +91,7 @@ export default {
     left 0
     box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
   .bgImage
-    border-radius 2px
+    // border-radius 3px
   .info
     position absolute
     bottom 3.5rem
@@ -114,7 +115,7 @@ export default {
   .card-title
     font-size 4rem
     line-height 1
-    max-width 360px
+    max-width 370px
   .projectImage
     position absolute
     right -20px

@@ -5,13 +5,13 @@ subtitle: My name is Stjepan.
 smallImage: desk-illustration.png
 ---
 
-<b>I am a curious human being</b> exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography), [read](/book-list), do something different every day, I am trying to grow as a person. If you’re curious, read [my story](/my-story) or find out what I am doing [now](/now).
+**I am a curious human being** exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography), [read](/book-list), do something different every day, I am trying to grow as a person. If you’re curious, read [my story](/my-story) or find out what I am doing [now](/now).
 
-<b>I’m a digital product designer</b> with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out [my work](/work) or read my [resume](/resume).
+**I’m a digital product designer** with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out [my work](/work) or read my [resume](/resume).
 
 <section class="projects grid-width">
   <div class="title-wrap">
-    <h2 class="h3">Featuret projects</h2>
+    <h2 class="h3">Featured projects</h2>
     <saber-link to="/work">See all</saber-link>
   </div>
   <ProjectCard

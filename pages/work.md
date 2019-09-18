@@ -9,11 +9,17 @@ navbarTitle: Work
   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
-    right="113"
     description="Farm managment software"
     bgImage="stjepangrgic-agrivi-card-bgImage.jpg"
     projectImage="stjepangrgic-agrivi-card-projectImage.png"
     underlinColor="#5FC21E"/>
+  <ProjectCard
+    url="/work/vibby"
+    title="Vibby"
+    description="Interactive video platform"
+    bgImage="stjepangrgic-vibby-card-bgImage.png"
+    projectImage="stjepangrgic-vibby-card-projectImage.png"
+    underlinColor="#3CACF5"/>
   <ProjectCard
     url="/work/share-istria"
     title="Share Istria"

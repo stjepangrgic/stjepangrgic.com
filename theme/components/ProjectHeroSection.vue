@@ -44,6 +44,7 @@ export default {
   padding 2.5rem 0  
   img
     z-index -1
+    border-radius 2px
     // height 560px
     box-shadow 0 25px 19px -17px rgba(44,29,22,0.15)
     margin 0 auto

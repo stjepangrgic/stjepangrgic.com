@@ -5,7 +5,8 @@ subtitle: my first love.
 navbarTitle: Photography
 ---
 
-<b>Photography make you see how light revels the world to you.</b> It makes you see the colors, shapes, bright spots and dark shadows. <!-- All that and the right moment emotion emerges -->Ultimately, it made me a better designer.
+<!-- All that and the right moment emotion emerges -->
+<b>Photography made me see how light reveals the world to us.</b> It made me see the colours, shapes, bright spots and dark shadows. Ultimately, It made me a better designer.
 
 <vue-picture-swipe
   class="gallery"
@@ -252,9 +253,11 @@ navbarTitle: Photography
     },
   ]" />
 
-### How it all started
-It all started with Wild Kingdom. I fall in love with photography watching old man with a small lion. I was vey young, but I can remember it clearly. It was Wild Kingdom. I used to dream about going there and look them, explore them, take pictures of them, and film them. 
+<!-- ### How it all started
+It all started with the [Wild Kingdom](#). I fall in love with photography, watching an old man go around Africa, play with lions, . I was maybe 4-5 years old, but I can remember it clearly. Mine mind was like a disco ball.
 
+It was the Wild Kingdom. I used to dream about going there and look at them, explore them, take pictures of them, and film them. 
+ -->
 
 <script>
 import simg from '@/theme/components/simg.vue'

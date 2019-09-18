@@ -3,68 +3,59 @@ layout: project
 navbarTitle: Vibby
 
 title: Vibby
-subtitle: Interactive video platform startup
-accentColor: "#538AFF"
-
-heroImage: "stjepangrgic-project-vibby-cover-image.jpg"
-bgColor: "linear-gradient(180deg, #2CA3FF 0%, #6A7BFF 100%)"
+subtitle: Interactive video platform
+heroImage: "stjepangrgic-project-vibby-cover-image.png"
 
 period: "2015"
 platform: "Web"
 role: "Digital Product Designer"
 ---
 
+<!-- 538AFF -->
+<!-- bgColor: "linear-gradient(180deg, #2CA3FF 0%, #6A7BFF 100%)" -->
+
 ## Introduction
-Vibby was a US startup with offices in Zagreb (Croatia), and New York (US). It was a product of a group of brilliant college graduates, some of whom were world-class programmers, that wanted to build personalized and interactive online learning platform using online video. But there was a problem: an interactive online video did not exist. So they decided to pivot and build just that. And that was the moment I joined.
+Vibby was a US based startup with offices in Zagreb (Croatia), and New York (US). It was a product from a group of brilliant college graduates, some of whom were world-class programmers. They wanted to build personalised and interactive online learning platform using online video. But there was a problem: an interactive online video didn't exist. So they decided to pivot and build just that. And that is a moment when I joined the team.
 
-Prior to joining Vibby, I had no experience working in startup. 
-Until joinin vibby I had no startup experience. 
-Smart people
-I wanted to join
-
-Early stage  - just out of collage. I fealt idea had a potential.
-
-### My role
-This was huge, I worked on a lot of stuff. It was very early stage startup.
-Orisalo mi se pa moram ponovno
-I wanted to be around very smart people I was still verry young and had no Idea what I was doint to be honest. But It was an experience of my lifetime. I met beutifull people. And learned so much
+Before joining Vibby, I had no experience working in a startup. I was amazed by how many smart people worked there and how young the team was. They were all my age and just out of college.  
 
 <div class="idea full-width grid">
 
-### Idea
-How to make video more interactive? How to show only important bits of video to the audinece? Looking pack to this question they feal unecesary, but at the time I fealt something can be done about it. I belived we could build something special.
+### The challenge
+How to make an online video more interactive? How to show only essential bits of video to the audience? At the time, I felt something could be done about it. I felt idea had potential and believed we could build something special.
 
 <figure class="grid-width fix-img">
   <simg name="stjepangrgic-project-vibby-idea.jpg" />
 </figure> 
 
-### The chalange
-How to make video more interactive? How to show only important bits of video to the audinece? Looking pack to this question they feal unecesary, but at the time I fealt something can be done about it. I belived we could build something special.
+<!-- ### The chalange
+How to make video more interactive? How to show only important bits of video to the audinece? Looking pack to this question they feal unecesary, but at the time I fealt something can be done about it. I belived we could build something special. -->
+
+### My role
+I was the first and only designer on the team. So I was involved in every step of the process of creating a product. From rebranding to developing interactive wireframes. I worked on a web application user interface, website, presentations for investors and user experience of creating interactive videos.
 
 </div> <!-- Idea -->
 
-## Solutions
-This was huge, I worked on a lot of stuff. It was very early stage startup.
-Orisalo mi se pa moram ponovno
-I wanted to be around very smart people I was still verry young and had no Idea what I was doint to be honest. But It was an experience of my lifetime. I met beutifull people. And learned so much
+## Experiences
+Early on, we realised that creating an interactive online video from existing videos is going to be challenging. So we created two distinct experiences. Creating and watching. 
 
 <div class="solutions full-width grid">
 
 ### Vib Creation process
-I decided to blend the distinctive shape of the Istrian peninsula with all the experiences and photos one might have while visiting this amazing and unique region of Croatia. The campaign was distributed exclusively through digital channels so color choices were not restricted with print colors space.
+Vib creation was 3 part process of highlighting the most important/entertaining/informative/crazy parts of the video. We had to simplify steps several times as test users were not able to figure out how to do it in the first few iterations.
 
 <figure class="full-width fix-img center" style="max-width: 1300px;">
   <simg name="stjepangrgic-project-vibby-vib-creation-process.jpg" />
 </figure>
 
-You should be able to see it [here](here). If not you can check out video below
+You should be able to see the final result [here](https://www.vibby.com/create/1). If not, you can check out the video below.
 
 </div>
 
 <div class="block full-width grid">
 
 ### Vibby player
-I decided to blend the distinctive shape of the Istrian peninsula with all the experiences and photos one might have while visiting this amazing and unique region of Croatia. The campaign was distributed exclusively through digital channels so color choices were not restricted with print colors space.
+Interactive player was secont part of equasion. We focused on showing to the audience that they are watching the shorter, more esential, form of original video. Apart from we added comments
   
 <figure class="full-width fix-img center" style="max-width: 1795px;">
   <simg name="stjepangrgic-project-vibby-player.jpg" />
@@ -97,7 +88,7 @@ I decided to blend the distinctive shape of the Istrian peninsula with all the e
 ## Branding
 I decided to blend the distinctive shape of the Istrian peninsula with all the experiences and photos one might have while visiting this amazing and unique region of Croatia. The campaign was distributed exclusively through digital channels so color choices were not restricted with print colors space.
 
-<figure class="grid-width fix-img">
+<figure class="g5-5 fix-img">
   <simg name="stjepangrgic-project-vibby-logo-ideas.jpg" />
 </figure>
 
@@ -108,13 +99,13 @@ After a lot of ideas and experiments I decided to combine multiple I decided to 
 </figure>
 
 <figure class="grid-width fix-img">
-  <simg name="stjepangrgic-project-vibby-logo-unaccepted.jpg" />
+  <simg name="stjepangrgic-project-vibby-logo-unaccepted.png" />
 </figure>
 
 But in the end team decided to go with someething other
 
 <figure class="grid-width fix-img">
-  <simg name="stjepangrgic-project-vibby-logo-accepted.jpg" />
+  <simg name="stjepangrgic-project-vibby-logo-accepted.png" />
 </figure>
 
 <div class="full-width grid conclusion">
@@ -128,17 +119,13 @@ I decided to blend the distinctive shape of the Istrian peninsula with all the e
 ## Check out next
 
 <div class="grid-width next-project">
-<!--   <ProjectCard
+  <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
     description="Farm managment software"
-    period="2016"
-    image="stjepangrgic-agrivi-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#3A9300"/> -->
-
-  <ProjectCard project="Agrivi" />
+    bgImage="stjepangrgic-agrivi-card-bgImage.jpg"
+    projectImage="stjepangrgic-agrivi-card-projectImage.png"
+    underlinColor="#5FC21E"/>
 </div>
 
 </div>
@@ -157,26 +144,30 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-.idea
-  background-color #32333D
-  margin-top 4rem
-  padding-bottom 4rem
-  
-  h3, p
-    color #fff
-  p
-    opacity 0.9
-  figure 
-    margin-bottom 0
+<style lang="stylus">
+.vibby
+  --hero-section-bg #5D83FF
+  --subtitle-color #538AFF
+  --content-bgc #F9FAFC
+  .idea
+    background-color #32323C
+    margin-top 4rem
+    padding-bottom 4rem
+    
+    h3, p
+      color #fff
+    p
+      opacity 0.9
+    figure 
+      margin-bottom 0
 
-.block
-  background-color #E7F5FF
-  margin-top 4rem
-  padding-bottom 4rem
-  
-.video
-  width 100%
-  margin-top 2rem
-  margin-bottom 2rem
+  .block
+    background-color #E7F5FF
+    margin-top 4rem
+    padding-bottom 4rem
+    
+  .video
+    width 100%
+    margin-top 2rem
+    margin-bottom 2rem
 </style>

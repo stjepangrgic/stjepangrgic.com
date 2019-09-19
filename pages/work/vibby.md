@@ -32,7 +32,7 @@ How to make an online video more interactive? How to show only essential bits of
 How to make video more interactive? How to show only important bits of video to the audinece? Looking pack to this question they feal unecesary, but at the time I fealt something can be done about it. I belived we could build something special. -->
 
 ### My role
-I was the first and only designer on the team. So I was involved in every step of the process of creating a product. From rebranding to developing interactive wireframes. I worked on a web application user interface, website, presentations for investors and user experience of creating interactive videos. 
+I was the first and only designer on the team. So I was involved in every step of product creation from rebranding to developing interactive wireframes. I worked on a video player user interface, experience of creating interactive videos, website and presentations for investors. 
 
 Unexpectedly I worked as a part of the frontend development team as I had the most experience writing CSS and converting designs in working code. So basicaly I 'sliced' every of designs I did.
 

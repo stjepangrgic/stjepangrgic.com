@@ -2,7 +2,7 @@
 layout: project
 navbarTitle: Vip Xmas Chat
 
-title: Vip XmasCard
+title: Vip Xmas Chat
 subtitle: Promotional chat app
 heroImage: "stjepangrgic-project-vip-chat-cover-image.jpg"
 

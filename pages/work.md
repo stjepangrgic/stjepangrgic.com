@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Projects and work <br> I am proud of
+title: Projects and work
+subtitle: I am proud of.
 navbarTitle: Work
 ---
 

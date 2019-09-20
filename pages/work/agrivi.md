@@ -40,14 +40,6 @@ I was looking for friendly and inviting colours. I went with warm green hues tha
   <simg name="stjepangrgic-project-agrivi-colors.png" />
 </figure>
 
-<!-- Typography -->
-<!-- <figure class="gcs1 span12" style="margin: 0">
-  <simg name="stjepangrgic-project-agrivi-typography.png" />
-</figure>
-<div class="gcs13 span10" style="align-self: end; padding-bottom: 3rem; padding-left: 2rem">
-  <h3>Typography</h3>
-  <p>To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.</p>
-</div> -->
 <div class="typography g1-1 grid">
   <div class="text">
     <h3>Typography</h3>
@@ -70,15 +62,6 @@ I was looking for friendly and inviting colours. I went with warm green hues tha
   <simg name="stjepangrgic-project-agrivi-logomark.png" />
 </figure>
 
-<!-- <div class="logomark gcs5 span20">
-
-  <figure class="">
-    <simg name="stjepangrgic-project-agrivi-logomark-construction.png" />
-  </figure>
-  <figure>
-    <simg name="stjepangrgic-project-agrivi-logomark.png" />
-  </figure>
-</div> -->
 
 ### The logo
 All of the above together looks like this.

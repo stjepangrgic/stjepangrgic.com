@@ -29,7 +29,7 @@ import simg from '@/theme/components/simg.vue'
 // import ProjectHeader from '@/theme/components/ProjectHeader.vue'
 import PageHeader from '@/theme/components/PageHeader.vue'
 import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
+// import ProjectCard from '@/theme/components/ProjectCard.vue'
 import ProjectInfo from '@/theme/components/ProjectInfo.vue'
 import Navbar from '@/theme/components/Navbar.vue'
 import Footer from '@/theme/components/Footer.vue'
@@ -43,7 +43,7 @@ export default {
     simg,
     PageHeader,
     ProjectHeroSection,
-    ProjectCard,
+    // ProjectCard,
     ProjectInfo,
     Navbar,
     Footer,

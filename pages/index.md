@@ -38,7 +38,7 @@ smallImage: desk-illustration.png
     textColor="#000"/>
 </section>
 
-<div class="growth grid-width">
+<!-- <div class="growth grid-width">
   <h2 class="h3">Growth</h2>
   <div class="growth-grid">
     <SmallCard
@@ -54,7 +54,7 @@ smallImage: desk-illustration.png
       title="Bucket list"
       icon="bucket.svg"/>
   </div>
-</div>
+</div> -->
 
 <script>
 import slink from '@/theme/components/slink.vue'

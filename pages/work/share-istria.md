@@ -116,13 +116,13 @@ Share Istria was a project I enjoyed very much. I got to experience how is it to
 </div>
 
 <script>
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-import PageHeader from '@/theme/components/PageHeader.vue'
-import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
-import ProjectInfo from '@/theme/components/ProjectInfo.vue'
-// import Content from '@/theme/components/Content.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
+import slink from '@/components/slink.vue'
+import simg from '@/components/simg.vue'
+import PageHeader from '@/components/PageHeader.vue'
+import ProjectHeroSection from '@/components/ProjectHeroSection.vue'
+import ProjectInfo from '@/components/ProjectInfo.vue'
+// import Content from '@/components/Content.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
 
 export default {
   components: {

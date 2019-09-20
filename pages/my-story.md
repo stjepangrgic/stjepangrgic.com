@@ -60,7 +60,7 @@ When I stumble upon interesting people on the internet, I wonder how they became
 I plan to write more about specific things that happened to me, and the struggles that I overcome so the page will get updated.
 
 <script>
-import simg from '@/theme/components/simg.vue'
+import simg from '@/components/simg.vue'
 export default {
   components: {
     simg

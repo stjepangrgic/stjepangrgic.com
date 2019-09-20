@@ -57,12 +57,12 @@ smallImage: desk-illustration.png
 </div> -->
 
 <script>
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-import sfigure from '@/theme/components/sfigure.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
-import SmallCard from '@/theme/components/SmallCard.vue'
-import PageHeader from '@/theme/components/PageHeader.vue'
+import slink from '@/components/slink.vue'
+import simg from '@/components/simg.vue'
+import sfigure from '@/components/sfigure.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
+import SmallCard from '@/components/SmallCard.vue'
+import PageHeader from '@/components/PageHeader.vue'
 
 export default {
   components: {

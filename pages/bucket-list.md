@@ -57,7 +57,7 @@ I knew I want to write a bucket list on this site. But then I realized fails are
 <task title="Petra" done="true" />
 
 <script>
-import task from '@/theme/components/task.vue'
+import task from '@/components/task.vue'
 
 export default {
   components: {

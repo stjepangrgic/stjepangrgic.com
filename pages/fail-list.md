@@ -20,7 +20,7 @@ Fight with my brother less when we were younger
 … and more. I will write about them.
 
 <script>
-import simg from '@/theme/components/simg.vue'
+import simg from '@/components/simg.vue'
 export default {
   components: {
     simg

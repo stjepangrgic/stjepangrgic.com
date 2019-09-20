@@ -46,8 +46,8 @@
 </template>
 
 <script>
-import simg from '@/theme/components/simg.vue'
-import slink from '@/theme/components/slink.vue'
+import simg from '@/components/simg.vue'
+import slink from '@/components/slink.vue'
 
 export default {
   components: {

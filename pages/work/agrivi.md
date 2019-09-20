@@ -147,12 +147,12 @@ The success of any project or startup is determined by the team's ability to wor
 
 
 <script>
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
-import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
-import ProjectInfo from '@/theme/components/ProjectInfo.vue'
-import PageHeader from '@/theme/components/PageHeader.vue'
+import slink from '@/components/slink.vue'
+import simg from '@/components/simg.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
+import ProjectHeroSection from '@/components/ProjectHeroSection.vue'
+import ProjectInfo from '@/components/ProjectInfo.vue'
+import PageHeader from '@/components/PageHeader.vue'
 
 export default {
   components: {

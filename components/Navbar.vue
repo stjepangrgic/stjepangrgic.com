@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import menuicon from '@/theme/components/menu-icon.vue'
-import arrow from '@/theme/components/arrow.vue'
+import menuicon from '@/components/menu-icon.vue'
+import arrow from '@/components/arrow.vue'
 
 export default {
   components: {

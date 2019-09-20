@@ -28,11 +28,11 @@
 // Vue.use(require('vue-moment'));
 
 // import { Fragment } from 'vue-fragment'
-import PageHeader from '@/theme/components/PageHeader.vue'
-import PageInfo from '@/theme/components/PageInfo.vue'
-import simg from '@/theme/components/simg.vue'
-import Footer from '@/theme/components/Footer.vue'
-import Navbar from '@/theme/components/Navbar.vue'
+import PageHeader from '@/components/PageHeader.vue'
+import PageInfo from '@/components/PageInfo.vue'
+import simg from '@/components/simg.vue'
+import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/Navbar.vue'
 
 export default {
   components: {

@@ -1,8 +1,6 @@
 permalinks:
   page: /:slug/
 
-theme: ./theme
-
 plugins:
   - resolve: saber-plugin-image
     options:

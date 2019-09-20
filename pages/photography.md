@@ -19,7 +19,7 @@ It was the Wild Kingdom. I used to dream about going there and look at them, exp
  -->
 
 <script>
-import simg from '@/theme/components/simg.vue'
+import simg from '@/components/simg.vue'
 // import Vue from 'vue'
 // import VuePictureSwipe from 'vue-picture-swipe';
 // Vue.component('vue-picture-swipe', VuePictureSwipe);

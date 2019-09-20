@@ -41,7 +41,7 @@ Check out my [favourite books](/book-list#favourite-books).
 <span class="info">* This page is inspired by [Derek Sivers](https://sivers.org/) and the [now page project](https://nownownow.com/about).</span>
 
 <script>
-import simg from '@/theme/components/simg.vue'
+import simg from '@/components/simg.vue'
 export default {
   components: {
     simg

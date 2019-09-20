@@ -94,13 +94,13 @@ To this day I think of it as one of most enjed projects and fun time of my caree
 </div>
 
 <script>
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import PageHeader from '@/theme/components/PageHeader.vue'
-import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
-import ProjectInfo from '@/theme/components/ProjectInfo.vue'
+import slink from '@/components/slink.vue'
+import simg from '@/components/simg.vue'
+// import ProjectHeader from '@/components/ProjectHeader.vue'
+import PageHeader from '@/components/PageHeader.vue'
+import ProjectHeroSection from '@/components/ProjectHeroSection.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
+import ProjectInfo from '@/components/ProjectInfo.vue'
 
 export default {
   components: {

@@ -78,8 +78,8 @@ navbarTitle: Work
 
 
 <script>
-import ProjectCard from '@/theme/components/ProjectCard.vue'
-import PageHeader from '@/theme/components/PageHeader.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
+import PageHeader from '@/components/PageHeader.vue'
 
 export default {
   components: {

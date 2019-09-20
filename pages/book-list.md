@@ -31,7 +31,7 @@ If you're curious, check what I'm [reading now](/now#reading).
 - Test -->
 
 <script>
-import simg from '@/theme/components/simg.vue'
+import simg from '@/components/simg.vue'
 export default {
   components: {
     simg

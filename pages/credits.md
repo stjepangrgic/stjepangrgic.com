@@ -16,7 +16,7 @@ There is at least gazilion diferent designers, coders and people that inspired m
 
 
 <script>
-import simg from '@/theme/components/simg.vue'
+import simg from '@/components/simg.vue'
 export default {
   components: {
     simg

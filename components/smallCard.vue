@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import slink from '@/theme/components/slink.vue'  
+import slink from '@/components/slink.vue'  
 export default {
   props: ['url', 'title', 'bgColor', 'icon'],
   components: {

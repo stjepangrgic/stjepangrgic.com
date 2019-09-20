@@ -24,16 +24,16 @@
 
 <script>
 // import { Fragment } from 'vue-fragment'
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-// import ProjectHeader from '@/theme/components/ProjectHeader.vue'
-import PageHeader from '@/theme/components/PageHeader.vue'
-import ProjectHeroSection from '@/theme/components/ProjectHeroSection.vue'
-// import ProjectCard from '@/theme/components/ProjectCard.vue'
-import ProjectInfo from '@/theme/components/ProjectInfo.vue'
-import Navbar from '@/theme/components/Navbar.vue'
-import Footer from '@/theme/components/Footer.vue'
-import arrow from '@/theme/components/arrow.vue'
+import slink from '@/components/slink.vue'
+import simg from '@/components/simg.vue'
+// import ProjectHeader from '@/components/ProjectHeader.vue'
+import PageHeader from '@/components/PageHeader.vue'
+import ProjectHeroSection from '@/components/ProjectHeroSection.vue'
+// import ProjectCard from '@/components/ProjectCard.vue'
+import ProjectInfo from '@/components/ProjectInfo.vue'
+import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
+import arrow from '@/components/arrow.vue'
 
 export default {
   components: {

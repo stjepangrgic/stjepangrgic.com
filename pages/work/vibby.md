@@ -133,9 +133,9 @@ Ultimately I will remember the time I was working there as one of the best days 
 </div>
 
 <script>
-import slink from '@/theme/components/slink.vue'
-import simg from '@/theme/components/simg.vue'
-import ProjectCard from '@/theme/components/ProjectCard.vue'
+import slink from '@/components/slink.vue'
+import simg from '@/components/simg.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
 
 export default {
   components: {

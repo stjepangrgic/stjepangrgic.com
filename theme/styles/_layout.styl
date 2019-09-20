@@ -118,7 +118,14 @@ figure + div
   padding-top 3rem
   padding-bottom 4rem
   background-color var(--content-bgc)
-
+  
+.page-enter-active, .page-leave-active
+  transition: opacity 0.2s
+  // filter: blur(10px);
+  
+.page-enter,.page-leave-to
+  opacity: 0
+  // filter: blur(0px);
 
 // .page-header
 //   --page-header-bgc:#fff

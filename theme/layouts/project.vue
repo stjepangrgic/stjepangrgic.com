@@ -1,7 +1,7 @@
 <template>
-  <fragment>
+  <div :class="scopeClass()">
     <Navbar :attributes="page.attributes" :class="scopeClass('__nav')"/>
-    <main :class="scopeClass()">
+    <main>
       <article>
         <PageHeader
           :title="page.attributes.title"
@@ -19,11 +19,11 @@
       </article>
     </main>
     <Footer :class="scopeClass('__footer')"/>
-  </fragment>
+  </div>
 </template>
 
 <script>
-import { Fragment } from 'vue-fragment'
+// import { Fragment } from 'vue-fragment'
 import slink from '@/theme/components/slink.vue'
 import simg from '@/theme/components/simg.vue'
 // import ProjectHeader from '@/theme/components/ProjectHeader.vue'
@@ -37,7 +37,7 @@ import arrow from '@/theme/components/arrow.vue'
 
 export default {
   components: {
-    Fragment,
+    // Fragment,
     slink,
     // ProjectHeader,
     simg,

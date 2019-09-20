@@ -10,8 +10,8 @@ Books never interested me. I didn't understand the reason why would anyone spend
 
 But I discovered a joy of reading while going through Harry Potter and the Goblet of Fire. That was actually the first book I read front to back. Eventually, my mind and eyes syncronised and now reading is not so hard to do.  
 
-### Big boost
-Big jump in my reading came after finding a recommendation on [how to read a book](https://www.vanschneider.com/how-to-read-a-book) by Tobias van Schneider. It resonated with me. I started to read more. So for this page, I shamelessly stole [his title](https://www.vanschneider.com/my-favorite-books-on-creativity-productivity-life).
+### How to read
+Big boost in my reading came after finding a recommendation on [how to read a book](https://www.vanschneider.com/how-to-read-a-book) by Tobias van Schneider. It resonated with me. I started to read more. So for this page, I shamelessly stole [his title](https://www.vanschneider.com/my-favorite-books-on-creativity-productivity-life).
 
 ### Favourite books
 Here is the list of some of the books that left a significant impact on me.

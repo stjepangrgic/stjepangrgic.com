@@ -1,7 +1,7 @@
 <template>
-  <fragment>
+  <div :class="[scopeClass()]">
     <Navbar :attributes="page.attributes" :class="[scopeClass('__nav')]"/>
-    <main :class="[scopeClass()]">
+    <main>
       <PageHeader
         :title="page.attributes.title"
         :subtitle="page.attributes.subtitle"
@@ -11,24 +11,20 @@
       </section>
     </main>
     <Footer :class="[scopeClass('__footer')]"/>
-  </fragment>
+  </div>
 </template>
 
 <script>
 // Vue.use(require('vue-moment'));
 
-import { Fragment } from 'vue-fragment'
+// import { Fragment } from 'vue-fragment'
 import PageHeader from '@/theme/components/PageHeader.vue'
 import Footer from '@/theme/components/Footer.vue'
 import Navbar from '@/theme/components/Navbar.vue'
 
-import Vue from 'vue'
-import VuePictureSwipe from 'vue-picture-swipe';
-Vue.component('vue-picture-swipe', VuePictureSwipe);
-
 export default {
   components: {
-    Fragment,
+    // Fragment,
     PageHeader,
     Footer,
     Navbar,
@@ -57,5 +53,6 @@ export default {
 .content
   // margin-top 2rem
   // padding-bottom 4rem
+  
 </style>
 

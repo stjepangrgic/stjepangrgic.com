@@ -29,7 +29,6 @@ export default {
 </script>
 <style lang="stylus">
 .fail-list
-  /*background-color: #afa;*/
   .page-header
     overflow: hidden;
   .small-image

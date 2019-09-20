@@ -1,6 +1,6 @@
 <template>
-  <fragment>
-    <Navbar :attributes="page.attributes" :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__nav'"/>
+  <div :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__nav'">
+    <Navbar :attributes="page.attributes"/>
     <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
       <article ref="article">
         <PageHeader
@@ -19,34 +19,15 @@
           <slot name="default" />
         </section>
       </article>
-<!--       <article>
-        <header class="main grid">
-          <PageHeader
-            :title="page.attributes.title"
-            :subtitle="page.attributes.subtitle"
-            :accentColor="page.attributes.accentColor" />
-          <ProjectHeroSection 
-            :heroImage="page.attributes.heroImage"
-            :bgImage="page.attributes.bgImage"
-            :bgColor="page.attributes.bgColor" />
-        </header>
-        <section class="content full-width grid" :style="{ backgroundColor: page.attributes.contentBgColor }">
-          <ProjectInfo
-            :period="page.attributes.period"
-            :platform="page.attributes.platform"
-            :role="page.attributes.role" />
-          <slot name="default" />
-        </section>
-      </article> -->
     </main>
     <Footer :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__footer'" />
-  </fragment>
+  </div>
 </template>
 
 <script>
 // Vue.use(require('vue-moment'));
 
-import { Fragment } from 'vue-fragment'
+// import { Fragment } from 'vue-fragment'
 import PageHeader from '@/theme/components/PageHeader.vue'
 import PageInfo from '@/theme/components/PageInfo.vue'
 import simg from '@/theme/components/simg.vue'
@@ -55,7 +36,7 @@ import Navbar from '@/theme/components/Navbar.vue'
 
 export default {
   components: {
-    Fragment,
+    // Fragment,
     PageHeader,
     PageInfo,
     simg,

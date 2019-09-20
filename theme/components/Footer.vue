@@ -1,29 +1,31 @@
 <template>
   <footer class="footer full-width grid">
     <simg name="paperplane-illustration.svg" class="paperplane" />
-<!--       <header>
-        <h2>
-          You are awesome<br>
-          <span class="light">
-            for reaching all the way down!
-            <span role="img" aria-label="Praise Hands">🙌</span>
-          </span>
-        </h2>
-      </header> -->
-      <!-- Not ready yet -->
-<!--       <section class="newsletter">
-        <p>
-          <b>For updates</b> on new work,<br>
-          travel stories<br>
-          and design articles,<br>
-          <b>subscribe to newsletter</b>.
-        </p>
-        <form action="">
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <span>I dont send spam unsubscribe at any time</span>
-          <input type="submit" value="Subscribe to newsletter">
-        </form>
+    <!--    
+    <header>
+      <h2>
+        You are awesome<br>
+        <span class="light">
+          for reaching all the way down!
+          <span role="img" aria-label="Praise Hands">🙌</span>
+        </span>
+      </h2>
+    </header> -->
+    <!-- Not ready yet -->
+    <!--       
+    <section class="newsletter">
+      <p>
+        <b>For updates</b> on new work,<br>
+        travel stories<br>
+        and design articles,<br>
+        <b>subscribe to newsletter</b>.
+      </p>
+      <form action="">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <span>I dont send spam unsubscribe at any time</span>
+        <input type="submit" value="Subscribe to newsletter">
+      </form>
       </section> -->
       <section class="gray g3-3">
         <div class="footer-links">
@@ -32,15 +34,9 @@
           <slink url="/my-story">My Story</slink>
           <slink url="/work">Work</slink>
           <slink url="/book-list">Book list</slink>
-          <slink url="/fail-list">Fail list</slink>
-          <slink url="/bucket-list">Bucket list</slink>
+<!--           <slink url="/fail-list">Fail list</slink>
+          <slink url="/bucket-list">Bucket list</slink> -->
           <slink url="/photography">Photorgaphy</slink>
-          <!--       
-          <ul>
-            <li>[Home](/)</li>
-            <li>[Now](/now)</li>
-            <li>[My Story](/)</li>
-          </ul> -->
         </div>
         <p>Content © {{now}} Stjepan Grgic. All rights reserved. <br> Design and code (except graphics) are open source on <a href="https://github.com/stjepangrgic/stjepangrgic.com" target="_blank">GitHub</a>. Built with <a href="https://vuejs.org/" target="_blank">VueJS</a> and <a href="https://saber.land/" target="_blank">Saber</a>. Hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. <!-- Read the <saber-link to="/credits">credits</saber-link>.</p> -->
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="info grid">
-    <span class="updatedAt grid-width">Site updated on <time :datetime="datetime">{{updatedAt}}</time></span>
+  <div class="info">
+    <span class="updatedAt">Site updated on <time :datetime="datetime">{{updatedAt}}</time></span>
     <!-- <span v-if="displayReadingTime">{{readingTime}} min read</span> -->
   </div>
 </template>

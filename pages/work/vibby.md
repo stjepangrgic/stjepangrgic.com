@@ -147,7 +147,7 @@ export default {
 </script>
 
 <style lang="stylus">
-.vibby
+/*.vibby
   --hero-section-bg #5D83FF
   --subtitle-color #538AFF
   --content-bgc #F9FAFC
@@ -175,6 +175,5 @@ export default {
     margin-top 2rem
     margin-bottom 2rem
   .conclusion
-    background-color: #ECF0F2;
-    /*padding-bottom: 4rem;*/
+    background-color: #ECF0F2;*/
 </style>

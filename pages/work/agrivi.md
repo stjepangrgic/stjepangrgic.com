@@ -150,18 +150,18 @@ export default {
 </script>
 
 <style lang="stylus">
-.agrivi
+/*.agrivi
   --hero-section-bg: #7F5A43
   --subtitle-color: #8E6948
   --content-bgc #F8F3F0
+  &__nav .nav__wrap, .page-title
+      grid-column 6 / -6
   .hero-image
-    /*top: 3.375rem*/
+    grid-column 1 / -1
     img
       box-shadow none
-      max-width: 967px;
+      max-width: 938px;
       width 100%
-  figure
-    display flex
   figure img
     border-radius: 1px;
   .block
@@ -176,9 +176,7 @@ export default {
       left 50%
       transform translateX(-50%)
       height 700px
-      /*border-top 2px solid #E6DFDC*/
       background-color #fff
-      /*background: linear-gradient(180deg, #FAF8F7 0%, #FCFBFA 100%);*/
       background: linear-gradient(180deg, #ECE1DC 0%, rgba(#ECE1DC, 0) 100%);
       z-index -1
   .block.reverse:before
@@ -218,6 +216,6 @@ export default {
     display: flex;
     flex-direction: row;
     img
-      width: 50%;
+      width: 50%;*/
 
 </style>

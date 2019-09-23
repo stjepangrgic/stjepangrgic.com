@@ -49,9 +49,9 @@ export default {
 }
 </script>
 <style lang="stylus">
-.now
+/*.now
   .small-image
     bottom: 0;
     right: 100px;
-    width 43px
+    width 43px*/
 </style> 

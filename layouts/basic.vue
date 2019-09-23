@@ -1,14 +1,18 @@
 <template>
   <div :class="[scopeClass()]">
     <slot name="default" />
+    <Footer :class="[scopeClass('__footer')]"/>
   </div>
 </template>
 
 <script>
 import { Fragment } from 'vue-fragment'
+import Footer from '@/components/Footer.vue'
+
 export default {
   components: {
-    Fragment
+    Fragment,
+    Footer
   },
   props: ['page'],
   methods: {

@@ -275,10 +275,11 @@ export default {
 }
 </script>
 <style lang="stylus">
-.photography
-  --page-header-bgc: #111;
+/*.photography
+  --page-header-bgc: linear-gradient(43deg, #111111 6%, #111111 33%, #1F1F1F 100%)
   --page-header-border-color: #222;
   --content-bgc #111
+  
 
   p b
     font-weight: 700
@@ -306,12 +307,10 @@ export default {
   .page-title
     color #eee
   .content
-    /*background-color: #111*/
     h2,h3,p
       color #fafafa
   .gallery
     margin-top: 3rem;
-    /*background-color: #afa;*/
     grid-column 1/ -1 !important
     padding-left: 5px;
     padding-right: 5px;
@@ -324,18 +323,15 @@ export default {
       figure
         margin: 0;
         padding: 0;
-        /*overflow: hidden;*/
         display: flex;
         justify-content: center;
         align-items: center;
-        /* Vertical */
         &:nth-of-type(9),
         &:nth-of-type(20)
         &:nth-of-type(24)
         &:nth-of-type(25)
           grid-row: span 2;
 
-        /* Big */
         &:nth-of-type(1),
         &:nth-of-type(4),
         &:nth-of-type(18)
@@ -352,6 +348,6 @@ export default {
             max-width: initial;
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: cover;*/
 
 </style> 

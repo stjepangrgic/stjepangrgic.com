@@ -91,7 +91,7 @@ export default {
 </script>
 
 <style lang="stylus">
-.work
-  .projects
+/*.work
+  .projects*/
     /*margin-top: 3rem;*/
 </style>

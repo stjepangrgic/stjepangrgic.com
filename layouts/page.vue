@@ -43,14 +43,14 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.page-title
-  padding-bottom 5.5rem
-  border-bottom 2px solid #FFDB17  
-  background-size 100%
-  display block
-  position relative
+// .page-title
+//   padding-bottom 5.5rem
+//   border-bottom 2px solid #FFDB17  
+//   background-size 100%
+//   display block
+//   position relative
   
-.content
+// .content
   // margin-top 2rem
   // padding-bottom 4rem
   

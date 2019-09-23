@@ -39,10 +39,10 @@ export default {
 }
 </script>
 <style lang="stylus">
-.book-list
+/*.book-list
   .small-image
     width 198px
     bottom: 10vh;
-    left: -18vw;
+    left: -18vw;*/
 </style>
  

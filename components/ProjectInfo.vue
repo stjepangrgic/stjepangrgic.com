@@ -22,29 +22,23 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.project-info
-  /*display: grid;*/
-  display: flex;
-  /*  grid-column-gap 0.625%
-  grid-template-columns: 1fr 1fr 1fr*/
-  /*align-items: left;*/
-  /*justify-items: start;*/
-  /*justify-content: start;*/
-  margin-top: 7rem;
-  > *
-    margin-right: 4rem
-    display: flex;
-    flex-direction: column;
-  @media screen and (max-width: 800px)
-    flex-direction: column;
-    margin-top 5rem
-    > *
-      margin-top 1rem
-  small
-    font-size: 1rem
-    line-height: 1.5;
-    // font-weight: 600;
-    color rgba(#000, 0.3)
-  p
-    margin: 0;
+// .project-info
+//   display: flex;
+//   margin-top: 7rem;
+//   // width min-content;
+//   > *
+//     margin-right: 4rem
+//     display: flex;
+//     flex-direction: column;
+//   @media screen and (max-width: 800px)
+//     flex-direction: column;
+//     margin-top 5rem
+//     > *
+//       margin-top 1rem
+//   small
+//     font-size: 1rem
+//     line-height: 1.5;
+//     color rgba(#000, 0.3)
+//   p
+//     margin: 0;
 </style>

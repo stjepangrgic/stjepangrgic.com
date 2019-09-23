@@ -2,7 +2,7 @@
 layout: post
 title: How I ended up here.
 navbarTitle: My Story
-smallImage: stjepangrgic-portrait.jpg
+<!-- smallImage: stjepangrgic-portrait.jpg -->
 ---
 
 ### Is this useful?
@@ -68,8 +68,9 @@ export default {
 }
 </script>
 <style lang="stylus">
-.my-story
-  &__nav
+/*.my-story*/
+  /*background-color: #afa;*/
+/*  &__nav
     color #fafafa
     a:hover
       color #111
@@ -89,8 +90,7 @@ export default {
     position: relative;
     z-index: 2
     background-color: #fff;
-    /*color #eee*/
   .content
     position: relative;
-    z-index: 9;
+    z-index: 9;*/
 </style> 

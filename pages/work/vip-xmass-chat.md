@@ -116,16 +116,14 @@ export default {
 </script>
 
 <style lang="stylus">
-.vip-xmass-chat
+/*.vip-xmass-chat
   --hero-section-bg: #E60028
   --subtitle-color: #E60028
   --content-bgc #F5F5F5
   .big-image
     mix-blend-mode: multiply;
     position: relative;
-    /*overflow: scroll;*/
     img
-      /*min-height: 300px;*/
       object-fit cover
       min-height 300px
     &:after
@@ -137,5 +135,5 @@ export default {
       left: 50%
       transform translateX(-50%)
       opacity: 0.3;
-      background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
+      background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);*/
 </style>

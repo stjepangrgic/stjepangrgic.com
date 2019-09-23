@@ -69,9 +69,9 @@ export default {
 </script>
 
 <style lang="stylus">
-.bucket-list
+/*.bucket-list
   .small-image
     width 220px
     right: 5vw;
-    top: -30px;
+    top: -30px;*/
 </style>

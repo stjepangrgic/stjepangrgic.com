@@ -28,9 +28,6 @@
 </template>
 
 <script>
-// Vue.use(require('vue-moment'));
-
-// import { Fragment } from 'vue-fragment'
 import PageHeader from '@/components/PageHeader.vue'
 import PageInfo from '@/components/PageInfo.vue'
 import simg from '@/components/simg.vue'
@@ -62,7 +59,7 @@ export default {
     let date = this.page.attributes.updatedAt
     this.datetime = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
     // console.log(require('@/assets/images/' + this.page.attributes.smallImage))
-    console.log(page.attributes)
+    // console.log(this.page.attributes)
   },
   methods: {
     scopeClass(suffix) {
@@ -75,26 +72,28 @@ export default {
   },
 }
 
-// console.log(this.page.attributes)
 </script>
 <style lang="stylus" scoped>
-.page-title
-  padding-bottom 5.5rem
-  border-bottom 2px solid #FFDB17  
-  background-size 100%
-  display block
-  position relative
+// .page-header
+//   --page-header-bgc: linear-gradient(38deg, #FFFFFF 19%, #F8F8F8 54%, #F8F8F8 100%)
   
-.small-image
-  position absolute
-  z-index -1
+// .page-title
+//   padding-bottom 5.5rem
+//   border-bottom 2px solid #FFDB17  
+//   background-size 100%
+//   display block
+//   position relative
+  
+// .small-image
+//   position absolute
+//   z-index -1
 
-.info
-  font-size 1rem
-  padding-top 0.5rem
-  line-height 40px
-  span
-    margin-right 2rem
+// .info
+//   font-size 1rem
+//   padding-top 0.5rem
+//   line-height 40px
+//   span
+//     margin-right 2rem
   
 .content
   // margin-top 2rem

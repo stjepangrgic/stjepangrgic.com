@@ -28,11 +28,11 @@ export default {
 }
 </script>
 <style lang="stylus">
-.fail-list
+/*.fail-list
   .page-header
     overflow: hidden;
   .small-image
     width 272px
     right: 0
-    bottom: -50px;
+    bottom: -50px;*/
 </style> 

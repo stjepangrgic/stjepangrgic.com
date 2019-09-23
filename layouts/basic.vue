@@ -1,7 +1,7 @@
 <template>
-  <fragment>
+  <div :class="[scopeClass()]">
     <slot name="default" />
-  </fragment>
+  </div>
 </template>
 
 <script>
@@ -10,6 +10,15 @@ export default {
   components: {
     Fragment
   },
-  props: ['page']
+  props: ['page'],
+  methods: {
+    scopeClass(suffix) {
+      if (suffix) {
+        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      } else {
+        return this.page.attributes.slug.split('/').slice(-1)[0]
+      }
+    }
+  },
 }
 </script>

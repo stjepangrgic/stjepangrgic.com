@@ -81,10 +81,10 @@ export default {
   .page-title
     color #fff
   .small-image
-    object-fit: cover;
-    width: 100vw
-    height: 90vh;
-    position: fixed;
+    object-fit: cover !important
+    width: 100vw !important
+    height: 90vh !important
+    position: fixed !important
   .info 
     position: relative;
     z-index: 2
@@ -93,5 +93,4 @@ export default {
   .content
     position: relative;
     z-index: 9;
-    background-color: #fff;
 </style> 

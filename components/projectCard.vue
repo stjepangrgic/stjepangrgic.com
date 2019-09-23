@@ -73,8 +73,9 @@ export default {
   position relative
   display flex
   overflow hidden
-  margin-bottom 1rem
   border-radius 2px
+  &:not(.last-chidl)
+    margin-bottom 1.5rem
   &:after
     content ""
     display block

@@ -1,7 +1,7 @@
 <template>
-  <div :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__nav'">
-    <Navbar :attributes="page.attributes"/>
-    <main :class="this.page.attributes.slug.split('/').slice(-1)[0]">
+  <div :class="[scopeClass()]">
+    <Navbar :attributes="page.attributes" :class="[scopeClass('__nav')]"/>
+    <main>
       <article ref="article">
         <PageHeader
           :title="page.attributes.title"
@@ -59,6 +59,15 @@ export default {
     let date = this.page.attributes.updatedAt
     this.datetime = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
     // console.log(require('@/assets/images/' + this.page.attributes.smallImage))
+  },
+  methods: {
+    scopeClass(suffix) {
+      if (suffix) {
+        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      } else {
+        return this.page.attributes.slug.split('/').slice(-1)[0]
+      }
+    }
   },
 }
 

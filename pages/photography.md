@@ -8,9 +8,7 @@ navbarTitle: Photography
 <!-- All that and the right moment emotion emerges -->
 <b>Photography made me see how light reveals the world to us.</b> It made me see the colours, shapes, bright spots and dark shadows. Ultimately, It made me a better designer.
 
-<!-- <vue-picture-swipe
-  class="gallery"
-  :items="images" /> -->
+<vue-picture-swipe class="gallery" :items="images" />
 
 <!-- ### How it all started
 It all started with the [Wild Kingdom](#). I fall in love with photography, watching an old man go around Africa, play with lions, . I was maybe 4-5 years old, but I can remember it clearly. Mine mind was like a disco ball.
@@ -19,10 +17,10 @@ It was the Wild Kingdom. I used to dream about going there and look at them, exp
  -->
 
 <script>
+import Vue from 'vue'
+import VuePictureSwipe from 'vue-picture-swipe';
+Vue.component('vue-picture-swipe', VuePictureSwipe);
 import simg from '@/components/simg.vue'
-// import Vue from 'vue'
-// import VuePictureSwipe from 'vue-picture-swipe';
-// Vue.component('vue-picture-swipe', VuePictureSwipe);
 
 export default {
   data( ){

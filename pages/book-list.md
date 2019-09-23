@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Favorite Books on <br> Creativity, Productivity & Life
+title: Favorite Books on Creativity, Productivity & Life
 navbarTitle: Book list
 smallImage: books.png
 ---

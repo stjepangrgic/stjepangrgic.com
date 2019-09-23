@@ -9,7 +9,7 @@
         <ProjectHeroSection 
           :heroImage="page.attributes.heroImage"
           :bgImage="page.attributes.bgImage"/>
-        <section class="content full-width grid">
+        <section class="content nw">
           <ProjectInfo
             :period="page.attributes.period"
             :platform="page.attributes.platform"
@@ -72,22 +72,22 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-nav
-  font-size: 1.5rem
-  margin-top 2rem
-  position absolute
-  top 0
-  left 0
-  right 0
-  width 100%
-  svg 
-    position relative
-    top 2px
-    margin 0 0.5rem
+// nav
+//   font-size: 1.5rem
+//   margin-top 2rem
+//   position absolute
+//   top 0
+//   left 0
+//   right 0
+//   width 100%
+//   svg 
+//     position relative
+//     top 2px
+//     margin 0 0.5rem
   
 .page-header
-  --page-header-bgc #fff
-  --page-header-border-color #fff
+  --page-header-bgc var(--content-bgc)
+  --page-header-border-color var(--content-bgc)
 
 </style>
 

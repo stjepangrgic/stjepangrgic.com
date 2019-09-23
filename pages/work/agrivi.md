@@ -155,7 +155,7 @@ export default {
   --subtitle-color: #8E6948
   --content-bgc #F8F3F0
   .hero-image
-    top: 3.375rem
+    /*top: 3.375rem*/
     img
       box-shadow none
       max-width: 967px;

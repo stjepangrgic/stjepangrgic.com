@@ -3,6 +3,7 @@ layout: page
 title: Projects and work
 subtitle: I am proud of.
 navbarTitle: Work
+info: false
 ---
 
 <section class="projects grid-width">

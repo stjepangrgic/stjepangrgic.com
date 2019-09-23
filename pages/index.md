@@ -90,17 +90,6 @@ export default {
 </script>
 
 <style lang="stylus">
-.nw, .pw
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0 auto;
-.nw
-  max-width: 688px;
-.pw
-  max-width: 1136px;
-.img-fix
-  display: flex
-
 .index
   header
     margin-top: 8rem;
@@ -131,6 +120,7 @@ export default {
       filter: blur(50px);
       opacity: 0.2;
       width: 1560px;
+      height: 533px;
     .laptop
       width: 400px;
       position: absolute;

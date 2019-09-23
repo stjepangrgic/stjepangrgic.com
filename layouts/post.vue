@@ -6,21 +6,24 @@
         <PageHeader
           :title="page.attributes.title"
           :subtitle="page.attributes.subtitle"
-          :smallImage="page.attributes.smallImage" />
-        <div class="info grid">
-          <span class="grid-width">
+          :smallImage="page.attributes.smallImage"
+          :updatedAt="updatedAt"
+          :datetime="datetime"
+          :readingTime="readingTime"/>
+<!--         <div class="info nw">
+          <span class="">
             <span class="updatedAt">Updated on <time :datetime="datetime">{{updatedAt}}</time></span>
             <span>{{readingTime}} min read</span>
             <span v-if="this.page.attributes.otherInfo">{{this.page.attributes.otherInfo}}</span>
           </span>
-        </div> <!-- This is temporary solution becouse I have no time to make functional component that is going to work on evey page -->
+        </div> --> <!-- This is temporary solution becouse I have no time to make functional component that is going to work on evey page -->
         <!-- <PageInfo :attributes="page.attributes"/> -->
         <section class="content grid">
           <slot name="default" />
         </section>
       </article>
     </main>
-    <Footer :class="this.page.attributes.slug.split('/').slice(-1)[0] + '__footer'" />
+    <Footer :class="scopeClass('__footer')" />
   </div>
 </template>
 
@@ -59,6 +62,7 @@ export default {
     let date = this.page.attributes.updatedAt
     this.datetime = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
     // console.log(require('@/assets/images/' + this.page.attributes.smallImage))
+    console.log(page.attributes)
   },
   methods: {
     scopeClass(suffix) {

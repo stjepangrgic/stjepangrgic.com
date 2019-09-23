@@ -1,11 +1,15 @@
 <template>
-  <header class="page-header grid">
-    <h1 class="page-title grid-width">
+  <header class="page-header">
+    <h1 class="page-title title-width">
       <span v-html="title" />
       <br v-if="subtitle">
       <span v-if="subtitle" class="subtitle">{{subtitle}}</span>
     </h1>
-    <simg v-if="smallImage" :name="smallImage" class="grid-width small-image" />
+    <!-- <simg v-if="smallImage" :name="smallImage" class="grid-width small-image" /> -->
+    <div class="info nw" v-if="updatedAt">
+      <span class="updatedAt">Updated on <time :datetime="datetime">{{updatedAt}}</time></span>
+      <span>{{readingTime}} min read</span>
+    </div>
   </header>
 </template>
 
@@ -25,38 +29,56 @@ export default {
     },
     smallImage: {
       type: String
+    },
+    datetime: {
+      type: String
+    },
+    updatedAt: {
+      type: String
+    },
+    readingTime: {
+      type: String
     }
+  },
+  mounted() {
+    console.log(this.test)
   }
 }
 </script>
 
 <style lang="stylus" scoped>
 .page-header
-  // background-color #FAF8F7
-  // border-bottom 2px solid #E6DFDC
   position relative
   background-color var(--page-header-bgc)
-  border-bottom 2px solid var(--page-header-border-color)
-  // overflow hidden
-  
-// .page-header.white
-//   background-color #fff
-//   border-color #fff
-  
-
 
 .small-image
   position absolute
   
 .page-title
-  font-size 4rem
+  font-size 3.5rem
   font-weight 800
-  line-height 1
-  margin-bottom 5.5rem
-  margin-top 29vh
+  line-height 64px
+  padding-bottom 5.5rem
+  padding-top 29vh
   position relative
   z-index 2
+  // letter-spacing -0.021964286em
   // max-width 700px
+
+.info
+  display flex
+  flex-direction row
+  justify-content space-between
+  font-size .875rem
+  opacity 0.3
+  line-height 32px
+  padding-bottom 0.5rem
+  position absolute
+  bottom 0
+  width 100%
+  left 50%
+  transform translateX(-50%)
+  // margin 0 auto
   
 .subtitle
   font-weight 400

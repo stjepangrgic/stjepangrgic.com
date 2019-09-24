@@ -1,8 +1,6 @@
 <template>
-	<figure class="hero-section">
-    <div class="hero-image img-fix project-width">
-      <simg :name="heroImage" />
-    </div>
+	<figure class="hero-image img-fix project-width">
+    <simg :name="heroImage" />
 	</figure>
 </template>
 
@@ -22,11 +20,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-// .hero-section
-//   position relative
-//   z-index 99
-//   margin 0
-//   background-color var(--content-bgc)
+.hero-image
+  // position relative
+  // z-index 99
+  // margin 0
+  background-color var(--content-bgc)
 
 // .hero-image
 //   position relative

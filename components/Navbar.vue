@@ -1,17 +1,15 @@
 <template>
-  <nav :class="['nav g', { hidden: isIndex } ]">
-    <div class="nav__wrap g5-5">
-      <saber-link to="/" class="nav-profile">
-        <simg name="navbar-profile.jpg" />
-      </saber-link>
-      <arrow v-if="!isIndex"/>
-      <span v-if="isDeep">{{this.attributes.navbarTitle}}</span>
-      <fragment v-else>
-        <saber-link :to="secondLinkUrl">{{secondLinkText}}</saber-link>
-        <arrow/>
-        <span>{{this.attributes.navbarTitle}}</span>
-      </fragment>
-    </div>
+  <nav class="nav">
+    <saber-link to="/" class="nav-profile">
+      <simg name="navbar-profile.jpg" />
+    </saber-link>
+    <arrow v-if="!isIndex"/>
+    <span v-if="isDeep">{{this.attributes.navbarTitle}}</span>
+    <fragment v-else>
+      <saber-link :to="secondLinkUrl">{{secondLinkText}}</saber-link>
+      <arrow/>
+      <span>{{this.attributes.navbarTitle}}</span>
+    </fragment>
   </nav>
 </template>
 
@@ -24,7 +22,6 @@ export default {
   components: {
     simg,
     arrow,
-    menuicon,
     Fragment
   },
   data() {
@@ -56,54 +53,57 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-// .nav
-//   position absolute
-//   top 0
-//   left 0
-//   right 0
-//   width 100%
-//   margin 2rem auto 0
-//   z-index 999
+.nav
+  width 100%
+  z-index 999
+  display flex
+  flex-direction row
+  align-items center
+  max-width 944px
+  width 100%
+  margin 2rem auto 0
+  position absolute
+  top 0
+  left 50%
+  transform translateX(-50%)
+  padding-left 1rem
+  padding-right 1rem
+  
+  svg 
+    margin 0 0.5rem 0 0.6rem
+  a
+    font-weight 400
+    line-height 24px
 //   &__wrap
 //     display flex
 //     flex-direction row
 //     align-items center
-//     a
-//       font-weight 400
-//       line-height 24px
-//     svg 
-//       // position relative
-//       // top 2px
-//       margin 0 0.5rem 0 0.6rem
+
 //     svg:first-of-type
 //       margin-left 0.8rem
-//   &.hidden
-//     display none
-//   .nav-profile
-//     // background-color #afa
-//     height 40px
-//     width 40px
-//     display inline-block
-//     // display flex
-//     &:before
-//       display none !important
-//     &:after
-//       content ""
-//       position absolute
-//       // background-color #afa
-//       width 48px
-//       height 48px
-//       top -4px
-//       left -4px
-//       border-radius 50%
-//       // border 2px solid #FFDB17
-//       box-shadow: inset 0 0 0 1px #FFDB17;
-//       transition all 0.2s ease
-//     img
-//       width 40px
-//       height 40px
-//       border-radius 50%
-//   .nav-profile:hover
-//     &:after
-//       box-shadow: inset 0 0 0 4px #FFDB17;
+
+  .nav-profile
+    position relative
+    height 40px
+    width 40px
+    border-radius 50%
+    box-shadow: inset 0 0 0 1px #FFDB17;
+    &:before
+      display none !important     
+    &:after
+      content ""
+      position absolute
+      width 48px
+      height 48px
+      top -4px
+      left -4px
+      z-index 2
+      border-radius 50%
+      box-shadow: inset 0 0 0 1px #FFDB17;
+      transition all 0.2s ease
+    img
+      border-radius 50%
+    &:hover
+      &:after
+        box-shadow: inset 0 0 0 4px #FFDB17;
 </style>

@@ -1,100 +1,82 @@
-// // Google fonts
-// @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap');
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap');
 
-// // *
-// //   -webkit-font-smoothing: antialiased;
-// //   -moz-osx-font-smoothing: grayscale;
+body
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  color var(--text-color)
+  font-size 1.125rem
+  line-height 1.777777778
+  font-weight 400
+  letter-spacing -0.005555556em
 
-// body
-//   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
-//   color #111
-//   // font-size 1.5rem
-//   font-size 1.125rem
-//   line-height 1.777777778
-//   font-weight 400
-//   letter-spacing -0.005555556em
-//   // @media screen and (max-width: 1500px)
-//   //   font-size 1.125rem
+h1, h2, h3, h4, h5, h6
+  color var(--heading-color)
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-
-// h1, h2, h3, h4, h5, h6
-//   color #000
-//   font-weight 700
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-
-// a:not(.project-card),
-// .link
-//   text-decoration none
-//   color #000
-//   color inherit
-//   position relative
-//   white-space nowrap
-//   font-weight 500
-//   z-index 1
-//   transition all 0.1s ease
-//   // -webkit-font-smoothing: antialiased;
-//   // -moz-osx-font-smoothing: grayscale;
-//   &:before
-//     content ""
-//     position absolute
-//     left 50%
-//     bottom 0
-//     background-color var(--underlineColor)
-//     height 2px
-//     width 100%
-//     z-index -1
-//     transition all 0.1s ease
-//     border-radius 2px
-//     transform translateX(-50%)
-//   &:hover
-//     &:before
-//       width calc(100% + 0.5em)
-//       height 100%
+p 
+  // padding 0
+  padding-top 0.5rem
+  // margin-top 0
+  // margin-bottom 0
+  b
+    font-weight 600
+  // span.info
+  //   background-color #FFF7F0
+  //   padding 1rem 2rem
+  //   width 100%
+  //   display inline-block
+  //   padding-top 3rem
+  //   border 2px solid #FFD1A6
+  //   border-radius 4px
+  //   font-weight 400
     
-      
-// p 
-//   padding 0
-//   padding-top 1rem
-//   margin-top 0
-//   margin-bottom 0
-//   b
-//     font-weight 600
-//   span.info
-//     background-color #FFF7F0
-//     padding 1rem 2rem
-//     width 100%
-//     display inline-block
-//     padding-top 3rem
-//     border 2px solid #FFD1A6
-//     border-radius 4px
-//     font-weight 400
-    
-// p + p
-//   padding-top 2rem
-  
+p + p
+  padding-top 2rem
 
-// h1,.h1
-//   font-size 3rem
-//   line-height 1.333333
-//   letter-spacing -0.0125em
-//   margin 0
-//   // font-weight 800
-  
-  
-// h2, .h2
-//   font-size 2rem
-//   line-height 1.25
-//   margin 0
-//   padding-top 5rem
-//   padding-bottom 0.5rem
-//   font-weight 800
-  
-// h3, .h3
-//   font-size 1.5rem
-//   line-height 1.666666667
-//   margin 0
-//   padding-top 3rem
+a,
+.link
+  text-decoration none
+  color inherit
+  white-space nowrap
+  font-weight 500
+  z-index 1
+  transition all 0.1s ease
+  position relative
+  &:before
+    content ""
+    position absolute
+    left 50%
+    bottom 0
+    background-color var(--underlineColor)
+    height 1px
+    width 100%
+    z-index -1
+    transition all 0.1s ease
+    transform translateX(-50%)
+    border-radius 2px
+  &:hover
+    &:before
+      width calc(100% + 0.5em)
+      height 100%
+
+h1,.h1
+  font-size 3.5rem
+  line-height 1
+  font-weight 800
+
+h2, .h2
+  font-size 2rem
+  line-height 1.25
+  padding-top 4rem
+  padding-bottom 0.5rem
+  font-weight 800
+
+h3, .h3
+  font-size 1.5rem
+  line-height 1.666666667
+  font-weight 700
+  padding-top 3rem
 
 // div + .h3,
 // div + h3
@@ -103,10 +85,11 @@
 // h4, .h4
 //   padding-bottom 0.5rem
   
-// ul
-//   margin 0
-//   padding-top 0.5rem
-//   padding-bottom 0.5rem
+ul
+  margin-top 0.5rem
+  margin-bottom 0.5rem
+  padding-left 2rem !important
+  list-style-position: inside;
 
 
 

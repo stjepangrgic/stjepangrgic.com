@@ -57,6 +57,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+article
+  background-color var(--content-bgc)
   
 // .page-header
 //   --page-header-bgc var(--content-bgc)

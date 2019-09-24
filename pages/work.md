@@ -19,7 +19,7 @@ info: false
     url="/work/vibby"
     title="Vibby"
     description="Interactive video platform"
-    bgImage="stjepangrgic-vibby-card-bgImage.png"
+    bgImage="stjepangrgic-vibby-card-bgImage.jpg"
     projectImage="stjepangrgic-vibby-card-projectImage.png"
     underlinColor="#3CACF5"/>
   <ProjectCard

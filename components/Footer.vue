@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer g">
+  <footer class="footer">
     <simg name="paperplane-illustration.svg" class="paperplane" />
     <!--    
     <header>
@@ -27,7 +27,7 @@
         <input type="submit" value="Subscribe to newsletter">
       </form>
       </section> -->
-      <section class="gray g5-5">
+      <section class="gray title-width">
         <div class="footer-links">
           <slink url="/">Home</slink>
           <slink url="/now">Now</slink>
@@ -66,77 +66,97 @@ export default {
 </script>
 
 <style lang="stylus">
+@import "../node_modules/rupture/rupture"
 .footer
-  transition: filter .5s cubic-bezier(.52,.02,.5,1.02)
-  background-color #F8F8F8
-  // border-top 2px solid #E6DFDC;
   position relative
-  z-index 80
-  .footer-links
-    margin-bottom 1rem
-    a
-      margin-right 1.5rem
+  background-color #F8F8F8
+  padding-top 3rem
+  padding-bottom 5rem
   .paperplane
     position absolute
     top -27px
-    right -70px
-  .gray
-    margin 3rem 0 4rem
-    p 
-      margin-bottom 0
-      color #777
-      font-size 1rem
-      // line-height 1.6
+    right 5vw
+    +below(800px)
+      display none
+  .footer-links
     a
-      color #777
-      transition all 0.1s ease
-      &:before
-        background-color #E6DFDC
-      &:hover
-        color #333
+      margin-right 1.5rem
+      // font-weight 400
+      color #333
+  .gray
+    p
+      font-size 1rem
+      padding-top 1rem
+      color #333
+    
+//   // border-top 2px solid #E6DFDC;
+//   position relative
+//   z-index 80
+//   .footer-links
+//     margin-bottom 1rem
+//     a
+//       margin-right 1.5rem
+//   .paperplane
+//     position absolute
+//     top -27px
+//     right -70px
+//   .gray
+//     margin 3rem 0 4rem
+//     p 
+//       margin-bottom 0
+//       color #777
+//       font-size 1rem
+//       // line-height 1.6
+//     a
+//       color #777
+//       transition all 0.1s ease
+//       &:before
+//         background-color #E6DFDC
+//       &:hover
+//         color #333
      
-  h2
-    margin-top 4rem
-    font-size 36px
-    line-height 48px
-    .light
-      font-weight 400
+//   h2
+//     margin-top 4rem
+//     font-size 36px
+//     line-height 48px
+//     .light
+//       font-weight 400
       
-  .newsletter
-    display grid
-    grid-template-columns: 1fr 1.4fr
-    margin-top 2rem
-    font-size 1.5rem
-    @media screen and (max-width 800px)
-      display flex
-      flex-direction column
+//   .newsletter
+//     display grid
+//     grid-template-columns: 1fr 1.4fr
+//     margin-top 2rem
+//     font-size 1.5rem
+//     @media screen and (max-width 800px)
+//       display flex
+//       flex-direction column
       
-  form
-    margin-top 3rem
-    max-width 488px
-    width 100%
-    display grid
-    grid-row-gap 20px
-    grid-template-columns: 1fr 2fr
-    align-items center
-    @media screen and (max-width 800px)
-      margin-top 0
-      max-width 100%
-      span
-        grid-column 1/ -1
+//   form
+//     margin-top 3rem
+//     max-width 488px
+//     width 100%
+//     display grid
+//     grid-row-gap 20px
+//     grid-template-columns: 1fr 2fr
+//     align-items center
+//     @media screen and (max-width 800px)
+//       margin-top 0
+//       max-width 100%
+//       span
+//         grid-column 1/ -1
 
-    input
-      grid-column 1/ -1
-    span
-      line-height 16px
-      text-transform uppercase
-      max-width 162px
-      display inline-block
-      font-size 12px
-      font-weight 500
-      opacity 0.5
-    input[type=submit]
-      grid-column 2/ span 1
-      justify-self end
+//     input
+//       grid-column 1/ -1
+//     span
+//       line-height 16px
+//       text-transform uppercase
+//       max-width 162px
+//       display inline-block
+//       font-size 12px
+//       font-weight 500
+//       opacity 0.5
+//     input[type=submit]
+//       grid-column 2/ span 1
+//       justify-self end
 
 </style>

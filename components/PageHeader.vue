@@ -1,12 +1,12 @@
 <template>
-  <header class="page-header g">
-    <h1 class="page-title g5-5">
+  <header class="page-header">
+    <h1 class="page-title title-width">
       <span v-html="title" />
       <br v-if="subtitle">
       <span v-if="subtitle" class="subtitle">{{subtitle}}</span>
     </h1>
     <!-- <simg v-if="smallImage" :name="smallImage" class="grid-width small-image" /> -->
-    <div class="info nw" v-if="updatedAt">
+    <div class="info text-width" v-if="updatedAt">
       <span class="updatedAt">Updated on <time :datetime="datetime">{{updatedAt}}</time></span>
       <span>{{readingTime}} min read</span>
     </div>
@@ -43,7 +43,29 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
+.page-header
+  background var(--page-header-bgc)
+  position relative
+  .page-title
+    padding-top 13rem
+    padding-bottom 5rem
+    .subtitle
+      font-weight 400
+      font-size 3.5rem
+      color var(--subtitle-color)
+  .info
+    font-size 1rem
+    display flex
+    flex-direction row
+    justify-content space-between
+    opacity 0.3
+    padding-bottom 0.5rem
+    position absolute
+    bottom 0
+    left 50%
+    transform translateX(-50%)
+
 // .page-header
 //   position relative
 //   background var(--page-header-bgc)

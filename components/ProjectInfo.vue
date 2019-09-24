@@ -21,24 +21,24 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-// .project-info
-//   display: flex;
-//   margin-top: 7rem;
-//   // width min-content;
-//   > *
-//     margin-right: 4rem
-//     display: flex;
-//     flex-direction: column;
-//   @media screen and (max-width: 800px)
-//     flex-direction: column;
-//     margin-top 5rem
-//     > *
-//       margin-top 1rem
-//   small
-//     font-size: 1rem
-//     line-height: 1.5;
-//     color rgba(#000, 0.3)
-//   p
-//     margin: 0;
+<style lang="stylus">
+@import "../node_modules/rupture/rupture"
+.project-info
+  display: flex;
+  margin-top: 3rem;
+  > *
+    margin-right: 3rem
+    display: flex;
+    flex-direction: column;
+  +below(800px)
+    flex-direction: column;
+    margin-top 5rem
+    > *
+      margin-top 1rem
+  small
+    font-size: 1rem
+    line-height: 1.5;
+    color rgba(#000, 0.3)
+  p
+    // margin: 0;
 </style>

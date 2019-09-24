@@ -1,5 +1,5 @@
 <template>
-  <div :class="[scopeClass()]">
+  <div :class="['post', scopeClass()]">
     <Navbar :attributes="page.attributes" :class="[scopeClass('__nav')]"/>
     <main>
       <article ref="article">
@@ -10,15 +10,7 @@
           :updatedAt="updatedAt"
           :datetime="datetime"
           :readingTime="readingTime"/>
-<!--         <div class="info nw">
-          <span class="">
-            <span class="updatedAt">Updated on <time :datetime="datetime">{{updatedAt}}</time></span>
-            <span>{{readingTime}} min read</span>
-            <span v-if="this.page.attributes.otherInfo">{{this.page.attributes.otherInfo}}</span>
-          </span>
-        </div> --> <!-- This is temporary solution becouse I have no time to make functional component that is going to work on evey page -->
-        <!-- <PageInfo :attributes="page.attributes"/> -->
-        <section class="content grid">
+        <section class="content text-width-each">
           <slot name="default" />
         </section>
       </article>
@@ -36,7 +28,6 @@ import Navbar from '@/components/Navbar.vue'
 
 export default {
   components: {
-    // Fragment,
     PageHeader,
     PageInfo,
     simg,
@@ -53,13 +44,10 @@ export default {
     }
   },
   mounted() {
-    // this.text = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/100)
     this.updatedAt = this.page.attributes.updatedAt.toString().split(" ").splice(1, 3).join(" ")
-    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/150) // 150 gives more realistc number of minutes to me then 200
+    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/150)
     let date = this.page.attributes.updatedAt
     this.datetime = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
-    // console.log(require('@/assets/images/' + this.page.attributes.smallImage))
-    // console.log(this.page.attributes)
   },
   methods: {
     scopeClass(suffix) {
@@ -73,7 +61,12 @@ export default {
 }
 
 </script>
-<style lang="stylus" scoped>
+<style lang="stylus">
+.post
+  // background-color #afa
+  .content
+    // background-color #aaf
+  
 // .page-header
 //   --page-header-bgc: linear-gradient(38deg, #FFFFFF 19%, #F8F8F8 54%, #F8F8F8 100%)
   

@@ -22,12 +22,12 @@ How to design appealing and honest branding that would convey Agrivi's mission? 
 
 Besides, being the only designer in a small team with big dreams is a lot of work. I knew that. But growing up in the countryside surrounded with crops and domestic animals, I understood pain points that farmers face. So I decided to join and design products that will solve actual problems. 
 
-<div class="block g1-1 grid">
+<div class="branding gradient full-width text-width-each">
 
 ## Branding
 Agrivi was using a few stock icons and logo made from stuff downloaded from the internet (nothing new for a startup). But they had a firm idea that I wanted to build upon. The concept of a young plant starting its life. Furthermore, it reflected Agrivi as a young company.
 
-<figure class="g1-1">
+<figure class="project-width">
   <simg name="stjepangrgic-project-agrivi-branding-idea.jpg" />
 </figure> 
   
@@ -36,18 +36,19 @@ Agrivi was using a few stock icons and logo made from stuff downloaded from the 
 ### Colours
 I was looking for friendly and inviting colours. I went with warm green hues that appear on leaves illuminated with morning sun.
 
-<figure class="g5-5">
+<figure class="photo-width">
   <simg name="stjepangrgic-project-agrivi-colors.png" />
 </figure>
 
-<div class="typography g1-1 grid">
-  <div class="text">
-    <h3>Typography</h3>
-    <p>To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.</p>
-  </div>
-  <figure>
-    <simg name="stjepangrgic-project-agrivi-typography.png" />
-  </figure>
+<div class="typography">
+
+### Typography
+To quote the fonts author: "Sofia Pro is a geometric sans font family who dares the modernism and the harmony of the curves". To me, it beautifully reflected the perfection of nature I was looking for.
+
+<figure>
+  <simg name="stjepangrgic-project-agrivi-typography.png" />
+</figure>
+
 </div>
 
 
@@ -150,6 +151,30 @@ export default {
 </script>
 
 <style lang="stylus">
+.agrivi
+  --hero-section-bg: #7F5A43
+  --subtitle-color: #8E6948
+  --content-bgc: #F8F3F0
+  --page-header-bgc: #F8F3F0
+  .gradient
+    position relative
+    margin-top 4rem
+    z-index 2
+    &:before
+      content ""
+      display block
+      position absolute
+      width 100vw
+      left 50%
+      transform translateX(-50%)
+      height 700px
+      background: linear-gradient(180deg, #ECE1DC 0%, rgba(#ECE1DC, 0) 100%);
+      z-index -1
+
+/*  .block.reverse:before
+    transform translateX(-50%) rotate(180deg)
+    top -700px*/
+
 /*.agrivi
   --hero-section-bg: #7F5A43
   --subtitle-color: #8E6948
@@ -164,24 +189,7 @@ export default {
       width 100%
   figure img
     border-radius: 1px;
-  .block
-    position relative
-    margin-top 4rem
-    z-index 2
-    &:before
-      content ""
-      display block
-      position absolute
-      width 100vw
-      left 50%
-      transform translateX(-50%)
-      height 700px
-      background-color #fff
-      background: linear-gradient(180deg, #ECE1DC 0%, rgba(#ECE1DC, 0) 100%);
-      z-index -1
-  .block.reverse:before
-    transform translateX(-50%) rotate(180deg)
-    top -700px 
+
 
   .typography
     margin-bottom 1rem

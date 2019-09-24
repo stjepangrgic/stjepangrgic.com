@@ -19,7 +19,7 @@ layout: basic
 </section>
 
 <section class="projects">
-  <div class="section-header text-width">
+  <div class="projects__header text-width">
     <h2>Featured projects</h2>
     <saber-link to="/work">See all</saber-link>
   </div>
@@ -36,7 +36,7 @@ layout: basic
       url="/work/share-istria"
       title="Share Istria"
       description="Creative Tourism Campaign"
-      bgImage="stjepangrgic-share-istria-card-bgImage.png"
+      bgImage="stjepangrgic-share-istria-card-bgImage.jpg"
       projectImage="stjepangrgic-share-istria-card-projectImage.png"
       underlinColor="#009FE2"/>
     <ProjectCard
@@ -70,7 +70,10 @@ export default {
 </script>
 
 <style lang="stylus">
-/*.index
+.index
+  .profile
+    width: 128px;
+    border-radius: 50%
   header
     margin-top: 8rem;
     margin-bottom: 2rem;
@@ -103,6 +106,35 @@ export default {
       position: absolute;
       top: -50%;
       right: -70%;
+  .projects
+    &__header
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+      line-height 24px
+      h2
+        font-size: 1.125rem
+        color: #CBCBCB;
+        line-height: 32px
+        text-transform: uppercase;
+/*.index
+  header
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    .profile
+      border-radius: 50%;
+      width: 128px;
+    h1
+      margin-top: 3rem;
+      font-size: 3.5rem;
+      font-weight: 800;
+      line-height: 56px;
+      position: relative;
+      left: -3px;
+      .subtitle
+        font-size: 2.5rem;
+        font-weight: 400;
   .projects
     margin-bottom: 4rem;
     .section-header

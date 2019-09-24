@@ -1,9 +1,15 @@
-// // Layout
+// Layout
 
-// #_saber
-//   overflow hidden
-//   background-color var(--page-bgc)
-//   // padding 0 1rem
+#_saber
+  overflow hidden
+  background-color var(--page-bgc)
+
+.content
+  padding-bottom 3rem
+
+figure
+  // margin 0.5rem 0 1.5rem
+  padding-top 1rem
   
 // article
 //   // padding 0 1rem
@@ -165,37 +171,50 @@
 // // .ww
 // //   max-width 1136px
 
-// .text-width,
-// .text-width-each > *
-//   max-width 656px
-//   margin-left auto
-//   margin-right auto
-//   width 100%
+.text-width,
+.text-width-each > *,
+.project-width,
+.project-width-each > *,
+.title-width,
+.title-width-each > *
+  // padding-left 1rem
+  // padding-right 1rem
+  margin-left auto
+  margin-right auto
+  width 100%
+
+.text-width,
+.text-width-each > *  
+  max-width calc(656px + 2rem)
   
 
-// .title-width,
-// .title-width-each > *
-//   max-width 912px
-//   margin-left auto
-//   margin-right auto
+.title-width,
+.title-width-each > *
+  max-width calc(880px + 2rem)
+  
+.photo-width,
+.photo-width-each > *
+  max-width calc(992px + 2rem)
 
-// .project-width,
-// .project-width-each > *
-//   max-width 1104px
-//   margin-left auto
-//   margin-right auto
-//   width 100%
+.project-width,
+.project-width-each > *
+  max-width calc(1104px + 2rem)
 
-// .f-width,
-// .f-width-each > *
+.full-width,
+.full-width-each > *
+  max-width 100%
+  width 100%
 //   max-width 100vw !important
 //   margin-left auto !important
 //   margin-right auto !important
 //   width 100% !important
   
 
-// .img-fix img
-//   display: flex
+.img-fix img
+  // display: flex;
+  vertical-align: bottom;
+  font-size: 0;
+  line-height: 0;
 
 // // .page-header
 // //   --page-header-bgc:#fff

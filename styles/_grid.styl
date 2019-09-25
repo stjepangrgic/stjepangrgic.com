@@ -9,7 +9,6 @@
   grid-row-gap 0
   grid-template-columns: minmax(0px, 1fr) repeat(24, minmax(0px, 40px)) minmax(0px, 1fr)
   justify-content: center;
-  // grid-auto-flow dense
   > *
     grid-column 8 / -8
     position relative
@@ -78,6 +77,3 @@ for num in (1..27)
     > *
       grid-column-start: num
       grid-column-end: - num
-      
-// .test
-//   @extend .full-width

@@ -300,12 +300,7 @@ export default {
       margin-top: 2rem;
       margin-bottom: 2rem;
   .gallery
-    /*margin-top: 3rem;*/
     grid-column 2/ -2
-    /*padding-left: 5px;
-    padding-right: 5px;*/
-    /*max-width: 1238px;*/
-    /*margin: 0 auto*/
     padding-bottom: 3rem
     .my-gallery
       display: grid;

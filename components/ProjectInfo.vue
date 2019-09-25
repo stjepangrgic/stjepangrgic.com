@@ -26,15 +26,15 @@ export default {
 .project-info
   display: flex;
   margin-top: 3rem;
-  > *
+  > *:not(:last-child)
     margin-right: 3rem
     display: flex;
     flex-direction: column;
-  // +below(800px)
-  //   flex-direction: column;
-  //   margin-top 5rem
-  //   > *
-  //     margin-top 1rem
+  +below(380px)
+    flex-direction: column;
+    margin-top 2rem
+    > *
+      margin-top 1rem
   small
     font-size: 1rem
     line-height: 1.5;

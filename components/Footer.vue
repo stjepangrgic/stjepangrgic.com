@@ -1,6 +1,6 @@
 <template>
-  <footer class="footer">
-    <simg name="paperplane-illustration.svg" class="paperplane" />
+  <footer class="footer grid">
+    <simg name="paperplane-illustration.svg" class="paperplane project-width" />
     <!--    
     <header>
       <h2>
@@ -27,7 +27,7 @@
         <input type="submit" value="Subscribe to newsletter">
       </form>
       </section> -->
-      <section class="gray title-width">
+      <section class="gray">
         <div class="footer-links">
           <slink url="/">Home</slink>
           <slink url="/now">Now</slink>
@@ -75,7 +75,7 @@ export default {
   .paperplane
     position absolute
     top -27px
-    right 5vw
+    right 5px
     +below(800px)
       display none
   .footer-links

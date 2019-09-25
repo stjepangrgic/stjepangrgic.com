@@ -2,12 +2,12 @@
 layout: basic
 ---
 
-<header class="text-width">
+<header class="grid">
   <div class="img-fix"><simg name="profile.jpg" class="profile" /></div>
   <h1>Hi to you! <br><div class="subtitle">My name is Stjepan.</div></h1>
 </header>
 
-<section class="intro text-width">
+<section class="intro grid">
 
 **I am a curious human being** exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography), [read](/book-list), do something different every day, I am trying to grow as a person. If you’re curious, read [my story](/my-story) or find out what I am doing [now](/now).
 
@@ -18,8 +18,8 @@ layout: basic
 
 </section>
 
-<section class="projects">
-  <div class="projects__header text-width">
+<section class="projects grid">
+  <div class="projects__header">
     <h2>Featured projects</h2>
     <saber-link to="/work">See all</saber-link>
   </div>
@@ -107,6 +107,7 @@ export default {
       top: -50%;
       right: -70%;
   .projects
+    padding-bottom: 2rem;
     &__header
       display: flex;
       flex-direction: row;

@@ -4,12 +4,81 @@
   overflow hidden
   background-color var(--page-bgc)
 
-.content
-  padding-bottom 3rem
-
 figure
-  // margin 0.5rem 0 1.5rem
-  padding-top 1rem
+  margin-top 1rem
+
+figure + p
+  margin-top 1rem
+  
+.conclusion
+  margin-top 4rem
+  padding-bottom 2rem
+  background-color var(--conclusion-bg)
+
+.next-project
+  margin-top: 0.5rem;
+  
+hr.gradient
+  width: 100%;
+  position: relative;
+  border: none;
+  overflow: visible;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  &:before
+    content ""
+    display block
+    position absolute
+    width 100vw
+    left 50%
+    top: 0;
+    transform translateX(-50%)
+    height 500px
+    background-image: linear-gradient(180deg, #EDF1F3 0%, rgba(#fff, 0) 100%);
+    // z-index -1
+
+// ---------------------------------------------------------  
+// .text-width,
+// .text-width-each > *,
+// .project-width,
+// .project-width-each > *,
+// .title-width,
+// .title-width-each > *
+//   // padding-left 1rem
+//   // padding-right 1rem
+//   margin-left auto
+//   margin-right auto
+//   width 100%
+
+// .text-width,
+// .text-width-each > *  
+//   max-width calc(656px + 2rem)
+  
+
+// .title-width,
+// .title-width-each > *
+//   max-width calc(880px + 2rem)
+  
+// .photo-width,
+// .photo-width-each > *
+//   max-width calc(992px + 2rem)
+
+// .project-width,
+// .project-width-each > *
+//   max-width calc(1104px + 2rem)
+
+// .full-width,
+// .full-width-each > *
+//   max-width 100%
+//   width 100%  
+
+// .img-fix img
+//   // display: flex;
+//   vertical-align: bottom;
+//   font-size: 0;
+//   line-height: 0;
+
+// ---------------------------------------------------------
   
 // article
 //   // padding 0 1rem
@@ -171,50 +240,7 @@ figure
 // // .ww
 // //   max-width 1136px
 
-.text-width,
-.text-width-each > *,
-.project-width,
-.project-width-each > *,
-.title-width,
-.title-width-each > *
-  // padding-left 1rem
-  // padding-right 1rem
-  margin-left auto
-  margin-right auto
-  width 100%
 
-.text-width,
-.text-width-each > *  
-  max-width calc(656px + 2rem)
-  
-
-.title-width,
-.title-width-each > *
-  max-width calc(880px + 2rem)
-  
-.photo-width,
-.photo-width-each > *
-  max-width calc(992px + 2rem)
-
-.project-width,
-.project-width-each > *
-  max-width calc(1104px + 2rem)
-
-.full-width,
-.full-width-each > *
-  max-width 100%
-  width 100%
-//   max-width 100vw !important
-//   margin-left auto !important
-//   margin-right auto !important
-//   width 100% !important
-  
-
-.img-fix img
-  // display: flex;
-  vertical-align: bottom;
-  font-size: 0;
-  line-height: 0;
 
 // // .page-header
 // //   --page-header-bgc:#fff

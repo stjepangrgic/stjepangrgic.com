@@ -6,8 +6,7 @@ navbarTitle: Work
 info: false
 ---
 
-<section class="projects grid-width">
-  <!-- <h2 class="h3">Featuret projects</h2> -->
+<section class="projects project-width">
   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
@@ -36,47 +35,7 @@ info: false
     bgImage="stjepangrgic-vip-chat-card-bgImage.jpg"
     projectImage="stjepangrgic-vip-chat-card-projectImage.png"
     textColor="#000"/>
-
-<!--     background-image: linear-gradient(180deg, #F5F5F5 0%, #F2F2F2 100%);
-    box-shadow: inset 0 -2px 0 0 #F2F2F2;
-    border-radius: 3px; -->
-
-<!--   <ProjectCard
-    url="/work/vibby"
-    title="Vibby"
-    description="Interactive video platform startup"
-    bgImage="stjepangrgic-vibby-card.png"
-    projectImage="test.png"
-    underlinColor="#2C45BC"/> -->
-<!--   <ProjectCard
-    url="/work/agrivi"
-    title="Agrivi"
-    description="Farm managment software"
-    period="2016"
-    image="stjepangrgic-agrivi-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#3A9300"/>
-  <ProjectCard
-    url="/work/share-istria"
-    title="Share Istria"
-    description="Creative Tourism Campaign"
-    period="2016"
-    image="stjepangrgic-shareistria-card.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    underlinColor="#0082AF"/>
-  <ProjectCard
-    url="/work/vip-xmass-chat"
-    title="Vip Xmas Chat"
-    description="Promotional Chat App"
-    period="2016"
-    image="stjepangrgic-card-vip-chat.jpg"
-    linkText="Read the case study"
-    :tags="['Branding', 'Icons', 'Web Application', 'Corporate Site']"
-    textColor="#000"/> -->
 </section>
-
 
 <script>
 import ProjectCard from '@/components/ProjectCard.vue'
@@ -91,7 +50,9 @@ export default {
 </script>
 
 <style lang="stylus">
-/*.work
-  .projects*/
+.work
+  --page-header-bgc #fff
+  .projects
+    padding-bottom: 3rem;
     /*margin-top: 3rem;*/
 </style>

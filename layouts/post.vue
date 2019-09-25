@@ -10,7 +10,7 @@
           :updatedAt="updatedAt"
           :datetime="datetime"
           :readingTime="readingTime"/>
-        <section class="content text-width-each">
+        <section class="content grid">
           <slot name="default" />
         </section>
       </article>
@@ -65,7 +65,7 @@ export default {
 .post
   // background-color #afa
   .content
-    // background-color #aaf
+    padding-bottom 4rem
   
 // .page-header
 //   --page-header-bgc: linear-gradient(38deg, #FFFFFF 19%, #F8F8F8 54%, #F8F8F8 100%)
@@ -88,7 +88,7 @@ export default {
 //   span
 //     margin-right 2rem
   
-.content
+// .content
   // margin-top 2rem
   // padding-bottom 4rem
 </style>

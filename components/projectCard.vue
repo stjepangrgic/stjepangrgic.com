@@ -6,7 +6,7 @@
       <p class="description">{{description}}</p>
       <slink>{{linkText}}</slink>
     </div>
-    <div class="projectImage img-fix">
+    <div class="projectImage">
       <simg :name="projectImage"  />
     </div>
   </saber-link>
@@ -121,16 +121,17 @@ export default {
     position absolute
     right -20px
     bottom 0
-    transition transform 0.15s ease
+    transition transform 0.15s ease, opacity 0.5s ease
     img
       height 576px
       width auto
+    +below(1100px)
+      opacity .5
     +below(900px)
       right 0
       width 80%
       img
         height auto
-        // width 80%
         float right
   &:hover
     .projectImage
@@ -141,6 +142,9 @@ export default {
     +below(900px)
       .projectImage
         transform translateX(0)
+    +below(1100px)
+      .projectImage
+        opacity .9
 
 //   position relative
 //   display flex

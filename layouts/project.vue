@@ -9,7 +9,7 @@
         <ProjectHeroSection 
           :heroImage="page.attributes.heroImage"
           :bgImage="page.attributes.bgImage"/>
-        <section class="content text-width-each">
+        <section class="content grid">
           <ProjectInfo
             :period="page.attributes.period"
             :platform="page.attributes.platform"

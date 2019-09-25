@@ -15,16 +15,12 @@
 </template>
 
 <script>
-// Vue.use(require('vue-moment'));
-
-// import { Fragment } from 'vue-fragment'
 import PageHeader from '@/components/PageHeader.vue'
 import Footer from '@/components/Footer.vue'
 import Navbar from '@/components/Navbar.vue'
 
 export default {
   components: {
-    // Fragment,
     PageHeader,
     Footer,
     Navbar,

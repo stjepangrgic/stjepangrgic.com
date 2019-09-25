@@ -275,11 +275,11 @@ export default {
 }
 </script>
 <style lang="stylus">
-/*.photography
-  --page-header-bgc: linear-gradient(43deg, #111111 6%, #111111 33%, #1F1F1F 100%)
-  --page-header-border-color: #222;
-  --content-bgc #111
-  
+.photography
+  --content-bgc: #111
+  /*--page-header-bgc: linear-gradient(43deg, #111111 6%, #111111 33%, #1F1F1F 100%)*/
+  --page-header-bgc: #111
+  --conclusion-bg: #111
 
   p b
     font-weight: 700
@@ -290,35 +290,28 @@ export default {
     color #fafafa
     a:hover
       color #111
-  &__footer
-    background-color: #111;
-    border-top-color: transparent;
-    *
-      color #eee
-    .gray
-      p
-        color #555
-      a
-        color #888
-        &:before
-          background-color: #555;
-        &:hover
-          color #fff
   .page-title
     color #eee
   .content
+    background-color: #111;
     h2,h3,p
       color #fafafa
+    > p
+      margin-top: 2rem;
+      margin-bottom: 2rem;
   .gallery
-    margin-top: 3rem;
-    grid-column 1/ -1 !important
-    padding-left: 5px;
-    padding-right: 5px;
+    /*margin-top: 3rem;*/
+    grid-column 2/ -2
+    /*padding-left: 5px;
+    padding-right: 5px;*/
+    /*max-width: 1238px;*/
+    /*margin: 0 auto*/
+    padding-bottom: 3rem
     .my-gallery
       display: grid;
       grid-gap 5px
       grid-template-columns repeat(auto-fit, minmax(260px, 1fr))
-      grid-auto-rows 216px
+      grid-auto-rows 174px
       grid-auto-flow dense
       figure
         margin: 0;
@@ -348,6 +341,21 @@ export default {
             max-width: initial;
             width: 100%;
             height: 100%;
-            object-fit: cover;*/
+            object-fit: cover
+
+  &__footer
+    background-color: #111;
+    border-top-color: transparent;
+    *
+      color #eee
+    .gray
+      p
+        color #555
+      a
+        color #888
+        &:before
+          background-color: #555;
+        &:hover
+          color #fff
 
 </style> 

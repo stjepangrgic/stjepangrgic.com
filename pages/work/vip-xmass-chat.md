@@ -9,10 +9,7 @@ heroImage: "stjepangrgic-project-vip-chat-cover-image.jpg"
 period: "2014"
 platform: "Web, Social media"
 role: "Digital Designer"
-
-contentBgColor: "#FAFAFA"
 ---
-<!-- Promotional chat app -->
 
 ## Introduction
 Vip Xmas Chat was a promotional “chat” application that was part of a Christmas campaign for telecommunication company Vipnet Hrvatska (A1 Telekom Austria Group) aimed at raising brand awareness among a younger audience. I worked on it while employed at agency Gray Entourage.
@@ -30,40 +27,40 @@ So the challenges were:
 ## Characters
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolorum cumque, dolorem impedit deserunt, consequatur libero exercitationem cupiditate nulla quisquam laudantium ab expedita dolor dolore et quibusdam incidunt itaque officia!
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-character-bozidar.jpg" />
 </figure>
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-character-rudolf.jpg" />
 </figure>
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-character-santa.jpg" />
 </figure>
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-character-elf-girl.jpg" />
 </figure>
 
-<figure class="g1-1 fix-img big-image">
+<figure class="big-img g2-2">
   <simg name="stjepangrgic-project-vip-chat-character-illustrator-lines.jpg" />
 </figure>
 
 ## The App
 We knew a native app wasn't ideal for this project (time and cost reasons), so we opted up for responsive web app. This enabled the app to work on smartphones and desktop computers as well as interactive outdoor displays across the country.
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-app-phones.jpg" />
 </figure>
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-app-displays.jpg" />
 </figure>
 
 At the time, chat boots were not a thing, so we created predefined multiple choice answers for users to select. We created 268 different outputs for all 4 characters.
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-app-outputs.jpg" />
 </figure>
 
@@ -72,16 +69,19 @@ The campaign was very well received. Thousands of users participated and spent, 
 
 There were also special coupon rewards that generated a large number of leads towards Vipnet webshop.
 
-<figure class="grid-width fix-img">
+<figure class="project-width">
   <simg name="stjepangrgic-project-vip-chat-coupons.jpg" />
 </figure>
+
+<section class="conclusion full-width grid">
 
 ## Conclusion
 I loved the project and how the proces went along. I saw how simple ideas can be powerfull if execude creatively. I felt empowered becaus my voice was heard.
 To this day I think of it as one of most enjed projects and fun time of my career.
 
 ## Check out next
-<div class="grid-width next-project">
+
+<div class="next-project project-width">
   <ProjectCard
     url="/work/share-istria"
     title="Share Istria"
@@ -91,7 +91,7 @@ To this day I think of it as one of most enjed projects and fun time of my caree
     underlinColor="#009FE2"/>
 </div>
 
-</div>
+</section>
 
 <script>
 import slink from '@/components/slink.vue'
@@ -116,11 +116,13 @@ export default {
 </script>
 
 <style lang="stylus">
-/*.vip-xmass-chat
-  --hero-section-bg: #E60028
+.vip-xmass-chat
+  --page-header-bgc: #F5F5F5
   --subtitle-color: #E60028
   --content-bgc #F5F5F5
-  .big-image
+  --conclusion-bg: #EEEEEE
+
+  .big-img
     mix-blend-mode: multiply;
     position: relative;
     img
@@ -130,10 +132,11 @@ export default {
       content ""
       position: absolute;
       width: 100vw;
-      height: 300px;
-      bottom: -300px;
+      height: 200px;
+      bottom: -200px;
       left: 50%
       transform translateX(-50%)
       opacity: 0.3;
-      background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);*/
+      background-image: linear-gradient(180deg, #E4E4E4 0%, #FAFAFA 100%);
+
 </style>

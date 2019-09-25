@@ -35,6 +35,8 @@ export default {
     margin-top 2rem
     > *
       margin-top 1rem
+      p
+        margin-top 0
   small
     font-size: 1rem
     line-height: 1.5;

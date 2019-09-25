@@ -20,6 +20,7 @@ It was the Wild Kingdom. I used to dream about going there and look at them, exp
 import Vue from 'vue'
 import VuePictureSwipe from 'vue-picture-swipe';
 Vue.component('vue-picture-swipe', VuePictureSwipe);
+
 import simg from '@/components/simg.vue'
 
 export default {
@@ -309,8 +310,8 @@ export default {
       grid-auto-rows 174px
       grid-auto-flow dense
       figure
-        margin: 0;
-        padding: 0;
+        margin: 0 !important
+        padding: 0 !important
         display: flex;
         justify-content: center;
         align-items: center;

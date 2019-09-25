@@ -25,7 +25,7 @@ info: false
     url="/work/share-istria"
     title="Share Istria"
     description="Creative Tourism Campaign"
-    bgImage="stjepangrgic-share-istria-card-bgImage.png"
+    bgImage="stjepangrgic-share-istria-card-bgImage.jpg"
     projectImage="stjepangrgic-share-istria-card-projectImage.png"
     underlinColor="#009FE2"/>
   <ProjectCard

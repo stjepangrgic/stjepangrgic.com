@@ -1,5 +1,5 @@
 permalinks:
-  page: /:slug/
+  page: /:slug
 
 plugins:
   - resolve: saber-plugin-image

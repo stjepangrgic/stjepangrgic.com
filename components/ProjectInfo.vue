@@ -30,15 +30,13 @@ export default {
     margin-right: 3rem
     display: flex;
     flex-direction: column;
-  +below(800px)
-    flex-direction: column;
-    margin-top 5rem
-    > *
-      margin-top 1rem
+  // +below(800px)
+  //   flex-direction: column;
+  //   margin-top 5rem
+  //   > *
+  //     margin-top 1rem
   small
     font-size: 1rem
     line-height: 1.5;
     color rgba(#000, 0.3)
-  p
-    // margin: 0;
 </style>

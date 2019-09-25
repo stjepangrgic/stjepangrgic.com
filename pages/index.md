@@ -76,6 +76,7 @@ export default {
   header
     margin-top: 8rem;
     margin-bottom: 2rem;
+    position: relative;
     .profile
       border-radius: 50%;
       width: 128px;

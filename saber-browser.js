@@ -1,3 +1,5 @@
+// @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap');
+// import 'https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap'
 import 'modern-normalize/modern-normalize.css';
 import './styles/index.styl'
 

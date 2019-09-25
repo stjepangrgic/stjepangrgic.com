@@ -47,7 +47,7 @@ To emphasize energy and movement, I added small upward bend to the typography. T
   <simg name="stjepangrgic-project-share-istria-logo-light.png" />
 </figure>
 <figure class="project-width">
-  <simg name="stjepangrgic-project-share-istria-logo-line.jpg" />
+  <simg name="stjepangrgic-project-share-istria-logo-line.png" />
 </figure>
 
 ## Iconography

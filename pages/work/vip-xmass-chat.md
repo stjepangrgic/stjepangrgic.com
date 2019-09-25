@@ -86,7 +86,7 @@ To this day I think of it as one of most enjed projects and fun time of my caree
     url="/work/share-istria"
     title="Share Istria"
     description="Creative Tourism Campaign"
-    bgImage="stjepangrgic-share-istria-card-bgImage.png"
+    bgImage="stjepangrgic-share-istria-card-bgImage.jpg"
     projectImage="stjepangrgic-share-istria-card-projectImage.png"
     underlinColor="#009FE2"/>
 </div>

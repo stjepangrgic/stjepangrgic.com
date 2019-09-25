@@ -125,8 +125,8 @@ export default {
     img
       height 576px
       width auto
-    +below(1100px)
-      opacity .5
+    // +below(1100px)
+    //   opacity .5
     +below(900px)
       right 0
       width 80%
@@ -144,7 +144,7 @@ export default {
         transform translateX(0)
     +below(1100px)
       .projectImage
-        opacity .9
+        // opacity .9
 
 //   position relative
 //   display flex

@@ -54,5 +54,5 @@ export default {
   --page-header-bgc #fff
   .projects
     padding-bottom: 3rem;
-    /*margin-top: 3rem;*/
+
 </style>

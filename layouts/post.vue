@@ -43,6 +43,42 @@ export default {
       text: ""
     }
   },
+  head() {
+    return {
+      title: `${this.page.navbarTitle} - Stjepan Grgic`,
+      meta: [
+        {
+          name: 'description',
+          content: (this.page.SeoDescription) ? `${this.page.SeoDescription}` : `${this.page.navbarTitle} - by Stjepan Grgic`
+        },
+        {
+          'http-equiv': 'Content-Type',
+          content: `text/html`,
+          charset: `utf-8`
+        },
+        {
+          property: 'og:title',
+          content: `${this.page.navbarTitle} - Stjepan Grgic`
+        },
+        {
+          property: 'og:type',
+          content: `article`
+        },
+        {
+          property: 'og:url',
+          content: `https://stjepangrgic.com${this.page.permalink}`
+        },
+        {
+          property: 'og:image',
+          content: `https://stjepangrgic.com${require('@/assets/images/' + this.page.attributes.heroImage)}`
+        },
+        {
+          property: 'og:description',
+          content: (this.page.SeoDescription) ? `${this.page.SeoDescription}` : `${this.page.navbarTitle} - Designed by Stjepan Grgic`
+        },
+      ],
+    }
+  },
   mounted() {
     this.updatedAt = this.page.attributes.updatedAt.toString().split(" ").splice(1, 3).join(" ")
     this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/150)

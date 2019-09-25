@@ -9,6 +9,8 @@ heroImage: "stjepangrgic-project-agrivi-cover-image.png"
 period: "2016"
 platform: "Web, Mobile"
 role: "Digital Product Designer"
+
+SeoDescription: "Agrivi is agritech startup with a promise of solving world food problem by providing farmers with knowledge-based software solutions. Designed by Stjepan Grgic"
 ---
 
 ## Introduction

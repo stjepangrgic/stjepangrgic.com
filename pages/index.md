@@ -86,6 +86,7 @@ export default {
       font-weight: 800;
       line-height: 56px;
       position: relative;
+      z-index: 2;
       left: -3px;
       .subtitle
         font-size: 2.5rem;

@@ -40,7 +40,29 @@ export default {
       readingTime: 0,
       datetime: "",
       updatedAt: "",
-      text: ""
+      text: "",
+      socialImage: ""
+    }
+  },
+  mounted() {
+    this.updatedAt = this.page.attributes.updatedAt.toString().split(" ").splice(1, 3).join(" ")
+    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/150)
+    let date = this.page.attributes.updatedAt
+    this.datetime = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
+
+    if (this.page.attributes.heroImage) {
+      this.socialImage = require('@/assets/images/' + this.page.attributes.heroImage)
+    } else {
+      this.socialImage = require('@/assets/images/stjepangrgic-portrait.jpg')
+    }
+  },
+  methods: {
+    scopeClass(suffix) {
+      if (suffix) {
+        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      } else {
+        return this.page.attributes.slug.split('/').slice(-1)[0]
+      }
     }
   },
   head() {
@@ -70,28 +92,13 @@ export default {
         },
         {
           property: 'og:image',
-          content: `https://stjepangrgic.com${require('@/assets/images/' + this.page.attributes.heroImage)}`
+          content: `https://stjepangrgic.com${this.socialImage}`
         },
         {
           property: 'og:description',
           content: (this.page.SeoDescription) ? `${this.page.SeoDescription}` : `${this.page.navbarTitle} - Designed by Stjepan Grgic`
         },
       ],
-    }
-  },
-  mounted() {
-    this.updatedAt = this.page.attributes.updatedAt.toString().split(" ").splice(1, 3).join(" ")
-    this.readingTime = Math.ceil(this.$refs.article.innerText.split(/\s/g).length/150)
-    let date = this.page.attributes.updatedAt
-    this.datetime = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
-  },
-  methods: {
-    scopeClass(suffix) {
-      if (suffix) {
-        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
-      } else {
-        return this.page.attributes.slug.split('/').slice(-1)[0]
-      }
     }
   },
 }

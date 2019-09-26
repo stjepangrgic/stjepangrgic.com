@@ -133,28 +133,4 @@ export default {
   --subtitle-color: #47B800
   --conclusion-bg: #EEF2F3
 
-    /*background-color: #afa;*/
-    /*height: 12px;
-
-    width: 100%;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-    background-color: #afa;*/
-/*.share-istria
-  --hero-section-bg: #009FE5
-  --subtitle-color: #47B800
-  --content-bgc #fff
-  figure img
-    border-radius: 3px;
-  .content
-    padding-bottom: 0;
-  .website
-    figure 
-      border-radius: 3px;
-      overflow: hidden;
-      img
-        border-radius: 0;
-  .conclusion
-    background-color #EEF2F3*/
-
 </style>

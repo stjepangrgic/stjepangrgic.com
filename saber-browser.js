@@ -3,7 +3,7 @@
 import 'modern-normalize/modern-normalize.css';
 import './styles/index.styl'
 
-export default ({ router }) => {
+export default ({ router, setHead }) => {
   // Progress bar is not needed on server-side
   if (process.browser) {
     // These dependencies are only bundled in client build
@@ -26,4 +26,14 @@ export default ({ router }) => {
       nprogress.done()
     })
   }
+  setHead({
+    // title: `${this.page.navbarTitle} - Stjepan Grgic`,
+    link: [
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap'
+      }
+    ]
+  })
 }

@@ -1,5 +1,5 @@
 <template>
-  <div :class="scopeClass()">
+  <div :class="['project', scopeClass()]">
     <Navbar :attributes="page.attributes" :class="scopeClass('__nav')"/>
     <main>
       <article>
@@ -43,7 +43,28 @@ export default {
     Footer,
     arrow
   },
+  data: function () {
+    return {
+      socialImage: "",
+    }
+  },
   props: ['page'],
+  methods: {
+    scopeClass(suffix) {
+      if (suffix) {
+        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
+      } else {
+        return this.page.attributes.slug.split('/').slice(-1)[0]
+      }
+    }
+  },
+  mounted() {
+    if (this.page.attributes.heroImage) {
+      this.socialImage = require('@/assets/images/' + this.page.attributes.heroImage)
+    } else {
+      this.socialImage = require('@/assets/images/stjepangrgic-portrait.jpg')
+    }
+  },
   head() {
     return {
       title: `${this.page.navbarTitle} - Stjepan Grgic`,
@@ -71,7 +92,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: `https://stjepangrgic.com${require('@/assets/images/' + this.page.attributes.heroImage)}`
+          content: `https://stjepangrgic.com${this.socialImage}`
         },
         {
           property: 'og:description',
@@ -80,21 +101,13 @@ export default {
       ],
     }
   },
-  methods: {
-    scopeClass(suffix) {
-      if (suffix) {
-        return this.page.attributes.slug.split('/').slice(-1)[0] + suffix
-      } else {
-        return this.page.attributes.slug.split('/').slice(-1)[0]
-      }
-    }
-  },
 }
 </script>
 
-<style lang="stylus" scoped>
-article
-  background-color var(--content-bgc)
+<style lang="stylus">
+.project
+  article
+    background-color var(--content-bgc)
   
 // .page-header
 //   --page-header-bgc var(--content-bgc)

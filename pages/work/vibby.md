@@ -168,34 +168,4 @@ export default {
     margin: 1rem auto;
     video
       width: 100%
-
-/*.vibby
-  --hero-section-bg #5D83FF
-  --subtitle-color #538AFF
-  --content-bgc #F9FAFC
-  .content
-    padding-bottom: 0;
-  .idea
-    background-color #32323C
-    margin-top 4rem
-    padding-bottom 4rem
-    
-    h3, p
-      color #fff
-    p
-      opacity 0.9
-    figure 
-      margin-bottom 0
-
-  .block
-    background-color #E7F5FF
-    margin-top 4rem
-    padding-bottom 4rem
-    
-  .video
-    width 100%
-    margin-top 2rem
-    margin-bottom 2rem
-  .conclusion
-    background-color: #ECF0F2;*/
 </style>

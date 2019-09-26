@@ -68,29 +68,4 @@ export default {
 }
 </script>
 <style lang="stylus">
-/*.my-story*/
-  /*background-color: #afa;*/
-/*  &__nav
-    color #fafafa
-    a:hover
-      color #111
-  .page-title
-    margin-top: 60vh;
-  .page-header
-    overflow: hidden;
-    border-bottom: none;
-  .page-title
-    color #fff
-  .small-image
-    object-fit: cover !important
-    width: 100vw !important
-    height: 90vh !important
-    position: fixed !important
-  .info 
-    position: relative;
-    z-index: 2
-    background-color: #fff;
-  .content
-    position: relative;
-    z-index: 9;*/
 </style> 

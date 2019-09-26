@@ -78,6 +78,7 @@ export default {
   width 100%
   display block
   overflow hidden
+  border-radius 2px
   &:before
     display none
   .bgImage
@@ -142,60 +143,4 @@ export default {
     +below(900px)
       .projectImage
         transform translateX(0)
-    +below(1100px)
-      .projectImage
-        // opacity .9
-
-//   position relative
-//   display flex
-//   overflow hidden
-//   border-radius 2px
-//   &:not(.last-chidl)
-//     margin-bottom 1.5rem
-//   &:after
-//     content ""
-//     display block
-//     width 100%
-//     height 100%
-//     position absolute
-//     top 0
-//     right 0
-//     bottom 0
-//     left 0
-//     box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
-
-//   .info
-//     position absolute
-//     bottom 3.5rem
-//     left 5.5rem
-//     z-index 9
-    
-//     h3,
-//     p
-//       color: var(--textColor);
-//       -webkit-font-smoothing: antialiased;
-//       -moz-osx-font-smoothing: grayscale;
-//     p
-//       margin-bottom 2rem
-//     .link
-//       color var(--textColor)
-//       margin-top 2rem
-//       // display inline-block
-//   .card-title
-//     font-size 4rem
-//     line-height 1
-//     max-width 370px
-//   .projectImage
-//     position absolute
-//     right -20px
-//     top 0
-//     width 100%
-//     transition transform 0.15s ease
-
-//   &:hover
-//     .projectImage
-//       transform translateX(-20px)
-//     .link:before
-//       height 100%
-//       width calc(100% + 0.5em)
 </style>

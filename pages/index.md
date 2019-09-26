@@ -171,54 +171,5 @@ export default {
         color: #CBCBCB;
         line-height: 32px
         text-transform: uppercase;
-/*.index
-  header
-    margin-top: 8rem;
-    margin-bottom: 2rem;
-    .profile
-      border-radius: 50%;
-      width: 128px;
-    h1
-      margin-top: 3rem;
-      font-size: 3.5rem;
-      font-weight: 800;
-      line-height: 56px;
-      position: relative;
-      left: -3px;
-      .subtitle
-        font-size: 2.5rem;
-        font-weight: 400;
-  .projects
-    margin-bottom: 4rem;
-    .section-header
-      display: flex
-      flex-direction: row
-      justify-content: space-between;
-      align-items: baseline
-      h2
-        font-size: 1.125rem
-        color: #CBCBCB;
-        line-height: 32px
-        text-transform: uppercase;
-        margin-top: 3rem;
-      a
-        line-height: 1.2;*/
 </style>
 
-<!-- <div class="growth grid-width">
-  <h2 class="h3">Growth</h2>
-  <div class="growth-grid">
-    <SmallCard
-      url="/book-list" 
-      title="Book list"
-      icon="book.svg"/>
-    <SmallCard
-      url="/fail-list" 
-      title="Fail list"
-      icon="fail.svg"/>
-    <SmallCard
-      url="/bucket-list" 
-      title="Bucket list"
-      icon="bucket.svg"/>
-  </div>
-</div> -->

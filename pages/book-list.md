@@ -8,10 +8,10 @@ smallImage: books.png
 ### Growing up, I never really liked to read.
 Books never interested me. I didn't understand the reason why would anyone spend their time looking at some combination of letters. Reading was just not something I was encouraged to do. And in both elementary and high school books were just dull. I haven't even read the school books. I was only good at listening, and that is how I passed every exam. Later, I found out that I have a mild form of dyslexia, and that was the reason I didn't enjoy reading.
 
-But I discovered a joy of reading while going through Harry Potter and the Goblet of Fire. That was actually the first book I read front to back. Eventually, my mind and eyes syncronised and now reading is not so hard to do.  
+But I discovered a joy of reading while going through Harry Potter and the Goblet of Fire. That was the first book I read front to back. Eventually, my mind and eyes syncronised and now reading is not so hard to do. 
 
 ### How to read
-Big boost in my reading came after finding a recommendation on [how to read a book](https://www.vanschneider.com/how-to-read-a-book) by Tobias van Schneider. It resonated with me. I started to read more. So for this page, I shamelessly stole [his title](https://www.vanschneider.com/my-favorite-books-on-creativity-productivity-life).
+A big boost in my reading came after finding a recommendation on [how to read a book](https://www.vanschneider.com/how-to-read-a-book) by Tobias van Schneider. It resonated with me. I started to read more. So for this page, I shamelessly stole [his title](https://www.vanschneider.com/my-favorite-books-on-creativity-productivity-life).
 
 ### Favourite books
 Here is the list of some of the books that left a significant impact on me.

@@ -12,18 +12,18 @@ role: "Digital Designer"
 ---
 
 ## Introduction
-As part of a design team in digital marketing agency Grey Entourage, I worked on creating an influencer oriented marketing campaign called Share Istria for the client Istrian Tourist Board.
+As part of a design team in digital marketing agency Grey Entourage, I worked on creating an influencer oriented marketing campaign called Share Istria for the client [Istrian Tourist Board](https://www.istra.hr/en).
 
 ### Campaign goal
 Promote and raise awareness of [Istria](https://www.google.com/search?q=Istra) (distinctive geographic region of Croatia). How? By using travel influencers, which was, at the time, an innovative approach to digital marketing. The team came up with a story and mechanic on how to get influencers to come to Istria and share as much valuable content as possible.
 
 ### My role
-This was the first significant project I was able to get my hands on while working in the agency. At the time, I was a young and inexperienced designer (I was 22), so I embraced the possibility that my work would not be accepted. Nonetheless, I liked the project and jumped on it with all my energy and creativity. I saw a lot of potential for colourful branding and use of energetic and vibrant photography. Managers saw my work and decided to give me an opportunity to bring all my ideas to life.
+This was the first significant project I was able to get my hands on while working in the agency. At the time, I was a young and inexperienced designer (I was 22), so I embraced the possibility that my work would not be accepted. Nonetheless, I liked the project and jumped on it with all my energy and creativity. I saw a lot of potential for colourful branding and use of energetic and vibrant photography. Managers saw my work and gave me an opportunity to bring all my ideas to life.
 
 <hr class="gradient">
   
 ## Branding
-I decided to blend the distinctive shape of the Istrian peninsula with all the experiences and photos one might have while visiting this amazing and unique region of Croatia. The campaign was distributed exclusively through digital channels, so colour choices were not restricted with print colours space
+I decided to blend the distinctive shape of the Istrian peninsula with all the experiences and photos one might have while visiting this amazing and unique region of Croatia. The campaign was distributed exclusively through digital channels, so colour choices were not restricted with print colour space.
 
 <figure class="project-width">
   <simg name="stjepangrgic-project-share-istria-idea.png" />
@@ -31,14 +31,14 @@ I decided to blend the distinctive shape of the Istrian peninsula with all the e
 
 
 ### Typography
-To complement the logo, I wanted a font that is quirky and sharp yet fun and friendly, something that would unify a colourful logo and energetic photography. I decided to use Whitney, designed by famous Tobias Frere-Jones. It was a perfect match.
+To complement the logo, I wanted a font that is quirky and sharp yet fun and friendly, something that would unify a colourful logo and energetic photography. I decided to use [Whitney](https://www.typography.com/fonts/whitney/overview), designed by famous [Tobias Frere-Jones](https://en.wikipedia.org/wiki/Tobias_Frere-Jones). It was a perfect match.
 
 <figure class="project-width">
   <simg name="stjepangrgic-project-share-istria-typography.jpg" />
 </figure>
 
 ### Logo
-To emphasize energy and movement, I added small upward bend to the typography. This is the final result
+To emphasize energy and movement, I added small upward bend to the typography. This is the final result.
 
 <figure class="project-width">
   <simg name="stjepangrgic-project-share-istria-logo-dark.png" />
@@ -92,7 +92,7 @@ The website featured a fully responsive design, providing the same story experie
 <section class="conclusion full-width grid">
 
 ## Conclusion
-Share Istria was a project I enjoyed very much. I got to experience how is it to work on a large scale project. I was shocked to see how hard is it to find unique and usable photographs in the era when everyone is a photographer. I realized how important it is to have a great development team or at least outsource development to the experienced agency.
+Share Istria was a project I enjoyed very much. I got to experience how is it to work on a large scale project. I was shocked to see how hard is it to find unique and usable photographs in the era when everyone is a photographer. I realized how important it is to have a great development team or outsource development to the experienced agency.
 
 ## Check out next
 

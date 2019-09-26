@@ -26,7 +26,7 @@ export default {
 .project-info
   display: flex;
   margin-top: 3rem;
-  > *:not(:last-child)
+  > *
     margin-right: 3rem
     display: flex;
     flex-direction: column;

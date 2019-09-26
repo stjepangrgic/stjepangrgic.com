@@ -21,8 +21,9 @@ export default {
 
 <style lang="stylus">
 .hero-image
-  margin 0
-  background-color var(--content-bgc)
+  margin 0 !important
+  background-color var(--content-bgc) !important
+  overflow visible !important
   img
     box-shadow: 0 25px 19px -17px rgba(44,29,22,0.15), 0 1px 10px 0 rgba(0,0,0,0.05);
 

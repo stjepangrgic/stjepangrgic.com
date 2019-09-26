@@ -5,10 +5,82 @@ navbarTitle: My Story
 <!-- smallImage: stjepangrgic-portrait.jpg -->
 ---
 
+### About
+Growing up, I loved drawing, and I loved playing with clay. Once I got a computer, my interests shifted. Early one I started programming, and later I was experimenting with simple algorithms and went on a lot of competitions. I also loved photography, I was playing with photoshop, and that is how I fell in love with the design.
+I decided to study graphic design but simply could not shake the coding hobby throughout my studies and early career.
+
+Consequently, I've always been in between design and development, creative and analytical. That allowed me to be a valuable part of early-stage startups.
+I have a keen interest in human behaviour and always strive to surround myself with people who are smarter than me.
+<!-- 
+This aloved me to work on a wide range of projects
+
+Hovever I realised design and creative is more apealing  -->
+
+<!-- My design skills have been built up through relentless self-study and continious learning, with loads of curiosity and an above average amount of grit. -->
+
+<!-- ### Timeline (let’s walk it back)
+#### 2019
+- For things I’m looking forward to and/or currently focused on visit [now page](/now).
+- Sabbatical
+- Travelled
+- Exercised Hand pain got manageable
+- Realised I cant not work.
+- Decided to move to London
+
+#### 2018
+- Realised how much I don't know about life
+- Started drawing and painting again
+- Met new girlfriend who ended up having a borderline personality disorder - that opened my eyes to so much about humans I didn't know
+- Hand pain became intense
+
+#### 2017
+- Closed studio - realised freelancing is not for me
+- Started a new job
+- Met an artsy girlfriend
+- Visited London for the first time
+
+#### 2016
+- Went on the first trip on my own - Jordan > Israel > Gran Canaria
+- Started own design studio
+- Hand pain showed up
+
+#### 2015
+- Got a new job in US startup
+- Started to live with a girlfriend and had the most beautiful year of my life
+
+#### 2014
+- Moved back to Zagreb
+- Got a job in a digital advertising agency
+- Enjoyed every day
+
+#### 2013
+- Dropped out from university
+- Moved back home
+- Started my first job in a design agency
+- Lived alone in an empty house
+
+#### 2010
+- Graduated High School
+- Moved to Zagreb
+- Started Faculty of Graphic Arts, University of Zagreb
+- Bought my first DSLR camera
+
+#### Earlier
+- **1992**: Born in Croatia, in a small village called Velika (meaning Big)
+- **1997**: Drew a lot when I was a kid
+- **1998**: Watched a lot of documentaries and dreamed about becoming explorer and wildlife photographer
+- **1998**: First day of Elementary school
+- **2000**: Got a 13-year-old working Amiga 500 from my cousin – realised how awesome computers are
+- **2002**: Got introduced to QBasic and programing by my informatics teacher
+- **2003–2006**: won every annual county programming competition
+- **2006**: Started Gymnasium Požega High School
+- **2009**: Painted a lot of portraits -->
+
+
 ### Is this useful?
 When I stumble upon interesting people on the internet, I wonder how they became what they are. What decision they made in life. How they educated themselves, do they have book recommendations. Have they overcome any struggle, do they have a story to share. Unlike [Sivers](https://sivers.org/about), I found it all useful. I found every story inspirational and educative. I get insight into how their lives looked like so I can understand how mine could look like. I see what humans can do, how different ways of thinking lead to different outcomes. It's truly useful.
 
-### Timeline
+<!-- ### Timeline
 - **1992**: Born in Croatia, in a small village called Velika (meaning Big)
 - **1997**: Drew a lot when I was a kid
 - **1998**: Watched a lot of documentaries and dreamed about becoming explorer and wildlife photographer
@@ -54,10 +126,10 @@ When I stumble upon interesting people on the internet, I wonder how they became
   - Travelled
   - Exercised Hand pain got manageable
   - Realised I cant not work.
-  - Decided to move to London
-
+  - Decided to move to London -->
+<!-- 
 ### My story
-I plan to write more about specific things that happened to me, and the struggles that I overcome so the page will get updated.
+I plan to write more about specific things that happened to me, and the struggles that I overcome so the page will get updated. -->
 
 <script>
 import simg from '@/components/simg.vue'

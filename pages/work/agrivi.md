@@ -20,7 +20,7 @@ Agrivi is agritech (agriculture technology) startup with a promise of solving wo
 As Agrivi was an early-stage startup, I was involved with a whole product. I started with branding, redesigning the logo and setting the groundwork for visual language. Next came web application which had poor experience as it was a proof of concept. I led the rethinking process of changing the existing ways of using the essential features of the web application and created a lightweight design system that can be extended in future. Besides, I designed and coded the emails, designed ads, business cards and all the small things one designer faces within a small team.
 
 
-### The chalange
+### The challenge
 How to design appealing and honest branding that would convey Agrivi's mission? How should a web application that would be easy to use for any farmer with any crop look like, be used? Apart from different crops, agriculture processes differ between different regions, seasons and weather conditions. Those were just a couple of questions and consideration I was faced with.
 
 Besides, being the only designer in a small team with big dreams is a lot of work. I knew that. But growing up in the countryside surrounded with crops and domestic animals, I understood pain points that farmers face. So I decided to join and design products that will solve actual problems. 

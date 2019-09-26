@@ -11,13 +11,10 @@ platform: "Web"
 role: "Digital Product Designer"
 ---
 
-<!-- 538AFF -->
-<!-- bgColor: "linear-gradient(180deg, #2CA3FF 0%, #6A7BFF 100%)" -->
-
 ## Introduction
-Vibby was a US based startup with offices in Zagreb (Croatia), and New York (US). It was a product from a group of brilliant college graduates, some of whom were world-class programmers. They wanted to build personalised and interactive online learning platform using online video. But there was a problem: an interactive online video didn't exist. So they decided to pivot and build just that. And that is a moment when I joined the team.
+Vibby was a US-based startup with offices in Zagreb (Croatia), and New York (US). It was a product from a group of brilliant college graduates, some of whom were world-class programmers. They wanted to build personalised and interactive online learning platform using online video. But there was a problem: an interactive online video didn't exist. So they decided to pivot and build just that. And that is a moment when I joined the team.
 
-Before joining Vibby, I had no experience working in a startup. I was amazed by how many smart people worked there and how young the team was. They were all my age and just out of college.  
+Before joining Vibby, I had no experience working in a startup environment. I was amazed by how many smart people worked there and how young the team was. They were all my age and just out of college. 
 
 <section class="idea g1-1 grid-inner">
 
@@ -29,16 +26,15 @@ How to make an online video more interactive? How to show only essential bits of
 </figure> 
 
 ### My role
-I was the first and only designer on the team. So I was involved in every step of product creation from rebranding to developing interactive wireframes. I worked on a video player user interface, experience of creating interactive videos, website and presentations for investors. 
+I was the first and only designer on the team. So I was involved in every step of product creation from rebranding to developing interactive wireframes. I worked on a video player user interface, the experience of creating interactive videos, website and presentations for investors.
 
-Unexpectedly I worked as a part of the frontend development team as I had the most experience writing CSS and converting designs in working code. So basicaly I 'sliced' every of designs I did.
+Unexpectedly I worked as a part of the frontend development team as I had the most experience writing CSS and converting designs in working code. So basically I 'sliced' every one of the designs I did.
 
 </section>
 
 ## Experiences
 Early on, we realised that creating an interactive online video from existing videos is going to be challenging. So we created two distinct experiences. Creating and watching.
 
-<!-- <hr class="gradient"> -->
 
 ### Vib Creation process
 Vib creation was 3 part process of highlighting the most important/entertaining/informative/crazy parts of the video. We had to simplify steps several times as test users were not able to figure out how to do it in the first few iterations.
@@ -64,7 +60,7 @@ I hope you can still see how it works [here](https://www.vibby.com/watch?vib=71K
 </div>
 
 ## Final experience
-If links aren't working, you can see the final experience of creating and sharing a 'vib' in the short video below.
+If links above aren't working, you can see the final experience of creating and sharing a 'vib' in the short video below.
 
 <div class="video photo-width">
   <video loop controls>
@@ -100,6 +96,8 @@ I worked on creating new branding as a team pivoted idea from a video education 
 <figure class="project-width">
   <simg name="stjepangrgic-project-vibby-logo-unaccepted.png" />
 </figure>
+
+The final logo team decided to use.
 
 <figure class="project-width">
   <simg name="stjepangrgic-project-vibby-logo-accepted.png" />
@@ -155,15 +153,17 @@ export default {
     h3, p
       color #fff
     p
-      opacity 0.8
+      opacity 0.9
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
 
   .vibby-player
     background-color: #E7F5FF;
     margin-top: 4rem;
     padding-bottom: 4rem;
     figure
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin-top: 2rem !important
+      margin-bottom: 2rem !important
   .video
     margin: 1rem auto;
     video

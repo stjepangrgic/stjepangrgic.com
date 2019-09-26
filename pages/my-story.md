@@ -6,11 +6,11 @@ navbarTitle: My Story
 ---
 
 ### About
-Growing up, I loved drawing, and I loved playing with clay. Once I got a computer, my interests shifted. Early one I started programming, and later I was experimenting with simple algorithms and went on a lot of competitions. I also loved photography, I was playing with photoshop, and that is how I fell in love with the design.
+Growing up, I loved drawing, and I loved playing with clay. Once I got a computer, my interests shifted. Early one I started programming, and later I was experimenting with simple algorithms and went on a lot of programing competitions. I also loved photography, I was playing with photoshop, and that is how I fell in love with the design.
 I decided to study graphic design but simply could not shake the coding hobby throughout my studies and early career.
 
-Consequently, I've always been in between design and development, creative and analytical. That allowed me to be a valuable part of early-stage startups.
-I have a keen interest in human behaviour and always strive to surround myself with people who are smarter than me.
+Consequently, I've always been in between design and development, creative and analytical. That allowed me to be a valuable part of early-stage startups. For things I’m looking forward to and/or currently focused on visit [now page](/now).
+<!-- I have a keen interest in human behaviour and always strive to surround myself with people who are smarter than me. -->
 <!-- 
 This aloved me to work on a wide range of projects
 

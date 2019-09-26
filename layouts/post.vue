@@ -55,6 +55,8 @@ export default {
     } else {
       this.socialImage = require('@/assets/images/stjepangrgic-portrait.jpg')
     }
+
+    // console.log(this.page.attributes.updatedAt)
   },
   methods: {
     scopeClass(suffix) {
@@ -97,7 +99,7 @@ export default {
         {
           property: 'og:description',
           content: (this.page.SeoDescription) ? `${this.page.SeoDescription}` : `${this.page.navbarTitle} - Designed by Stjepan Grgic`
-        },
+        }
       ],
     }
   },
@@ -106,33 +108,8 @@ export default {
 </script>
 <style lang="stylus">
 .post
-  // background-color #afa
   .content
     padding-bottom 4rem
-  
-// .page-header
-//   --page-header-bgc: linear-gradient(38deg, #FFFFFF 19%, #F8F8F8 54%, #F8F8F8 100%)
-  
-// .page-title
-//   padding-bottom 5.5rem
-//   border-bottom 2px solid #FFDB17  
-//   background-size 100%
-//   display block
-//   position relative
-  
-// .small-image
-//   position absolute
-//   z-index -1
 
-// .info
-//   font-size 1rem
-//   padding-top 0.5rem
-//   line-height 40px
-//   span
-//     margin-right 2rem
-  
-// .content
-  // margin-top 2rem
-  // padding-bottom 4rem
 </style>
 

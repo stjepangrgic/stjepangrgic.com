@@ -60,9 +60,9 @@ navbarTitle: Home
     </svg>
   </div>
 
-**I am a curious human being** exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography), [read](/book-list), do something different every day, I am trying to grow as a person. If you’re curious, read [my story](/my-story) or find out what I am doing [now](/now).
+**I am a curious human being** exploring myself and the world through art and travel. By challenging myself to draw, [take photos](/photography/), [read](/book-list/), do something different every day, I am trying to grow as a person. If you’re curious, read [my story](/my-story/) or find out what I am doing [now](/now/).
 
-**I’m a digital product designer** with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out [my work](/work) or read my <a href="/Stjepan-Grgic-Digital-Product-Designer-Resume.pdf" target="_blank">resume</a>.
+**I’m a digital product designer** with over six years of experience working in both startups and advertising agencies. I’ve been fortunate enough to work with great companies and greater people. I shaped products and helped companies grow. Check out [my work](/work/) or read my <a href="/Stjepan-Grgic-Digital-Product-Designer-Resume.pdf" target="_blank">resume</a>.
 
 </section>
 
@@ -118,6 +118,7 @@ export default {
 </script>
 
 <style lang="stylus">
+@import "../node_modules/rupture/rupture"
 .index
   .profile
     width: 128px;
@@ -157,7 +158,9 @@ export default {
       width: 400px;
       position: absolute;
       top: -50%;
-      right: -70%;
+      right: -75%;
+      +below(450px)
+        display: none;
   .projects
     padding-bottom: 2rem;
     &__header

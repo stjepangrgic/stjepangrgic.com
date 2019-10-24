@@ -76,7 +76,7 @@ navbarTitle: Home
       url="/work/agrivi"
       title="Agrivi"
       right="113"
-      description="Farm managment software"
+      description="Farm management software"
       bgImage="stjepangrgic-agrivi-card-bgImage.jpg"
       projectImage="stjepangrgic-agrivi-card-projectImage.png"
       underlinColor="#5FC21E"/>

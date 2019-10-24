@@ -117,7 +117,7 @@ Ultimately I will remember the time I was working there as one of the best days 
   <ProjectCard
     url="/work/agrivi"
     title="Agrivi"
-    description="Farm managment software"
+    description="Farm management software"
     bgImage="stjepangrgic-agrivi-card-bgImage.jpg"
     projectImage="stjepangrgic-agrivi-card-projectImage.png"
     underlinColor="#5FC21E"/>
